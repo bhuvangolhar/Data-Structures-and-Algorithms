@@ -1,17 +1,17 @@
 
-**Definiton:**
+**Definiton :**
 
 A variable is like a container in memory that stores data.
-Every variable has :
+Every variable has like,
 - a name (identifier)
 - a type (what kind of data it can store)
 - a value (the actual data stored)
 
-**Syntax:**
+**Syntax :**
 
 dataType variableName = value;
 
-**Examples:**
+**Examples :**
 
 int age = 22;                     // *integer value*
 double pi = 3.14;                // *decimal value*
@@ -19,7 +19,7 @@ char grade = 'A';               // *single character*
 String name = "Bhuvan";        // *text (sequence of characters)*
 boolean isStudent = true;     // *true or false value*
 
-**Rules:**
+**Rules :**
 
 - Must begin with a letter, underscore(_), or $.
 - Cannot start with a digit.
@@ -27,13 +27,13 @@ boolean isStudent = true;     // *true or false value*
 - Should be meaningful (use marks instead of m).
 - Cannot use Java keywords (int, class, for etc.).
 
-**Types:**
+**Types :**
 
 1) Local Variable – declared inside a method, accessible only there.
 2) Instance Variable – declared inside a class but outside methods (belongs to an object).
 3) Static Variable – declared with static, belongs to the class (common for all objects).
 
-**Program:**
+**Program :**
 
 class VariablesDemo
 {
@@ -53,9 +53,8 @@ class VariablesDemo
     }
 }
 
-**Output:**
+**Output :**
 
-Local Variable: 50
-Instance Variable: 100
-Static Variable: 200
-
+Local Variable : 50
+Instance Variable : 100
+Static Variable : 200
