@@ -1,0 +1,33 @@
+
+**Object-Oriented Programming System (OOPS) in Java :**
+
+Object-Oriented Programming (OOP) in Java is a programming paradigm that organizes software design around objects, which represent real-world entities. These objects 
+encapsulate both data (fields) and behavior (methods), making programs more structured and easier to understand. OOP promotes modularity, allowing large problems to be 
+broken into smaller, reusable components. It also encourages code reusability, scalability, and maintainability, which are essential for building efficient applications. 
+Java strongly follows the OOP approach, enabling developers to model real-world problems effectively while keeping the code flexible and organized. Object-Oriented 
+Programming (OOP) in Java is a way of organizing code around objects that combine data and behavior. It makes programs more modular, reusable and easier to maintain. 
+Java is built on OOP principles, which help in designing efficient and real-world-based solutions.
+
+**Core Concepts of OOPS -**
+
+1) **Object :** An object is an instance of a class that represents a real-world
+                entity. It holds its own state (data) and behavior (methods).
+
+2) **Class :** A class is a blueprint or template for creating objects. It defines
+               attributes (variables) and behaviors (methods) that the objects will have.
+
+3) **Inheritance :** Inheritance allows one class to acquire properties and methods of
+                     another class. It supports code reusability and establishes a
+                     parent-child relationship between classes.
+
+4) **Encapsulation :** Encapsulation means binding data and methods into a single unit (class)
+                       while restricting direct access to data. It improves security and maintains
+                       control using access modifiers.
+
+5) **Polymorphism :** Polymorphism means the ability of an object to take many forms. It is
+                      achieved in Java through method overloading (compile-time) and method
+                      overriding (runtime).
+                    
+6) **Abstraction :** Abstraction hides implementation details and shows only the necessary
+                     features of an object. It is implemented in Java using abstract classes
+                     and interfaces.
