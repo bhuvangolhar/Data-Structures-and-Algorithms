@@ -23,7 +23,7 @@ int add(int a, int b)
 }
 void greet() 
 { 
-    System.out.println("Hello, Java!"); 
+    System.out.println("Hello, Java!");
 }
 
 **Rules :**
@@ -37,7 +37,7 @@ void greet()
 **Types :**
 
 ▪ Predefined Methods – Already defined in Java libraries (e.g., Math.max(), System.out.println()).
-▪ User-defined Methods – Created by the programmer to perform specific tasks.
+▪ User-defined Methods – Created by the programmer to perform specific tasks
 ▪ Static Methods – Declared with static, can be called without creating an object.
 ▪ Instance Methods – Belong to an object, need an object to call.
 
@@ -45,12 +45,12 @@ Program :
 
 class MethodsDemo
 {
-   *// user-defined method*
+    *// user-defined method*
     int multiply(int x, int y)
     {
         return x * y;
     }
-   *// static method*
+    *// static method*
     static void displayMessage() 
     {
         System.out.println("Learning Methods in Java!");
