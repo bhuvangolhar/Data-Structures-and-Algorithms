@@ -1,0 +1,96 @@
+
+**Array Operations :**
+
+• Arrays are one of the most important data structures in Java.
+• They allow storing multiple values of the same type in a single variable. 
+• To make arrays useful, we perform various operations such as traversing, inserting, deleting, updating, and searching.
+
+**Traversing an array :**
+
+• Traversing means visiting each element of an array one by one.
+• Usually done using loops (for, while, for-each).
+
+int arr[] = {10, 20, 30, 40};
+for (int i = 0; i < arr.length; i++) 
+{
+    System.out.print(arr[i] + " ");
+}
+
+Output: 10 20 30 40
+
+**Inserting an element :**
+
+• Insertion means adding a new element at a specific position.
+• Requires shifting elements to make space.
+• Since arrays in Java are fixed-size, insertion usually means using a new array.
+
+int arr[] = {10, 20, 30, 40};
+int pos = 2, element = 25;
+for (int i = arr.length - 1; i > pos; i--) 
+{
+    arr[i] = arr[i - 1];
+}
+arr[pos] = element;
+
+**Deleting an element :**
+
+• Removing an element from a given position.
+• Requires shifting remaining elements to fill the gap.
+
+int arr[] = {10, 20, 30, 40, 50};
+int pos = 2; 
+for (int i = pos; i < arr.length - 1; i++) 
+{
+    arr[i] = arr[i + 1];
+}
+
+**Updating an element :**
+
+• Replacing an existing value at a given index with a new one.
+
+int arr[] = {10, 20, 30};
+arr[1] = 25;  // replaces 20 with 25
+
+**Searching an element :**
+
+**(a)** *Linear Search -*
+
+• Check each element one by one.
+
+int arr[] = {5, 15, 25, 35};
+int key = 25;
+boolean found = false;
+for (int i = 0; i < arr.length; i++) 
+{
+    if (arr[i] == key)
+    {
+        found = true;
+        break;
+    }
+}
+
+**(b)** *Binary Search -*
+
+• Works only on sorted arrays.
+• Efficient, O(log n) time complexity.
+
+import java.util.Arrays;
+int arr[] = {10, 20, 30, 40, 50};
+int index = Arrays.binarySearch(arr, 30);
+
+**Sorting the elements :**
+
+• Rearranging elements in ascending/descending order.
+• Example: Bubble Sort, Selection Sort, Insertion Sort.
+
+int arr[] = {50, 20, 40, 10};
+Arrays.sort(arr);
+
+**Summary of Operations :**
+
+✔ Traverse → Visit each element.
+✔ Insert → Add an element (requires shifting).
+✔ Delete → Remove an element (requires shifting).
+✔ Update → Replace an element.
+✔ Search → Find an element (Linear/Binary Search).
+✔ Sort → Arrange elements in order.
