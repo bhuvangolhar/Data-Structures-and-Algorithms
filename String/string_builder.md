@@ -1,5 +1,5 @@
 
-**StringBuilder in Java :**
+**StringBuilder :**
 
 
 ➤ StringBuilder is very similar to StringBuffer but is not thread-safe.
