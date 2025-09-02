@@ -1,5 +1,6 @@
 
-**StringBuffer in Java :**
+**StringBuffer :**
+
 
 ➤ StringBuffer is a class in Java used when we want to work with strings that change frequently.
 
