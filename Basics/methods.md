@@ -1,29 +1,32 @@
 
+# Methods in Java
+
 **Definition :**
 
-A method in Java is a block of code that performs a specific task. 
-It is used to group statements together, so they can be executed 
+A method in Java is a block of code that performs a specific task.
+It is used to group statements together, so they can be executed
 whenever the method is called. Methods improve reusability, readability,
 and modularity in a program.
 
 **Syntax :**
 
-returnType methodName(parameters) 
+returnType methodName(parameters)
 {
-    *// method body
-    // statements*
-    return value; *// if returnType is not void*
+*// method body*
+*// statements*
+return value; *// if returnType is not void*
 }
 
 **Examples :**
 
-int add(int a, int b) 
-{ 
-    return a + b; 
+int add(int a, int b)
+{
+return a + b;
 }
-void greet() 
-{ 
-    System.out.println("Hello, Java!");
+
+void greet()
+{
+System.out.println("Hello, Java!");
 }
 
 **Rules :**
@@ -37,35 +40,39 @@ void greet()
 **Types :**
 
 ▪ Predefined Methods – Already defined in Java libraries (e.g., Math.max(), System.out.println()).
-▪ User-defined Methods – Created by the programmer to perform specific tasks
+▪ User-defined Methods – Created by the programmer to perform specific tasks.
 ▪ Static Methods – Declared with static, can be called without creating an object.
 ▪ Instance Methods – Belong to an object, need an object to call.
 
-Program :
+**Program :**
 
 class MethodsDemo
 {
-    *// user-defined method*
-    int multiply(int x, int y)
-    {
-        return x * y;
-    }
-    *// static method*
-    static void displayMessage() 
-    {
-        System.out.println("Learning Methods in Java!");
-    }
-    public static void main(String[] args) 
-    {
-        MethodsDemo obj = new MethodsDemo();
-       *// calling instance method*
-        int result = obj.multiply(5, 4);
-        System.out.println("Multiplication: " + result);
-       *// calling static method*
-        displayMessage();
-    }
+*// user-defined method*
+int multiply(int x, int y)
+{
+return x \* y;
+}
+*// static method*
+static void displayMessage()
+{
+System.out.println("Learning Methods in Java!");
+}
+public static void main(String\[] args)
+{
+MethodsDemo obj = new MethodsDemo();
+*// calling instance method*
+int result = obj.multiply(5, 4);
+System.out.println("Multiplication: " + result);
+*// calling static method*
+displayMessage();
+}
 }
 
 **Output :**
 
 Multiplication: 20
+Learning Methods in Java!
+
+---
+
