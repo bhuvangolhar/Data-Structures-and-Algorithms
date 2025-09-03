@@ -72,7 +72,3 @@ displayMessage();
 **Output :**
 
 Multiplication: 20
-Learning Methods in Java!
-
----
-
