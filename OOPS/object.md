@@ -22,7 +22,7 @@
    Example: Two `Car` objects with the same color and model are still different objects in memory.
 
 2. **State** → The data stored inside an object (fields/variables).
-   Example: A `Car` object’s state may include `color = "red"`, `speed = 120`.
+   Example: A `Car` object’s state may include 
 
 3. **Behavior** → The actions an object can perform (methods).
    Example: A `Car` object can `start()`, `stop()`, `accelerate()`.
