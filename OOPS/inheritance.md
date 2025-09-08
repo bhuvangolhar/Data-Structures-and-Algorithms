@@ -53,12 +53,7 @@ public class InheritanceDemo {
         Car c = new Car();
         c.displaySpeed();   // Inherited from Vehicle
         c.displayBrand();   // Defined in Car
-    }
-}
-
-
-**Output:**
-
+ 
 Speed: 50
 Brand: BMW
 
