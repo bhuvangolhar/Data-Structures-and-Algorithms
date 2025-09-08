@@ -9,14 +9,6 @@ This loop is useful when the number of iterations is not known in advance and de
 
 Need :
 
-Used when you want to keep running a task until a condition changes.
-
-Helps avoid repetition of code.
-
-Useful in scenarios like reading input until "exit" is entered, waiting for a condition to become false, etc.
-
-Syntax :
-
 while (condition) 
 {
     // code block
