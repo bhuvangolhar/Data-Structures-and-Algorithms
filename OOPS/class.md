@@ -1,6 +1,6 @@
 
 
- **Class in Java**
+ *Class in Java*
 
 **Definition**
 
@@ -13,7 +13,7 @@
  **Why Do We Need Classes?**
 
 * Classes bring **organization and modularity** to Java programs.
-* Instead of writing data and logic separately, classes **bundle both together**.
+* Instead of writing data and logic separately, classes bundle both together**.
 * They allow **code reusability** (you can create multiple objects from the same class).
 * They are essential for implementing **Object-Oriented Programming concepts** such as inheritance, encapsulation, and polymorphism.
 
