@@ -3,7 +3,7 @@
 
 Object-Oriented Programming (OOP) in Java is a programming paradigm that organizes software design around objects, which represent real-world entities. These objects 
 encapsulate both data (fields) and behavior (methods), making programs more structured and easier to understand. OOP promotes modularity, allowing large problems to be 
-broken into smaller, reusable components. It also encourages code reusability, scalability, and maintainability, which are essential for building efficient applications. 
+broken into smaller, reusable components. It also encourages code reusability, scalability and maintainability which are essential for building efficient applications. 
 Java strongly follows the OOP approach, enabling developers to model real-world problems effectively while keeping the code flexible and organized. Object-Oriented 
 Programming (OOP) in Java is a way of organizing code around objects that combine data and behavior. It makes programs more modular, reusable and easier to maintain. 
 Java is built on OOP principles, which help in designing efficient and real-world-based solutions.
