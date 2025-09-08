@@ -12,15 +12,7 @@ This makes it different from the while loop, which checks the condition first.
 Need :
 
 Used when you want the code to run at least once, even if the condition is false.
-
-Commonly used in menu-driven programs, input validation, or repeated tasks where execution must start before checking the condition.
-
-Syntax :
-
-do 
-{
-    // code block
-    // statements to execute
+ute
 } 
 while (condition);
 
