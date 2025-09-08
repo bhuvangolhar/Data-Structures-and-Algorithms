@@ -8,7 +8,7 @@
 * It is often described as a **protective shield** that prevents direct access to the data and ensures controlled interaction.
 * Encapsulation is achieved through:
 
-  1. Declaring **fields as private** (data hiding).
+  1. Declaring ** as private** (data hiding).
   2. Providing **public getter and setter methods** to access and modify the fields.
 
 
