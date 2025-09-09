@@ -22,8 +22,6 @@
 
 ➤ *Best used when -*
 
-  • Strings need frequent modifications.
 
-  • Multi-threaded environment requires safe operations.
 
 ➤ *In short -* StringBuffer = mutable + safe for threads, but slower due to synchronization.
