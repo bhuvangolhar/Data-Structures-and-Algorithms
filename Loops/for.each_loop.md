@@ -42,10 +42,7 @@ class ForEachLoopDemo
 
 Output :
 
-Number: 10
-Number: 20
-Number: 30
-Number: 40
+Nu
 Number: 50
 
 
