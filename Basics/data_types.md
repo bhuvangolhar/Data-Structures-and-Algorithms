@@ -37,12 +37,7 @@ public static void main(String args[])
         long l = 1000000000L;
        *Floating types*
         float f = 12.34f;
-        double d = 12345.6789;
-       *Character type*
-        char c = 'A';
-       *Boolean type*
-        boolean flag = true;
-        System.out.println("Byte: " + b);
+        dou + b);
         System.out.println("Short: " + s);
         System.out.println("Int: " + i);
         System.out.println("Long: " + l);
