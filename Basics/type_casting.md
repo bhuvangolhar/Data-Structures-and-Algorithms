@@ -35,9 +35,7 @@ class WideningExample
 Narrowing happens when a larger data type is converted into a smaller data type.
 For example: double → float → long → int → short → byte
 
-● Possible data loss.
-● Must be done manually using type casting operator (type).
-
+● Possible data
 Example:
 
 class NarrowingExample
