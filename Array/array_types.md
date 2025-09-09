@@ -11,9 +11,7 @@ It stores data in a **linear form** (one row, multiple columns).
 Example:
 
 
-public class SingleDimArray {
-    public static void main(String[] args) {
-        // Declaration and initialization
+public class Singln
         int[] arr = {10, 20, 30, 40, 50};
 
         // Traversal
