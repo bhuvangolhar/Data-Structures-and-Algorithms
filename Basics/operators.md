@@ -96,9 +96,7 @@ Operate at the binary level.
 | `^`      | Bitwise XOR          | `a ^ b`    |     |     |
 | `~`      | Bitwise NOT          | `~a`       |     |     |
 | `<<`     | Left shift           | `a << 2`   |     |     |
-| `>>`     | Right shift          | `a >> 2`   |     |     |
-| `>>>`    | Unsigned right shift | `a >>> 2`  |     |     |
-
+| `>>`     | Right shift         
  Why are Operators Important?
 
 * They help in **decision-making** (logical & relational).
