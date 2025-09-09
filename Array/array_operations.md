@@ -10,12 +10,7 @@
 • Traversing means visiting each element of an array one by one.
 • Usually done using loops (for, while, for-each).
 
-int arr[] = {10, 20, 30, 40};
-for (int i = 0; i < arr.length; i++) 
-{
-    System.out.print(arr[i] + " ");
-}
-
+int arr[] = 
 Output: 10 20 30 40
 
 **Inserting an element :**
