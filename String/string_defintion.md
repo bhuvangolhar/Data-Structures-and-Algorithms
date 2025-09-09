@@ -12,6 +12,5 @@ Another important point about strings in Java is that they are immutable, which 
 s = "Hello"; and then change it to s = "World";, Java does not actually modify the original "Hello" string—it creates a new string "World" and makes s point to it. The old 
 string still exists in memory until Java’s garbage collector removes it. This immutability helps keep strings safe and efficient to use, especially when multiple parts of a 
 program are sharing the same text.
-
-Because strings are immutable, Java also provides special classes like StringBuilder and StringBuffer that allow modification of text without creating new objects each time. 
+uilder and StringBuffer that allow modification of text without creating new objects each time. 
 These classes are very useful when you need to perform many operations on text, such as repeatedly appending, inserting, or deleting characters. But in most simple cases, using the String class itself is enough. Overall, strings are one of the most essential tools in Java programming, and understanding how they work is important for both basic coding and advanced problem solving.
