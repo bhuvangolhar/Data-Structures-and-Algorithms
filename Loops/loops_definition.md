@@ -15,7 +15,6 @@ A loop in Java is a control structure that allows a block of code to be executed
 
 ● To perform automation in programs – loops make execution dynamic instead of static.
 
-● Key Idea :
 
 Start → Check Condition → Execute Block → Update → Repeat until condition becomes false.
 
