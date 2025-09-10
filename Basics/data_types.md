@@ -33,13 +33,7 @@ public static void main(String args[])
        *Integer types*
         byte b = 100;
         short s = 30000;
-        int i = 100000;
-        long l = 1000000000L;
-       *Floating types*
-        float f = 12.34f;
-        dou + b);
-        System.out.println("Short: " + s);
-        System.out.println("Int: " + i);
+        int ("Int: " + i);
         System.out.println("Long: " + l);
         System.out.println("Float: " + f);
         System.out.println("Double: " + d);
