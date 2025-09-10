@@ -41,7 +41,7 @@ class VariablesDemo
     static int staticVar = 200;    // *static variable*
     void display() 
     {
-        int localVar = 50;      // *local variable*
+        
         System.out.println("Local Variable: " + localVar);
         System.out.println("Instance Variable: " + instanceVar);
         System.out.println("Static Variable: " + staticVar);
