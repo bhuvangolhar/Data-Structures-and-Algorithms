@@ -32,11 +32,7 @@ class WideningExample
 
 2.**Narrowing Casting (Explicit Conversion) -**
 
-Narrowing happens when a larger data type is converted into a smaller data type.
-For example: double → float → long → int → short → byte
 
-● Possible data
-Example:
 
 class NarrowingExample
 {
