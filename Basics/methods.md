@@ -52,15 +52,7 @@ int multiply(int x, int y)
 return x \* y;
 }
 *// static method*
-static void displayMessage()
-{
-System.out.println("Learning Methods in Java!");
-}
-public static void main(String\[] args)
-{
-MethodsDemo obj = new MethodsDemo();
-*// calling instance method*
-int result = obj.multiply(5, 4);
+sobj.multiply(5, 4);
 System.out.println("Multiplication: " + result);
 *// calling static method*
 displayMessage();
