@@ -18,16 +18,6 @@ for(initialization; condition; update)
 
 ● Update → Executed after each iteration, generally used to modify the loop variable (e.g., increment or decrement).
 
-● Why Use For Loop?
-
-● When you know how many times you want to run the code.
-
-● To iterate through arrays, collections, or ranges efficiently.
-
-● To perform repeated operations with a clear start, end, and step.
-
-● Example :
-class ForLoopDemo
 {
  public static void main(String[] args)
  {
