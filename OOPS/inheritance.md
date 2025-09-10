@@ -34,19 +34,7 @@ class Child extends Parent {
 class Vehicle {
     int speed = 50;
 
-    void displaySpeed() {
-        System.out.println("Speed: " + speed);
-    }
-}
 
-// Child class
-class Car extends Vehicle {
-    String brand = "BMW";
-
-    void displayBrand() {
-        System.out.println("Brand: " + brand);
-    }
-}
 
 public class InheritanceDemo {
     public static void main(String[] args) {
