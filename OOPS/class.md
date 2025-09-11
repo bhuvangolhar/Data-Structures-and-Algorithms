@@ -42,14 +42,7 @@ class ClassName {
 2. **Methods (Member Functions)** → Define the behavior of the class.
    Example: `void display()`
 
-3. **Constructors** → Special methods used to initialize objects.
-
-4. **Blocks** → Code blocks that can be executed during object creation or class loading.
-
-
-
-**Example 1: Basic Class**
-
+3
 
 class Student {
     // Fields
