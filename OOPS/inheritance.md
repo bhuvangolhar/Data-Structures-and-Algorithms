@@ -36,10 +36,7 @@ class Vehicle {
 
 
 
-public class InheritanceDemo {
-    public static void main(String[] args) {
-        Car c = new Car();
-        c.displaySpeed();   // Inherited from Vehicle
+
         c.displayBrand();   // Defined in Car
  
 Speed: 50
