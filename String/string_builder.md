@@ -12,8 +12,6 @@
 
 ➤ It provides methods such as append(), insert(), delete(), replace(), and reverse() for string manipulation.
 
-➤ Best suited for single-threaded programs where performance is important.
-
 ➤ Faster than both String (immutable) and StringBuffer (synchronized).
 
 ➤ Commonly used in loops, handling large text, and joining strings efficiently.
