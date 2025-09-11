@@ -43,14 +43,7 @@ ClassName obj = new ClassName();
 
  Example 1: Simple Object Creation
 
-```java
-class Student {
-    String name;
-    int age;
 
-    void display() {
-        System.out.println("Student Name: " + name + ", Age: " + age);
-    }
 }
 
 public class ObjectsDemo {
