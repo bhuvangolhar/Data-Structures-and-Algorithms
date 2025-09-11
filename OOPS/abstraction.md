@@ -35,27 +35,7 @@ class Calculator {
         return a + b + c;
     }
 
-    // Add two doubles
-    public double add(double a, double b) {
-        return a + b;
-    }
-
-
-public class OverloadingDemo {
-    public static void main(String[] args) {
-        Calculator calc = new Calculator();
-
-        System.out.println("Sum of 2 and 3: " + calc.add(2, 3));
-        System.out.println("Sum of 2, 3 and 5: " + calc.add(2, 3, 5));
-        System.out.println("Sum of 2.5 and 3.5: " + calc.add(2.5, 3.5));
-    }
-}
-
-**Output:**
-
-Sum of 2 and 3: 5
-Sum of 2, 3 and 5: 10
-Sum of 2.5 and 3.5: 6.0
+ 
 
 Same method name `add` performs different actions depending on the parameters.
 
