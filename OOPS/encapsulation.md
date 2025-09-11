@@ -38,13 +38,6 @@ class ClassName {
 }
 
 
- **Example 1: Basic Encapsulation**
-
-class Student {
-    private String name;  // private field
-    private int age;
-
-    // Getter for name
     public String getName() {
         return name;
     }
