@@ -20,9 +20,7 @@ Java is built on OOP principles, which help in designing efficient and real-worl
                      another class. It supports code reusability and establishes a
                      parent-child relationship between classes.
 
-4) **Encapsulation :** Encapsulation means binding data and methods into a single unit (class)
-                       while restricting direct access to data. It improves security and maintains
-                       control using access modifiers.
+
 
 5) **Polymorphism :** Polymorphism means the ability of an object to take many forms. It is
                       achieved in Java through method overloading (compile-time) and method
