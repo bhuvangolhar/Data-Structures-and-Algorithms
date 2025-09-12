@@ -39,8 +39,7 @@ System.out.println("Hello, Java!");
 
 ▪ Predefined Methods – Already defined in Java libraries (e.g., Math.max(), System.out.println()).
 ▪ User-defined Methods – Created by the programmer to perform specific tasks.
-▪ Static Methods – Declared with static, can be called without creating an object.
-▪ Instance Methods – Belong to an object, need an object to call.
+
 
 **Program :**
 
