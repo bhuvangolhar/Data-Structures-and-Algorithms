@@ -38,10 +38,6 @@ Used to compare two values, returning `true` or `false`.
 | -------- | ------------------------ | -------- |
 | `==`     | Equal to                 | `a == b` |
 | `!=`     | Not equal to             | `a != b` |
-| `>`      | Greater than             | `a > b`  |
-| `<`      | Less than                | `a < b`  |
-| `>=`     | Greater than or equal to | `a >= b` |
-| `<=`     | Less than or equal to    | `a <= b` |
 
  3. **Logical Operators**
 
