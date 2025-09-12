@@ -42,13 +42,7 @@ for (int i = pos; i < arr.length - 1; i++)
 **Updating an element :**
 
 • Replacing an existing value at a given index with a new one.
-
-int arr[] = {10, 20, 30};
-arr[1] = 25;  // replaces 20 with 25
-
-**Searching an element :**
-
-**(a)** *Linear Search -*
+-*
 
 • Check each element one by one.
 
