@@ -45,7 +45,6 @@ public static void main(String args[])
   }
 }
 
-Key Points -
 
 ● Widening is safe and automatic.
 ● Narrowing requires explicit cast and may lose precision.
