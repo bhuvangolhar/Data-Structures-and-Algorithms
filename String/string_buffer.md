@@ -12,7 +12,7 @@
 
 ➤ It supports operations like append(), insert(), delete(), and reverse() to manipulate text.
 
-➤ *Example -* StringBuffer sb = new StringBuffer("Hello"); sb.append("World"); → HelloWorld.
+➤ *Example -* StringBuffer sb = new StringBuffer("Hello"); sb.append("World"); → HelloWorld
 
 ➤ StringBuffer is thread-safe, meaning multiple threads cannot access the same object simultaneously without synchronization.
 
