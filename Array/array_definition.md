@@ -11,7 +11,7 @@ memory location of each element, allowing random access. Random access means tha
 directly using its index in constant time, without having to traverse through the preceding 99 elements. This feature makes arrays especially useful in situations where quick access to elements is required, such as in implementing lookup tables, matrices, or algorithmic problems where efficiency is a priority.
 
 Arrays are not just restricted to one-dimensional structures. In Java, we can create multi-dimensional arrays, such as two-dimensional arrays that store data in rows and 
-columns, much like a matrix. These are particularly useful in mathematical computations, image processing, and tabular data management. Similarly, three-dimensional or
+
 higher-dimensional arrays can also be created, though they are less commonly used. Regardless of the number of dimensions, the underlying principle remains the same: arrays
 are contiguous memory blocks that group similar data elements together.
 
