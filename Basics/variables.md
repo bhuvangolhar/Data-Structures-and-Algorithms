@@ -15,15 +15,7 @@ dataType variableName = value;
 
 int age = 22;                     // *integer value*
 double pi = 3.14;                // *decimal value*
-char grade = 'A';               // *single character*
-String name = "Bhuvan";        // *text (sequence of characters)*
-boolean isStudent = true;     // *true or false value*
 
-**Rules :**
-
-- Must begin with a letter, underscore(_), or $.
-- Cannot start with a digit.
-- Case sensitive (Age and age are different).
 - Should be meaningful (use marks instead of m).
 - Cannot use Java keywords (int, class, for etc.).
 
