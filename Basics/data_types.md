@@ -34,8 +34,7 @@ public static void main(String args[])
         byte b = 100;
         short s = 30000;
         int ("Int: " + i);
-        System.out.println("Long: " + l);
-        System.out.println("Float: " + f);
+     
         System.out.println("Double: " + d);
         System.out.println("Char: " + c);
         System.out.println("Boolean: " + flag);
