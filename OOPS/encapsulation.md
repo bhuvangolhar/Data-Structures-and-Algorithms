@@ -38,14 +38,7 @@ class ClassName {
 }
 
 
-    public String getName() {
-        return name;
-    }
-
-    // Setter for name
-    public void setName(String name) {
-        this.name = name;
-    }
+ 
 
     // Getter for age
     public int getAge() {
