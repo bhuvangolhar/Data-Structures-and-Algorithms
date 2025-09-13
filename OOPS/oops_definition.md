@@ -16,11 +16,6 @@ Java is built on OOP principles, which help in designing efficient and real-worl
 2) **Class :** A class is a blueprint or template for creating objects. It defines
                attributes (variables) and behaviors (methods) that the objects will have.
 
-3) **Inheritance :** Inheritance allows one class to acquire properties and methods of
-                     another class. It supports code reusability and establishes a
-                     parent-child relationship between classes.
-
-
 
 5) **Polymorphism :** Polymorphism means the ability of an object to take many forms. It is
                       achieved in Java through method overloading (compile-time) and method
