@@ -36,14 +36,7 @@ class ForEachLoopDemo
         {
             System.out.println("Number: " + num);
         }
-    }
-}
-
-
-Output :
-
-Nu
-Number: 50
+   
 
 
 Example with String Array :
