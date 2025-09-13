@@ -30,10 +30,7 @@ class Calculator {
         return a + b;
     }
 
-    // Add three integers
-    public int add(int a, int b, int c) {
-        return a + b + c;
-    }
+   
 
  
 
