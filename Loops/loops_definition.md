@@ -20,10 +20,5 @@ Start → Check Condition → Execute Block → Update → Repeat until conditio
 
 There are four main types of loops in java -
 
-for-loop.md
-
-while-loop.
-
-do-while-loop.md
 
 for-each-loop.md
