@@ -39,11 +39,7 @@ Output :
 Number: 1
 Number: 2
 Number: 3
-Number: 4
-Number: 5
 
-
-Key Notes :
 
 The loop body runs once before the condition is checked.
 
