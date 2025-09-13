@@ -26,13 +26,7 @@ for(initialization; condition; update)
   {
    System.out.println("Number: " + i);
   }
- }
-}
-
-● Output :
-Number: 1
-Number: 2
-Number: 3
+ 
 Number: 4
 Number: 5
 
