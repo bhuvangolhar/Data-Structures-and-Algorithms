@@ -71,15 +71,7 @@ public class JaggedArray {
         // Declaration
         int[][] jagged = new int[3][];
 
-        // Initializing rows with different sizes
-        jagged[0] = new int[2]; // Row 1 has 2 columns
-        jagged[1] = new int[3]; // Row 2 has 3 columns
-        jagged[2] = new int[1]; // Row 3 has 1 column
-
-        // Assign values
-        jagged[0][0] = 10; jagged[0][1] = 20;
-        jagged[1][0] = 30; jagged[1][1] = 40; jagged[1][2] = 50;
-        jagged[2][0] = 60;
+    
 
         // Traversal
         for (int i = 0; i < jagged.length; i++) {
