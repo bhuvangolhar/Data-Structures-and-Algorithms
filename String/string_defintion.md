@@ -9,5 +9,5 @@ In Java, a string is not just a collection of characters—it is actually an obj
 easy to work with text. For example, you can find the length of a string, convert it to uppercase or lowercase, check if it contains a particular word, or even join two strings together. So instead of writing a lot of code to manipulate text, you can simply use these ready-made methods.
 This immutability helps keep strings safe and efficient to use, especially when multiple parts of a 
 program are sharing the same text.
-uilder and StringBuffer that allow modification of text without creating new objects each time. 
+
 These classes are very useful when you need to perform many operations on text, such as repeatedly appending, inserting, or deleting characters. But in most simple cases, using the String class itself is enough. Overall, strings are one of the most essential tools in Java programming, and understanding how they work is important for both basic coding and advanced problem solving.
