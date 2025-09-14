@@ -79,7 +79,3 @@ Arrays.sort(arr);
 
 ✔ Traverse → Visit each element.
 ✔ Insert → Add an element (requires shifting).
-✔ Delete → Remove an element (requires shifting).
-✔ Update → Replace an element.
-✔ Search → Find an element (Linear/Binary Search).
-✔ Sort → Arrange elements in order.
