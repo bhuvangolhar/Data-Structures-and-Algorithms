@@ -30,13 +30,7 @@ class WideningExample
   }
 }
 
-2.**Narrowing Casting (Explicit Conversion) -**
 
-
-
-class NarrowingExample
-{
-public static void main(String args[])
   {
     double d = 99.99;
     int num = (int) d; * double explicitly converted to int *
