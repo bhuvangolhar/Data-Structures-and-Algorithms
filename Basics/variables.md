@@ -38,11 +38,7 @@ class VariablesDemo
         System.out.println("Instance Variable: " + instanceVar);
         System.out.println("Static Variable: " + staticVar);
     }
-    public static void main(String[] args)
-    {
-        VariablesDemo obj = new VariablesDemo();
-        obj.display();
-    }
+
 }
 
 **Output :**
