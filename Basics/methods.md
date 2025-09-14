@@ -45,12 +45,7 @@ System.out.println("Hello, Java!");
 
 class MethodsDemo
 {
-*// user-defined method*
-int multiply(int x, int y)
-{
-return x \* y;
-}
-*// static method*
+
 sobj.multiply(5, 4);
 System.out.println("Multiplication: " + result);
 *// calling static method*
