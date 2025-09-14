@@ -35,9 +35,7 @@ public static void main(String args[])
         short s = 30000;
         int ("Int: " + i);
      
-        System.out.println("Double: " + d);
-        System.out.println("Char: " + c);
-        System.out.println("Boolean: " + flag);
+   
    }
 }
 
