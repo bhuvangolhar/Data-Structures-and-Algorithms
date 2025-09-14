@@ -58,7 +58,7 @@ Used to assign values to variables.
 | `=`      | `a = 5`  | Assigns 5 to `a` |
 | `+=`     | `a += 3` | `a = a + 3`      |
 
-| `%=`     | `a %= 3` | `a = a % 3`      |
+
 
  5. **Unary Operators**
 
