@@ -10,13 +10,7 @@ for(initialization; condition; update)
   // loop body
 }
 
-● Explanation of Parts :
-
-● Initialization → Runs once at the beginning; usually used to declare and set a loop variable.
-
-● Condition → Checked before each iteration. If true, the loop executes; if false, the loop ends.
-
-● Update → Executed after each iteration, generally used to modify the loop variable (e.g., increment or decrement).
+● Explanation of Parts :● Update → Executed after each iteration, generally used to modify the loop variable (e.g., increment or decrement).
 
 {
  public static void main(String[] args)
