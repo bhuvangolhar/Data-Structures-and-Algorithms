@@ -29,8 +29,7 @@ class DoWhileLoopDemo
             System.out.println("Number: " + num);
             num++;
         } 
-        while (num <= 5);
-    }
+    
 }
 
 
