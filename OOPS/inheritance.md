@@ -30,17 +30,6 @@ class Child extends Parent {
 **Example 1: Basic Inheritance**
 
 
-// Parent class
-class Vehicle {
-    int speed = 50;
-
-
-
-
-        c.displayBrand();   // Defined in Car
- 
-Speed: 50
-Brand: BMW
 
 
 
