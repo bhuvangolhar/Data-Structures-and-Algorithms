@@ -33,16 +33,6 @@
 
 To create an object, we use the `new` keyword:
 
-```java
-ClassName obj = new ClassName();
-```
-
-
-
-**Examples**
-
- Example 1: Simple Object Creation
-
 
 }
 
