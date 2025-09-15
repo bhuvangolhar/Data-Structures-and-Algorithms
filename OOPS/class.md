@@ -34,7 +34,6 @@ class ClassName {
 
 
 
- **Components of a Class**
 
 1. **Fields (Instance Variables)** → Define the state/properties of the class.
    Example: `String name; int age;`
