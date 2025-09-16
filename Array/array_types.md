@@ -34,10 +34,6 @@ The most common form is the **2D array** (like a matrix or table).
 
  Example (2D Array):
 
-public class TwoDArray {
-    public static void main(String[] args) {
-        // Declaration and initialization
-        int[][] matrix = {
             {1, 2, 3},
             {4, 5, 6},
             {7, 8, 9}
