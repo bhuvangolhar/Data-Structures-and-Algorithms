@@ -11,13 +11,7 @@ Type casting is mainly of two types:
 
 1.**Widening Casting (Implicit Conversion) -**
 
-Widening happens automatically when a smaller data type is converted into a larger data type.
-For example: byte → short → int → long → float → double
 
-● No data loss.
-● Done automatically by the compiler.
-
-Example:
 
 class WideningExample
 {
