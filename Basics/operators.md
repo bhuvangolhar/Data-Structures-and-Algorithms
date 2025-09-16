@@ -24,12 +24,6 @@ class ArithmeticExample {
         int a = 10, b = 3;
         System.out.println("a + b = " + (a + b));
         System.out.println("a - b = " + (a - b));
-        System.out.println("a * b = " + (a * b));
-        System.out.println("a / b = " + (a / b));
-        System.out.println("a % b = " + (a % b));
-    }
-}
-
  2. **Relational Operators**
 
 Used to compare two values, returning `true` or `false`.
