@@ -31,11 +31,7 @@ System.out.println("Hello, Java!");
 
 → Must be declared inside a class.
 → Method name should follow Java naming rules (start with lowercase, meaningful name).
-→ If the method returns a value, returnType must not be void.
-→ Parameters are optional; methods can have zero or many parameters.
-→ main() is the entry point method of every Java program.
 
-**Types :**
 
 ▪ Predefined Methods – Already defined in Java libraries (e.g., Math.max(), System.out.println()).
 ▪ User-defined Methods – Created by the programmer to perform specific tasks.
