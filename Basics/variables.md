@@ -34,9 +34,7 @@ class VariablesDemo
     void display() 
     {
         
-        System.out.println("Local Variable: " + localVar);
-        System.out.println("Instance Variable: " + instanceVar);
-        System.out.println("Static Variable: " + staticVar);
+
     }
 
 }
