@@ -10,7 +10,7 @@
 
 ➤ *Example -* StringBuilder sb = new StringBuilder("Java"); sb.append("Program"); → JavaProgram.
 
-➤ It provides methods such as append(), insert(), delete(), replace(), and reverse() for string manipulation.
+➤ It provides methods such as append(), insert(), delete(),, and reverse() for string manipulation.
 
 ➤ Faster than both String (immutable) and StringBuffer (synchronized).
 
