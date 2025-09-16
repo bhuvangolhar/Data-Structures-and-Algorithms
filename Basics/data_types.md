@@ -18,12 +18,7 @@ Types of Primitive Data Types -
 • byte → 1 byte, range: -128 to 127
 • short → 2 bytes, range: -32,768 to 32,767
 • int → 4 bytes, range: -2,147,483,648 to 2,147,483,647
-• long → 8 bytes, range: huge integers, used with L suffix
-• float → 4 bytes, decimal values, up to 7 digits precision (use f suffix)
-• double → 8 bytes, decimal values, up to 15 digits precision (default for decimals)
-• char → 2 bytes, stores a single character (uses Unicode)
-• boolean → 1 bit, stores true or false
-
+• 
 Example :
 
 class DataTypesExample
