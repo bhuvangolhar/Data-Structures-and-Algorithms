@@ -10,14 +10,6 @@
 • Traversing means visiting each element of an array one by one.
 • Usually done using loops (for, while, for-each).
 
-int arr[] = 
-Output: 10 20 30 40
-
-**Inserting an element :**
-
-• Insertion means adding a new element at a specific position.
-• Requires shifting elements to make space.
-• Since arrays in Java are fixed-size, insertion usually means using a new array.
 
 int arr[] = {10, 20, 30, 40};
 int pos = 2, element = 25;
