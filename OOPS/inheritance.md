@@ -12,9 +12,6 @@
 
 1. The class that is inherited from is called the **Parent class / Superclass / Base class**.
 2. The class that inherits is called the **Child class / Subclass / Derived class**.
-3. In Java, inheritance is achieved using the `extends` keyword.
-4. A child class can **add new features** or **override existing features** of the parent class.
-5. All classes in Java **implicitly inherit from the `Object` class** (the root class of Java).
 
 
 **Syntax**
