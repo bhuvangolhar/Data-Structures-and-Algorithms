@@ -26,15 +26,6 @@ class ClassName {
     // private fields
     private int data;
 
-    // getter
-    public int getData() {
-        return data;
-    }
-
-    // setter
-    public void setData(int data) {
-        this.data = data;
-    }
 }
 
 
