@@ -26,8 +26,7 @@ class DoWhileLoopDemo
         int num = 1;
         do 
         {
-            System.out.println("Number: " + num);
-            num++;
+     
         } 
     
 }
