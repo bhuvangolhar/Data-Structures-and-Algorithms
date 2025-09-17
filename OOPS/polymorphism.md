@@ -38,19 +38,6 @@ public class OverloadingDemo {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
 
-        System.out.println("Sum of 2 and 3: " + calc.add(2, 3));
-        System.out.println("Sum of 2, 3 and 5: " + calc.add(2, 3, 5));
-        System.out.println("Sum of 2.5 and 3.5: " + calc.add(2.5, 3.5));
-  
-
-
-
-class Animal {
-    public void sound() {
-        System.out.println("Animal makes a sound");
-    }
-}
-
 class Dog extends Animal {
     @Override
     public void sound() {
