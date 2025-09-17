@@ -48,12 +48,7 @@ class Student {
     String name;
     int age;
 
-    // Method
-    void display() {
-        System.out.println("Name: " + name + ", Age: " + age);
-    }
-}
-
+   
 public class ClassDemo {
     public static void main(String[] args) {
         // Creating objects from the Student class
