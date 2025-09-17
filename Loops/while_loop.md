@@ -5,14 +5,6 @@ A while loop in Java is used to repeatedly execute a block of code as long as a 
 
 It checks the condition before executing the loop body, making it an entry-controlled loop.
 
-This loop is useful when the number of iterations is not known in advance and depends on some condition during runtime.
-
-Need :
-
-while (condition) 
-{
-    // code block
-    // statements to execute
 }
 
 
