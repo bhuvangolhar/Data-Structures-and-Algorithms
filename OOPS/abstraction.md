@@ -19,9 +19,6 @@
    * The method call is resolved **at runtime**.
    * Achieved through **method overriding** (child class provides a new implementation of a parent class method).
 
-
- **1. Compile-time Polymorphism (Method Overloading)**
-
  **Example**
 
 class Calculator {
