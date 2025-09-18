@@ -34,16 +34,6 @@ The most common form is the **2D array** (like a matrix or table).
 
  Example (2D Array):
 
-            {1, 2, 3},
-            {4, 5, 6},
-            {7, 8, 9}
-        };
-
-        // Traversal
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                System.out.print(matrix[i][j] + " ");
-         
 }
 
  Key Points:
