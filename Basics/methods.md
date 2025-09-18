@@ -44,9 +44,7 @@ class MethodsDemo
 
 sobj.multiply(5, 4);
 System.out.println("Multiplication: " + result);
-*// calling static method*
-displayMessage();
-}
+
 }
 
 **Output :**
