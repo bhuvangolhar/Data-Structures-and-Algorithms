@@ -18,7 +18,7 @@ class WideningExample
   public static void main(String args[])
   {
     int num = 100;
-    double d = num; * int automatically converted to double *
+ 
     System.out.println("Integer: " + num);
     System.out.println("Double (after widening): " + d);
   }
