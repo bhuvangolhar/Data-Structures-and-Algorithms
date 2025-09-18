@@ -33,8 +33,7 @@ for (int i = pos; i < arr.length - 1; i++)
 
 **Updating an element :**
 
-• Replacing an existing value at a given index with a new one.
--*
+
 
 • Check each element one by one.
 
