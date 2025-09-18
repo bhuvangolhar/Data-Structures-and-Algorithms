@@ -25,17 +25,6 @@ double pi = 3.14;                // *decimal value*
 2) Instance Variable – declared inside a class but outside methods (belongs to an object).
 3) Static Variable – declared with static, belongs to the class (common for all objects).
 
-**Program :**
-
-class VariablesDemo
-{
-    int instanceVar = 100;          // *instance variable*
-    static int staticVar = 200;    // *static variable*
-    void display() 
-    {
-        
-
-    }
 
 }
 
