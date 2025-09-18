@@ -37,7 +37,7 @@ Used to compare two values, returning `true` or `false`.
 
 Used to combine multiple conditions.
 
-| Operator | Description | Example             |            |          |   |           |
+
 | -------- | ----------- | ------------------- | ---------- | -------- | - | --------- |
 | `&&`     | Logical AND | `(a > 5 && b < 10)` |            |          |   |           |
 | \`       |             | \`                  | Logical OR | \`(a > 5 |   | b < 10)\` |
@@ -61,8 +61,7 @@ Work on a single operand.
 | Operator | Description            | Example        |
 | -------- | ---------------------- | -------------- |
 | `++`     | Increment by 1         | `a++` or `++a` |
-| `--`     | Decrement by 1         | `a--` or `--a` |
-| `+`      | Unary plus (no effect) | `+a`           |
+|
 | `-`      | Unary minus (negation) | `-a`           |
 
  6. **Ternary Operator (`?:`)**
