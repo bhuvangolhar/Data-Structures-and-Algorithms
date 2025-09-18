@@ -9,13 +9,7 @@ Java data types are divided into two categories:
 • *Primitive Data Types*
 • *Non-Primitive Data Types*
 
-1.**Primitive Data Types -**
 
-Primitive data types are the most basic data types built into Java. They store simple values directly in memory.
-
-Types of Primitive Data Types -
-
-• byte → 1 byte, range: -128 to 127
 • short → 2 bytes, range: -32,768 to 32,767
 • int → 4 bytes, range: -2,147,483,648 to 2,147,483,647
 • 
