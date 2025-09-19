@@ -1,7 +1,4 @@
 
-**StringBuilder :**
-
-
 ➤ StringBuilder is very similar to StringBuffer but is not thread-safe.
 
 ➤ Lack of synchronization makes it faster and more efficient than StringBuffer in single-threaded programs.
