@@ -60,15 +60,7 @@ public class ObjectsDemo {
 ```
 Student Name: Bhuvan, Age: 22
 Student Name: Riya, Age: 21
-```
 
- **How Objects are Created in Java**
-
-1. **Using `new` keyword** (most common).
-
-   ```java
-   Student s1 = new Student();
-   ```
 2. **Using `newInstance()` method** of `Class` class.
 3. **Using clone() method** (copies an existing object).
 4. **Using deserialization** (re-creating object from a file/stream).
