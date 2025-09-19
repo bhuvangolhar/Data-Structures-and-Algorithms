@@ -26,15 +26,6 @@ for (dataType variable : arrayOrCollection)
 
 
 
-    {
-        int numbers[] = {10, 20, 30, 40, 50};
-        for (int num : numbers) 
-        {
-            System.out.println("Number: " + num);
-        }
-   
-
-
 Example with String Array :
 
 class ForEachStringDemo 
