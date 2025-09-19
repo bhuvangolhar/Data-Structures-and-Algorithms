@@ -25,17 +25,7 @@ class ClassName {
     // Fields (variables)
     dataType variableName;
 
-    // Methods (functions)
-    returnType methodName(parameters) {
-        // method body
-    }
-}
-
-
-
-
-
-1. **Fields (Instance Variables)** → Define the state/properties of the class.
+perties of the class.
    Example: `String name; int age;`
 
 2. **Methods (Member Functions)** → Define the behavior of the class.
