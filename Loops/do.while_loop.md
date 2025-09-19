@@ -43,4 +43,3 @@ The loop body runs once before the condition is checked.
 
 If the condition is false on the first check, the loop still executes one time.
 
-Use it when you want guaranteed execution at least once.
