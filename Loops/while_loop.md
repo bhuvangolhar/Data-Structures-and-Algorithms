@@ -22,12 +22,3 @@ class WhileLoopDemo
 }
 
 
-
-
-Key Notes :
-
-Condition is checked before entering the loop body.
-
-If the condition is false initially, the loop body may not execute even once.
-
-Make sure the loop has a way to terminate, otherwise it can run infinitely.
