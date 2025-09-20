@@ -37,7 +37,7 @@ Common Non-Primitive Data Types -
 
 • String – sequence of characters
 • Arrays – collection of elements of the same type
-• Classes – user-defined blueprints for objects
+
 • Objects – instances of classes
 • Interfaces – abstraction mechanism
 
