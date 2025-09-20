@@ -20,8 +20,6 @@
 
 ➤ It is very useful in multi-threaded applications where data safety is more important than speed.
 
-➤ *Best used when -*
-
-
+➤ *Best used when -
 
 ➤ *In short -* StringBuffer = mutable + safe for threads, but slower due to synchronization.
