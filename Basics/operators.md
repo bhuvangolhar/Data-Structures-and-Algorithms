@@ -1,7 +1,7 @@
 Operators in Java
 
 Operators in Java are special symbols used to perform operations on variables and values.
-They are the **building blocks of logic** in every Java program.
+
 
  Types of Operators
 
