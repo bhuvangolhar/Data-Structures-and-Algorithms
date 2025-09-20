@@ -75,7 +75,7 @@ Cat meows
 **Real-Life Analogy**
 
 * **Compile-time polymorphism:** A **Swiss army knife** — one tool (method name), many uses depending on the situation (different parameters).
-* **Runtime polymorphism:** A **remote control** — the button (`sound()` method) is the same, but the device (object type: TV, AC, Music System) decides what actually happens.
+* **Runtime polymorphism:** A **remote control** — the button (`sound()` method) is the same, but the device (object type: TV, AC, Music System) decides what 
 
 
  **Advantages of Polymorphism**
