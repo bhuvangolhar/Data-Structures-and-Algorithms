@@ -5,7 +5,6 @@
 
 * **Inheritance** is one of the four main pillars of Object-Oriented Programming (OOP).
 * It allows a **class (child/subclass)** to acquire the **properties (fields)** and **behaviors (methods)** of another class (parent/superclass).
-* The goal of inheritance is **code reusability** and **method overriding** to achieve polymorphism.
 
 
 **Key Points**
