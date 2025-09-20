@@ -4,8 +4,7 @@
 A variable is like a container in memory that stores data.
 Every variable has like,
 - a name (identifier)
-- a type (what kind of data it can store)
-- a value (the actual data stored)
+
 
 **Syntax :**
 
