@@ -39,7 +39,7 @@ Same method name `add` performs different actions depending on the parameters.
 
 class Animal {
     public void sound() {
-        System.out.println("Animal makes a sound");
+        
     }
 }
 
