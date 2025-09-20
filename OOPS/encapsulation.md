@@ -16,7 +16,7 @@
 
 1. **Data Hiding** – Fields are kept private, restricting direct external access.
 2. **Controlled Access** – Public methods (`getters` and `setters`) control how data is accessed or updated.
-3. **Improved Security** – Sensitive data is protected from unauthorized modification.
+
 4. **Flexibility** – You can add validation or custom logic inside getters/setters.
 5. **Reusability and Maintainability** – Encapsulation makes code modular and easier to modify.
 
