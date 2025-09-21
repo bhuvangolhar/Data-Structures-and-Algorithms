@@ -5,6 +5,8 @@
 
 ➤ Like StringBuffer, it also creates mutable strings that can be changed without making new objects.
 
+➤ Like StringBuffer, it also creates mutable strings that can be changed without making new objects.
+
 ➤ *Example -* StringBuilder sb = new StringBuilder("Java"); sb.append("Program"); → JavaProgram.
 
 ➤ It provides methods such as append(), insert(), delete(),, and reverse() for string manipulation.
