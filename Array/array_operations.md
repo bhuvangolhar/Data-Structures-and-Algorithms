@@ -55,7 +55,7 @@ for (int i = 0; i < arr.length; i++)
 • Efficient, O(log n) time complexity.
 
 import java.util.Arrays;
-int arr[] = {10, 20, 30, 40, 50};
+
 int index = Arrays.binarySearch(arr, 30);
 
 **Sorting the elements :**
