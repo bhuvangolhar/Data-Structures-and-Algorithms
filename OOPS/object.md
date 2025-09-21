@@ -12,7 +12,6 @@
 
 * Objects allow **real-world modeling**: You can represent things like a *Car, Student, Employee, or Bank Account*.
 * They provide **encapsulation**, meaning data and related behavior are bundled together.
-* Objects make the program more **modular, reusable, and organized**.
 * They help implement the **core principles of OOP**: abstraction, encapsulation, inheritance, and polymorphism.
 
 
