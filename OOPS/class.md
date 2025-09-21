@@ -41,7 +41,7 @@ class Student {
    
 public class ClassDemo {
     public static void main(String[] args) {
-        // Creating objects from the Student class
+
         Student s1 = new Student();
         Student s2 = new Student();
 
