@@ -47,6 +47,3 @@ System.out.println("Multiplication: " + result);
 
 }
 
-**Output :**
-
-Multiplication: 20
