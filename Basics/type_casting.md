@@ -1,8 +1,7 @@
 
 **Type Casting :**
 
-In Java, type casting is the process of converting a variable of one data type into another. Since Java is strongly typed, 
-you cannot assign values of one type to another incompatible type without explicit conversion.
+
 
 Type casting is mainly of two types:
 
