@@ -7,7 +7,6 @@ Operators in Java are special symbols used to perform operations on variables an
 
  1. **Arithmetic Operators**
 
-Used to perform basic mathematical operations.
 
 | Operator | Description         | Example |
 | -------- | ------------------- | ------- |
