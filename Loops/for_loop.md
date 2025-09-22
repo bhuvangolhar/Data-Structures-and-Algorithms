@@ -7,7 +7,7 @@ The for loop in Java is a control structure that allows you to execute a block o
 ● Syntax :
 for(initialization; condition; update)
 {
-  // loop body
+
 }
 
 ● Explanation of Parts :● Update → Executed after each iteration, generally used to modify the loop variable (e.g., increment or decrement).
