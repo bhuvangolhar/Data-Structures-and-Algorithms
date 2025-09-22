@@ -52,6 +52,3 @@ Key Notes :
 
 Works with arrays and collections (like ArrayList, HashSet).
 
-Cannot directly modify elements of an array/collection (read-only).
-
-Useful for simple iteration, not when index manipulation is required.
