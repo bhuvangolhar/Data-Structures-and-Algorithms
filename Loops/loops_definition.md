@@ -1,7 +1,7 @@
 
 ● Definition :
 
-A loop in Java is a control structure that allows a block of code to be executed repeatedly as long as a condition is true. Once the condition becomes false, the loop stops. Loops help in writing clean and efficient programs by avoiding code repetition.
+
 
 ● To handle unknown or large data – e.g., reading 1000 numbers, iterating over arrays, or traversing lists.
 
