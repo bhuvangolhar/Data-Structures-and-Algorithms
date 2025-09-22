@@ -25,7 +25,6 @@ double pi = 3.14;                // *decimal value*
 3) Static Variable – declared with static, belongs to the class (common for all objects).
 
 
-}
 
 **Output :**
 
