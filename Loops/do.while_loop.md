@@ -39,7 +39,3 @@ Number: 2
 Number: 3
 
 
-The loop body runs once before the condition is checked.
-
-If the condition is false on the first check, the loop still executes one time.
-
