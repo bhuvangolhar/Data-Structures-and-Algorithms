@@ -24,7 +24,7 @@ return a + b;
 
 void greet()
 {
-System.out.println("Hello, Java!");
+
 }
 
 **Rules :**
