@@ -39,7 +39,7 @@ for (int i = pos; i < arr.length - 1; i++)
 
 int arr[] = {5, 15, 25, 35};
 int key = 25;
-boolean found = false;
+
 for (int i = 0; i < arr.length; i++) 
 {
     if (arr[i] == key)
