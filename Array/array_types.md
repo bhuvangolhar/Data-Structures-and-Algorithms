@@ -1,7 +1,7 @@
 
  Array Types in Java
 
-Arrays in Java are used to store **multiple elements of the same type** in a single variable. Based on structure and usage, arrays in Java can be broadly classified into three categories:
+Arrays in Java are used to store **multiple elements of the same type** in a single variable. Based on structure and usage, arrays in Java can be broadly 
 
  1. Single-Dimensional Array (1D Array)
 
