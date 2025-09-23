@@ -18,8 +18,7 @@ class WideningExample
   {
     int num = 100;
  
-    System.out.println("Integer: " + num);
-    System.out.println("Double (after widening): " + d);
+  
   }
 }
 
