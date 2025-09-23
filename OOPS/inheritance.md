@@ -48,8 +48,6 @@ A class inherits from a class which itself inherits from another class.
 
 
 class Animal { void eat() { System.out.println("Eating..."); } }
-class Dog extends Animal { void bark() { System.out.println("Barking..."); } }
-class Puppy extends Dog { void weep() { System.out.println("Weeping..."); } }
 
 
 ### 3. **Hierarchical Inheritance**
