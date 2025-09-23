@@ -39,7 +39,7 @@ public class OverloadingDemo {
         Calculator calc = new Calculator();
 
 class Dog extends Animal {
-    @Override
+
     public void sound() {
         System.out.println("Dog barks");
     }
@@ -114,9 +114,7 @@ public class BankDemo {
         Bank b1 = new SBI();
         Bank b2 = new HDFC();
 
-        System.out.println("SBI Interest Rate: " + b1.getRateOfInterest());
-        System.out.println("HDFC Interest Rate: " + b2.getRateOfInterest());
-    }
+    
 }
 
 **Output:**
