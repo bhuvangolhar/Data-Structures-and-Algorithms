@@ -40,10 +40,7 @@ public class OverloadingDemo {
 
 class Dog extends Animal {
 
-    public void sound() {
-        System.out.println("Dog barks");
-    }
-}
+
 
 class Cat extends Animal {
     @Override
@@ -57,9 +54,7 @@ public class OverridingDemo {
         Animal a1 = new Dog(); // Upcasting
         Animal a2 = new Cat();
 
-        a1.sound();  // Runtime decision → Dog barks
-        a2.sound();  // Runtime decision → Cat meows
-    }
+     
 }
 
 **Output:**
