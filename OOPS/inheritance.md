@@ -84,10 +84,7 @@ class C implements A, B {
 **Example:**
 
 
-class Parent {
-    int num = 100;
-    void show() {
-        System.out.println("Parent show()");
+
     }
 }
 
