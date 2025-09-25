@@ -45,16 +45,7 @@ public class ClassDemo {
         Student s1 = new Student();
         Student s2 = new Student();
 
-        // Initializing values
-        s1.name = "Bhuvan";
-        s1.age = 22;
-
-        s2.name = "Riya";
-        s2.age = 21;
-
-        // Calling methods
-        s1.display();
-        s2.display();
+      
     }
 }
 
