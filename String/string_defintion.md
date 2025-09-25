@@ -7,7 +7,7 @@ the most commonly used data types in any program because almost every applicatio
 
 In Java, a string is not just a collection of characters—it is actually an object of the String class. This means strings come with many useful built-in methods that make it 
 two strings together. So instead of writing a lot of code to manipulate text, you can simply use these ready-made methods.
-This immutability helps keep strings safe and efficient to use, especially when multiple parts of a 
+
 program are sharing the same text.
 one of 
 the most commonly used data types in any program because almost every application needs to handle text in some form, whether it is a name, a message, or a user input.
