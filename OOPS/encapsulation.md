@@ -27,19 +27,8 @@ class ClassName {
     private int data;
 
 }
-
-
  
 
-    // Getter for age
-    public int getAge() {
-        return age;
-    }
-
-        } else {
-            System.out.println("Age must be positive!");
-        }
-    }
 }
 
 public class EncapsulationDemo {
