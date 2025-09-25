@@ -62,11 +62,6 @@ public class OverridingDemo {
         Animal a1 = new Dog(); // Upcasting
         Animal a2 = new Cat();
 
-        a1.sound();  // Runtime decision → Dog barks
-        a2.sound();  // Runtime decision → Cat meows
-    }
-}
-
 **Output:**
 
 
