@@ -1,7 +1,7 @@
 
 **Object-Oriented Programming System (OOPS) in Java :**
 
-Object-Oriented Programming (OOP) in Java is a programming paradigm that organizes software design around objects, which represent real-world entities. These 
+
 
 Java strongly follows the OOP approach, enabling developers to model real-world problems effectively while keeping the code flexible and organized. Object-Oriented 
 Programming (OOP) in Java is a way of organizing code around objects that combine data and behavior. It makes programs more modular, reusable and easier to 
