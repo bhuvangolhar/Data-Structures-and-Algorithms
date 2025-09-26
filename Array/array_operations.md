@@ -49,12 +49,6 @@ for (int i = 0; i < arr.length; i++)
     }
 }
 
-**(b)** *Binary Search -*
-
-• Works only on sorted arrays.
-• Efficient, O(log n) time complexity.
-
-import java.util.Arrays;
 
 int index = Arrays.binarySearch(arr, 30);
 
