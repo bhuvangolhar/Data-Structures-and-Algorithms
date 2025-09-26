@@ -37,11 +37,7 @@ The most common form is the **2D array** (like a matrix or table).
 
  Key Points:
 
-* `matrix[i][j]` → element at row `i` and column `j`.
-* Commonly used in:
 
-  * **Matrix problems**
-  * **Grids in games**
   * **Dynamic Programming (DP) tables**
 
  3. Jagged Array (Array of Arrays)
