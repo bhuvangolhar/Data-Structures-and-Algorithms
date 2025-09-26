@@ -44,11 +44,7 @@ class NonPrimitiveExample
 {
 public static void main(String args[])
   {
-   *String*
-    String name = "Java";
-    *Array*
-    int arr[] = {1, 2, 3, 4, 5};
-    *Object*
+ 
     NonPrimitiveExample obj = new NonPrimitiveExample();
     System.out.println("String: " + name);
     System.out.println("Array first element: " + arr[0]);
