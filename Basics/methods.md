@@ -33,13 +33,6 @@ void greet()
 → Method name should follow Java naming rules (start with lowercase, meaningful name).
 
 
-▪ Predefined Methods – Already defined in Java libraries (e.g., Math.max(), System.out.println()).
-▪ User-defined Methods – Created by the programmer to perform specific tasks.
-
-
-**Program :**
-
-class MethodsDemo
 {
 
 sobj.multiply(5, 4);
