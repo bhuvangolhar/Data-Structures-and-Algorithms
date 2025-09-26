@@ -34,5 +34,3 @@ class WideningExample
 
 ● Widening is safe and automatic.
 ● Narrowing requires explicit cast and may lose precision.
-● Type casting works only between compatible data types.
-● Strings and objects need special conversion methods, not primitive casting.
