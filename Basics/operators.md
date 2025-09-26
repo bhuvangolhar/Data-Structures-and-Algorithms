@@ -76,7 +76,7 @@ System.out.println(result); // Adult
 Operate at the binary level.
 
 | Operator | Description          | Example    |     |     |
-| -------- | -------------------- | ---------- | --- | --- |
+
 | `&`      | Bitwise AND          | `a & b`    |     |     |
 | \`       | \`                   | Bitwise OR | \`a | b\` |
 | `^`      | Bitwise XOR          | `a ^ b`    |     |     |
