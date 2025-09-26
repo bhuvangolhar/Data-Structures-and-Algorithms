@@ -21,8 +21,7 @@ double pi = 3.14;                // *decimal value*
 **Types :**
 
 1) Local Variable – declared inside a method, accessible only there.
-2) Instance Variable – declared inside a class but outside methods (belongs to an object).
-3) Static Variable – declared with static, belongs to the class (common for all objects).
+
 
 
 
