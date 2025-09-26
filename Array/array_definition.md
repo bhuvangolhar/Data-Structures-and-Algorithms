@@ -1,8 +1,7 @@
 
 **Definition of an Array :**
 
-An array is one of the most fundamental data structures in computer science and programming. It can be defined as a collection of elements of the same data type that are
-stored together in contiguous memory locations. This means that once an array is created, the elements are placed sequentially in memory, one after another, 
+An array is one of the most fundamental datstored together in contiguous memory locations. This means that once an array is created, the elements are placed sequentially in memory, one after another, 
 and does not need to be adjusted repeatedly.
 
 Conceptually, an array can be thought of as a sequence or list of elements where each element is identified by a unique index. These indexes act as a direct address to the 
