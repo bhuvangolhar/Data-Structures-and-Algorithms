@@ -16,8 +16,6 @@
 
 ➤ StringBuffer is thread-safe, meaning multiple threads cannot access the same object simultaneously without synchronization.
 
-➤ Because of synchronization, it is slower than StringBuilder.
-
 ➤ It is very useful in multi-threaded applications where data safety is more important than speed.
 
 
