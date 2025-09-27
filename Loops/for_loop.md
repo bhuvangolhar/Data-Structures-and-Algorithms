@@ -24,10 +24,3 @@ for(initialization; condition; update)
 Number: 4
 Number: 5
 
-● Key Notes :
-
-● Initialization, condition, and update are optional (but semicolons are mandatory).
-
-● Infinite loop is possible using for(;;) if no condition is provided.
-
-● Multiple variables can be initialized or updated in a single for loop.
