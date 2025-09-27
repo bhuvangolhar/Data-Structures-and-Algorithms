@@ -48,7 +48,3 @@ Hello, Bob
 Hello, Charlie
 
 
-Key Notes :
-
-Works with arrays and collections (like ArrayList, HashSet).
-
