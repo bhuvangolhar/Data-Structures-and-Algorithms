@@ -5,7 +5,6 @@
 
 ➤ Like StringBuffer, it also creates mutable strings that can be changed without making new objects.
 
-
 ➤ It provides methods such as append(), insert(), delete(),, and reverse() for string manipulation.
 
 ➤ Faster than both String (immutable) and StringBuffer (synchronized).
@@ -14,4 +13,3 @@
 
 ➤ *Example use case -* Building dynamic text like sentences, messages, or logs quickly.
 
-➤ *In short -* StringBuilder = mutable + faster than StringBuffer, but not safe for multi-threaded use.
