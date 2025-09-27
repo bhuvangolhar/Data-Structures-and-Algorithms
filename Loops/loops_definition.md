@@ -1,8 +1,4 @@
 
-● Definition :
-
-
-
 ● To handle unknown or large data – e.g., reading 1000 numbers, iterating over arrays, or traversing lists.
 
 ● To improve code readability and efficiency – makes programs shorter and easier to maintain.
