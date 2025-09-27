@@ -40,15 +40,6 @@ public class ObjectsDemo {
         Student s1 = new Student();
         Student s2 = new Student();
 
-
-        s2.display();
-    }
-}
-```
-
-**Output:**
-
-```
 Student Name: Bhuvan, Age: 22
 Student Name: Riya, Age: 21
 
