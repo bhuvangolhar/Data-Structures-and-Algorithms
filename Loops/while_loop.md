@@ -1,5 +1,4 @@
 
-Definition :
 
 A while loop in Java is used to repeatedly execute a block of code as long as a given condition is true.
 
