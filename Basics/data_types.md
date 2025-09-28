@@ -10,9 +10,7 @@ Java data types are divided into two categories:
 • *Non-Primitive Data Types*
 
 
-• short → 2 bytes, range: -32,768 to 32,767
-• int → 4 bytes, range: -2,147,483,648 to 2,147,483,647
-• 
+
 Example :
 
 class DataTypesExample
