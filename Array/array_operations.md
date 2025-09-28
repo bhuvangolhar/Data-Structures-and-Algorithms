@@ -37,8 +37,7 @@ for (int i = pos; i < arr.length - 1; i++)
 
 • Check each element one by one.
 
-int arr[] = {5, 15, 25, 35};
-int key = 25;
+
 
 for (int i = 0; i < arr.length; i++) 
 {
