@@ -1,9 +1,7 @@
 
 **Definition of an Array :**
 
-An array is one of the most fundamental datstored together in contiguous memory locations. This means that once an array is created, the elements are placed sequentially in memory, one after another, 
-and does not need to be adjusted repeatedly.
-
+An array is one of the most fundamental datstored together in contiguous memory locations. This means that once an array is created, the elements are placed 
 Conceptually, an array can be thought of as a sequence or list of elements where each element is identified by a unique index. These indexes act as a direct address to the 
 
 directly using its index in constant time, without having to traverse through the preceding 99 elements. This feature makes arrays especially useful in situations where quick access to elements is required, such as in implementing lookup tables, matrices, or algorithmic problems where efficiency is a priority.
