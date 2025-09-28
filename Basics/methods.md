@@ -2,8 +2,7 @@
 **Definition :**
 
 A method in Java is a block of code that performs a specific task.
-It is used to group statements together, so they can be executed
-whenever the method is called. Methods improve reusability, readability,
+
 and modularity in a program.
 
 **Syntax :**
