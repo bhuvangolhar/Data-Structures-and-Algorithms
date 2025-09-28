@@ -34,13 +34,7 @@ Used to compare two values, returning `true` or `false`.
 
  3. **Logical Operators**
 
-Used to combine multiple conditions.
-
-
-| -------- | ----------- | ------------------- | ---------- | -------- | - | --------- |
-| `&&`     | Logical AND | `(a > 5 && b < 10)` |            |          |   |           |
-| \`       |             | \`                  | Logical OR | \`(a > 5 |   | b < 10)\` |
-| `!`      | Logical NOT | `!(a > b)`          |            |          |   |           |
+|            |          |   |           |
 
  4. **Assignment Operators**
 
