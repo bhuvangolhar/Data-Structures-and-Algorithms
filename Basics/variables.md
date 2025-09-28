@@ -13,7 +13,7 @@ dataType variableName = value;
 **Examples :**
 
 int age = 22;                     // *integer value*
-double pi = 3.14;                // *decimal value*
+
 
 - Should be meaningful (use marks instead of m).
 - Cannot use Java keywords (int, class, for etc.).
