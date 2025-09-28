@@ -25,8 +25,7 @@ class WideningExample
 
   {
     double d = 99.99;
-    int num = (int) d; * double explicitly converted to int *
-    System.out.println("Double: " + d);
+
     System.out.println("Integer (after narrowing): " + num);
   }
 }
