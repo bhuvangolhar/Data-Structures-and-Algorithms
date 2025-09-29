@@ -3,10 +3,6 @@
 
 
 
-Java strongly follows the OOP approach, enabling developers to model real-world problems effectively while keeping the code flexible and organized. Object-Oriented 
-Programming (OOP) in Java is a way of organizing code around objects that combine data and behavior. It makes programs more modular, reusable and easier to 
-Java is built on OOP principles, which help in designing efficient and real-world-based solutions.
-
 **Core Concepts of OOPS -**
 
 1) **Object :** An object is an instance of a class that represents a real-world
