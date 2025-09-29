@@ -9,4 +9,3 @@
 
 Start → Check Condition → Execute Block → Update → Repeat until condition becomes false.
 
-There are four main types of loops 
