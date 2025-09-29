@@ -35,10 +35,7 @@ class Calculator {
 }
 
 public class OverloadingDemo {
-    public static void main(String[] args) {
-        Calculator calc = new Calculator();
 
-class Dog extends Animal {
 
 
 
