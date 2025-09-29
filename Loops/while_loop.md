@@ -4,7 +4,6 @@ A while loop in Java is used to repeatedly execute a block of code as long as a 
 
 It checks the condition before executing the loop body, making it an entry-controlled loop.
 
-}
 
 
 Example :
