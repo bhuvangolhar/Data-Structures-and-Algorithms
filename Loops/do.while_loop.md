@@ -29,10 +29,3 @@ class DoWhileLoopDemo
 }
 
 
-Output :
-
-Number: 1
-Number: 2
-Number: 3
-
-
