@@ -10,7 +10,6 @@ for(initialization; condition; update)
 
 }
 
-● Explanation of Parts :● Update → Executed after each iteration, generally used to modify the loop variable (e.g., increment or decrement).
 
 {
  public static void main(String[] args)
