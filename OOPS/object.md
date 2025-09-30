@@ -68,14 +68,6 @@ Think of a **class** as a "blueprint of a house" and **objects** as "actual hous
  **Program: Multiple Objects**
 
 ```java
-class Car {
-    String brand;
-    int speed;
-
-    void showDetails() {
-        System.out.println("Brand: " + brand + ", Speed: " + speed + " km/h");
-    }
-}
 
 public class ObjectsExample {
     public static void main(String[] args) {
