@@ -91,10 +91,6 @@ class C implements A, B {
 class Child extends Parent {
     int num = 200;
 
-    void show() {
-        super.show(); // Call parent method
-        System.out.println("Parent num: " + super.num); // Access parent variable
-        System.out.println("Child num: " + num);
     }
 }
 
