@@ -16,15 +16,7 @@ return value; *// if returnType is not void*
 
 **Examples :**
 
-int add(int a, int b)
-{
-return a + b;
-}
 
-void greet()
-{
-
-}
 
 **Rules :**
 
