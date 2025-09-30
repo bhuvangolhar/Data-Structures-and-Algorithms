@@ -84,15 +84,7 @@ class Car {
     String brand;
     int speed;
 
-    void start() {
-        System.out.println(brand + " is starting...");
-    }
 
-    void accelerate(int increase) {
-        speed += increase;
-        System.out.println(brand + " accelerated to " + speed + " km/h");
-    }
-}
 
 public class ClassExample {
     public static void main(String[] args) {
