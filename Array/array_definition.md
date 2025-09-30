@@ -8,7 +8,7 @@ directly using its index in constant time, without having to traverse through th
 
 Arrays are not just restricted to one-dimensional structures. In Java, we can create multi-dimensional arrays, such as two-dimensional arrays that store data in rows and 
 
-higher-dimensional arrays can also be created, though they are less commonly used. Regardless of the number of dimensions, the underlying principle remains the same: arrays
+
 are contiguous memory blocks that group similar data elements together.
 
 In summary, an array is a systematic way of storing and organizing data elements of the same type, allowing efficient access and management. By using indexing, arrays provide a advanced computer science applications. They are widely used because of their speed, structure, and simplicity, and they form the backbone of many algorithms and more complex data structures.
