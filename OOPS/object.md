@@ -5,22 +5,7 @@
 
 * An **object** in Java is an instance of a class.
 * While a **class** is like a blueprint or template, an object is the real-world entity created from that blueprint.
-* Objects represent entities with **state (data/attributes)** and **behavior (methods/functions)**.
-
-
-**Why Objects are Needed?**
-
-* Objects allow **real-world modeling**: You can represent things like a *Car, Student, Employee, or Bank Account*.
-* They provide **encapsulation**, meaning data and related behavior are bundled together.
-* They help implement the **core principles of OOP**: abstraction, encapsulation, inheritance, and polymorphism.
-
-
- **Characteristics of an Object**
-
-1. **Identity** → Each object is unique, even if it has the same state as another.
-   Example: Two `Car` objects with the same color and model are still different objects in memory.
-
-
+* Objects re
 
 3. **Behavior** → The actions an object can perform (methods).
    Example: A `Car` object can `start()`, `stop()`, `accelerate()`.
