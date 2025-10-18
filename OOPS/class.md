@@ -6,10 +6,7 @@
 
 * A **class** in Java is a **blueprint (template)** for creating objects.
 * It defines the **data (fields/variables)** and the **behavior (methods)** that the objects created from it will have.
-* While objects are the actual entities in memory, the **class is just the definition** of what those entities will look like.
-
-
-
+* While objects are the actu
  **Why Do We Need Classes?**
 
 * Classes bring **organization and modularity** to Java programs.
