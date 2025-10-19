@@ -3,17 +3,6 @@
 
 **Definition**
 
-* **Inheritance** is one of the four main pillars of Object-Oriented Programming (OOP).
-* It allows a **class (child/subclass)** to acquire the **properties (fields)** and **behaviors (methods)** of another class (parent/superclass).
-
-
-**Key Points**
-
-1. The class that is inherited from is called the **Parent class / Superclass / Base class**.
-2. The class that inherits is called the **Child class / Subclass / Derived class**.
-
-
-**Syntax**
 
 class Parent {
     // fields and methods
