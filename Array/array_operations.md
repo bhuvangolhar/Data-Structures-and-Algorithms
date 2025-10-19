@@ -1,17 +1,7 @@
 
 **Array Operations :**
 
-• Arrays are one of the most important data structures in Java.
-• They allow storing multiple values of the same type in a single variable. 
-• To make arrays useful, we perform various operations such as traversing, inserting, deleting, updating, and searching.
-
-**Traversing an array :**
-
-• Traversing means visiting each element of an array one by one.
-• Usually done using loops (for, while, for-each).
-
-
-int arr[] = {10, 20, 30, 40};
+• Ar
 int pos = 2, element = 25;
 for (int i = arr.length - 1; i > pos; i--) 
 {
