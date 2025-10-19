@@ -5,15 +5,6 @@ Arrays in Java are used to store **multiple elements of the same type** in a sin
 
  1. Single-Dimensional Array (1D Array)
 
-A **1D array** is the simplest type of array.
-It stores data in a **linear form** (one row, multiple columns).
-
-Example:
-
-
-public class Singln
-        int[] arr = {10, 20, 30, 40, 50};
-
     
 }
 
