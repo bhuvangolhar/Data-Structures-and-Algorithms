@@ -8,24 +8,5 @@ This makes it different from the while loop, which checks the condition first.
 
 Need :
 
-Used when you want the code to run at least once, even if the condition is false.
-ute
-} 
-while (condition);
-
-
-Example :
-
-class DoWhileLoopDemo 
-{
-    public static void main(String[] args) 
-    {
-        int num = 1;
-        do 
-        {
-     
-        } 
-    
-}
 
 
