@@ -8,21 +8,7 @@
 * It is often described as a **protective shield** that prevents direct access to the data and ensures controlled interaction.
 * Encapsulation is achieved through:
 
-  1. Declaring ** as private** (data hiding).
-  2. Providing **public getter and setter methods** to access and modify the fields.
-
-
- **Key Points**
-
-1. **Data Hiding** – Fields are kept private, restricting direct external access.
-2. **Controlled Access** – Public methods (`getters` and `setters`) control how data is accessed or updated.
-
-4. **Flexibility** – You can add validation or custom logic inside getters/setters.
-5. **Reusability and Maintainability** – Encapsulation makes code modular and easier to modify.
-
- **Syntax**
-
-class ClassName {
+  1. Declaring 
     // private fields
     private int data;
 
