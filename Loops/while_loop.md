@@ -8,14 +8,5 @@ It checks the condition before executing the loop body, making it an entry-contr
 
 Example :
 
-class WhileLoopDemo 
-{
-    public static void main(String[] args) 
-    {
-     
-
-        }
-    }
-}
-
+cla
 
