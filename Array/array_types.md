@@ -8,14 +8,6 @@ Arrays in Java are used to store **multiple elements of the same type** in a sin
     
 }
 
- Key Points:
-
-* Index starts at `0` and goes till `n-1`.
-* Access is **O(1)** using `arr[index]`.
-* Used for storing simple lists (marks, prices, scores, etc.).
-
- 2. Multi-Dimensional Array (2D Array and more)
-
 A **multi-dimensional array** is an array of arrays.
 The most common form is the **2D array** (like a matrix or table).
 
