@@ -6,23 +6,10 @@
 
 * A **class** in Java is a **blueprint (template)** for creating objects.
 * It defines the **data (fields/variables)** and the **behavior (methods)** that the objects created from it will have.
-* While objects are the actu
- **Why Do We Need Classes?**
 
 * Classes bring **organization and modularity** to Java programs.
 * Instead of writing data and logic separately, classes bundle both together**.
-* They allow **code reusability** (you can create multiple objects from the same class).
-* They are essential for implementing **Object-Oriented Programming concepts** such as inheritance, encapsulation, and polymorphism.
-
-
- **Syntax of a Class**
-
-
-class ClassName {
-    // Fields (variables)
-    dataType variableName;
-
-perties of the class.
+*
    Example: `String name; int age;`
 
 2. **Methods (Member Functions)** → Define the behavior of the class.
