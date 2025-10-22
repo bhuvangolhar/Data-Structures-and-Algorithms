@@ -4,12 +4,7 @@
 **Definition**
 
 * An **object** in Java is an instance of a class.
-* While a **class** is like a blueprint or template, an object is the real-world entity created from that blueprint.
-* Objects re
-
-3. **Behavior** → The actions an object can perform (methods).
-   Example: A `Car` object can `start()`, `stop()`, `accelerate()`.
-
+* While a
 ---
 
  **Syntax**
