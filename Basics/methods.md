@@ -7,10 +7,6 @@ and modularity in a program.
 
 **Syntax :**
 
-returnType methodName(parameters)
-{
-*// method body*
-*// statements*
 return value; *// if returnType is not void*
 }
 
