@@ -68,12 +68,7 @@ class C implements A, B {
 * Common uses:
 
   1. **Call parent constructor:** `super()`
-  2. **Access parent fields or methods:** `super.fieldName`, `super.methodName()`
-
-**Example:**
-
-
-
+  2. **
     }
 }
 
@@ -99,41 +94,7 @@ Parent num: 100
 Child num: 200
 
 
-## **Method Overriding in Inheritance**
-
-* A child class can provide its **own implementation** of a method that already exists in the parent class.
-* Achieved by using the **same method name, return type, and parameters**.
-* Useful for **runtime polymorphism**.
-
-**Example:**
-
-class Animal {
-    void sound() {
-        System.out.println("Animal makes a sound");
-    }
-}
-
-class Dog extends Animal {
-    @Override
-    void sound() {
-        System.out.println("Dog barks");
-    }
-}
-
-public class OverridingDemo {
-    public static void main(String[] args) {
-        Animal a = new Dog(); // Upcasting
-        a.sound(); // Calls Dog's sound()
-    }
-}
-
-
-**Output:**
-
-
-Dog barks
-
- **Advantages of Inheritance**
+## **Method Overriding in Inheritanc **Advantages of Inheritance**
 
 1. **Code reusability** – Common code written once in the parent class can be reused.
 2. **Method overriding** – Provides flexibility to modify behavior in child classes.
