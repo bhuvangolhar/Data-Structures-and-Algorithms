@@ -17,59 +17,7 @@
 
 2. **Runtime Polymorphism (Dynamic Binding / Method Overriding)**
 
-   * The method call is resolved **at runtime**.
-   * Achieved through **method overriding** (child class provides a new implementation of a parent class method).
-
- **1. Compile-time Polymorphism (Method Overloading)**
-
- **Example**
-
-class Calculator {
-    // Add two integers
-    public int add(int a, int b) {
-        return a + b;
-    }
-
-   
-    }
-}
-
-public class OverloadingDemo {
-
-
-
-
-class Cat extends Animal {
-    @Override
-    public void sound() {
-        System.out.println("Cat meows");
-    }
-}
-
-public class OverridingDemo {
-    public static void main(String[] args) {
-        Animal a1 = new Dog(); // Upcasting
-        Animal a2 = new Cat();
-
-     
-}
-
-**Output:**
-
-
-Dog barks
-Cat meows
-
-
- The method call is decided **at runtime** based on the object type, not the reference type.
-
-
-**Real-Life Analogy**
-
-* **Compile-time polymorphism:** A **Swiss army knife** — one tool (method name), many uses depending on the situation (different parameters).
-* **Runtime polymorphism:** A **remote control** — the button (`sound()` method) is the same, but the device (object type: TV, AC, Music System) decides what 
-
-
+   * The method call is resolved **a
  **Advantages of Polymorphism**
 
 1. **Code Reusability** – Same interface, different implementations.
