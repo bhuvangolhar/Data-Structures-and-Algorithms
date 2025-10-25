@@ -12,11 +12,7 @@ Operators in Java are special symbols used to perform operations on variables an
 | -------- | ------------------- | ------- |
 | `+`      | Addition            | `a + b` |
 | `-`      | Subtraction         | `a - b` |
-| `*`       1. **Arithmetic Operators**
-
-
-| Operator | Description         | Example |
-| -------- | ------------------- | ------- |
+| `*`       1. **Arithmetic --------------- | ------- |
 | `+`      | Addition            | `a + b` |
 | `-`      | Subtraction         | `a - b` |
 | `*`      | Multiplication      | `a * b` |
@@ -33,12 +29,7 @@ class ArithmeticExample {
     public static void main(String[] args) {
         int a = 10, b = 3;
         System.out.println("a + b = " + (a + b));
-        System.out.println("a - b = " + (a - b));
- 2. **Relational Operators**
-
-Used to compare two values, returning `true` or `false`.
-
-| Operator | Description              | Example  |
+        System.out.println("a - b = " + Description              | Example  |
 | -------- | ------------------------ | -------- |
 | `==`     | Equal to                 | `a == b` |
 | `!=`     | Not equal to             | `a != b` |
