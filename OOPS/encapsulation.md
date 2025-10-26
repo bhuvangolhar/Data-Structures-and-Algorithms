@@ -8,10 +8,7 @@
 * It is often described as a **protective shield** that prevents direct access to the data and ensures controlled interaction.
 * Encapsulation is achieved through:
 
-  1. Declaring 
-    // private fields
-    private int data;
-
+  1. 
 }
  
 
@@ -47,20 +44,7 @@ Think of **capsules in medicine**:
 Similarly, in Java:
 
 * Data is hidden (`private fields`).
-* Access is controlled via `getters` and `setters`.
-
-
-**Advantages of Encapsulation**
-
-1. **Data Security** – Prevents unauthorized or accidental changes to fields.
-2. **Flexibility** – Internal implementation can change without affecting external code.
-3. **Validation Control** – Data can be checked before assigning values (e.g., age cannot be negative).
-4. **Code Reusability** – Encapsulated classes can be reused across projects.
-5. **Maintenance** – Code is modular and easy to maintain.
-
-
- **Disadvantages of Encapsulation**
-
+* Access i
 * Extra boilerplate code (getters and setters).
 * Overuse of getters/setters can reduce readability if not well-designed.
 
