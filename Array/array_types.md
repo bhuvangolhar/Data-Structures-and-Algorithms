@@ -10,17 +10,7 @@ Arrays in Java are used to store **multiple elements of the same type** in a sin
 
 A **multi-dimensional array** is an array of arrays.
 The most common form is the **2D array** (like a matrix or table).
-
- Example (2D Array):
-
-}
-
- Key Points:
-
-
-  * **Dynamic Programming (DP) tables**
-
- 3. Jagged Array (Array of Arrays)
+Arrays)
 
 A **jagged array** is a special type of 2D array where each row can have a different number of columns.
 This makes it **non-rectangular**.
@@ -49,16 +39,6 @@ public class JaggedArray {
 | ----------- | ------------------------- | ---------------------------------------- |
 | Size        | Fixed                     | Dynamic                                  |
 | Data type   | Same                      | Can use Generics (Object types)          |
-| Performance | Faster for primitive data | Slower (boxing/unboxing overhead)        |
-| Flexibility | Rigid                     | More flexible (resize, built-in methods) |
-
-
-
- Summary
-
-* **Single-Dimensional Array** → Linear, simple list.
-* **Multi-Dimensional Array** → Grids, matrices, DP problems.
-* **Jagged Array** → Non-rectangular, irregular data.
-
+| Performance |
 Arrays are **faster and memory-efficient**, but **Collections** (like `ArrayList`) provide **more flexibility**.
 
