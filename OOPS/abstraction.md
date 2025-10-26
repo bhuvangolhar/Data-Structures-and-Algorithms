@@ -10,13 +10,7 @@
 **Types of Polymorphism in Java**
 
 1. **Compile-time Polymorphism (Static Binding / Method Overloading)**
-
-   * The method call is resolved **at compile time**.
-   * Achieved through **method overloading** (same method name with different parameter lists).
-
-2. **Runtime Polymorphism (Dynamic Binding / Method Overriding)**
-
-   * The method call is resolved **at runtime**.
+ed **at runtime**.
    * Achieved through **method overriding** (child class provides a new implementation of a parent class method).
 
  **Example**
