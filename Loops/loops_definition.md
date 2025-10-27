@@ -8,10 +8,7 @@
 ● To perform automation in programs – loops make execution dynamic instead of static.
 
 Start → Check Condition → Execute Block → Update → Repeat until condition becomes false.
-
-e code readability and efficiency – makes programs shorter and easier to maintain.
-
-● To apply logic systematically – like calculating sums, factorials, or executing algorithms step by step.
+orials, or executing algorithms step by step.
 
 ● To perform automation in programs – loops make execution dynamic instead of static.
 
