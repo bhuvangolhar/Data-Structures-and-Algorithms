@@ -7,11 +7,6 @@ and modularity in a program.
 
 **Syntax :**
 
-return value; *// if returnType is not void*
-}
-
-**Examples :**
-
 
 
 **Rules :**
