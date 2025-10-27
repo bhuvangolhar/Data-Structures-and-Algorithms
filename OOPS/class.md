@@ -7,9 +7,6 @@
 * A **class** in Java is a **blueprint (template)** for creating objects.
 * It defines the **data (fields/variables)** and the **behavior (methods)** that the objects created from it will have.
 
-* Classes bring **organization and modularity** to Java programs.
-* Instead of writing data and logic separately, classes bundle both together**.
-*
    Example: `String name; int age;`
 
 2. **Methods (Member Functions)** → Define the behavior of the class.
