@@ -7,17 +7,7 @@ The enhanced for loop (also called the for-each loop) in Java is a simplified ve
 
 Best choice for read-only access of elements.
 
-Syntax :
-
-for (dataType variable : arrayOrCollection) 
-{
-    // code block using variable
-}
-
-
-
-Example with String Array :
-
+Synt
 class ForEachStringDemo 
 {
     public static void main(String[] args) 
