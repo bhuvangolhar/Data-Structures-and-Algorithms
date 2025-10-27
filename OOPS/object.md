@@ -17,9 +17,7 @@ To create an object, we use the `new` keyword:
 public class ObjectsDemo {
     public static void main(String[] args) {
         // Creating objects
-        Student s1 = new Student();
-        Student s2 = new Student();
-
+        Student s1 = 
 Student Name: Bhuvan, Age: 22
 Student Name: Riya, Age: 21
 
@@ -31,9 +29,7 @@ Student Name: Riya, Age: 21
 **Rules for Objects**
 
 * You cannot use an object without first creating it (otherwise you’ll get `NullPointerException`).
-* An object reference can point to **null**.
-* Multiple references can point to the same object.
-* Objects are stored in the **heap memory** in Java.
+* An object reference cap memory** in Java.
 
 ---
  **Objects in Real Life**
