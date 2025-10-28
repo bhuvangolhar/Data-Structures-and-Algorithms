@@ -4,12 +4,7 @@
 
 ➤ Normal strings (String class) are immutable, meaning once created, they cannot be changed.
 
-➤ Every time w
-➤ Normal strings (String class) are immutable, meaning once created, they cannot be changed.
-
-➤ Every time we modify a String, a new object is created, which can waste memory and reduce performance.
-
-➤ StringBuffer solves thi Every time we modify a String, a new object is created, which can waste memory and reduce performance.
+➤ Every time w Every time we modify a String, a new object is created, which can waste memory and reduce performance.
 
 ➤ StringBuffer solves tnot be changed.
 
