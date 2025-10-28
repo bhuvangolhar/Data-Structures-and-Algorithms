@@ -8,5 +8,8 @@ This makes it different from the while loop, which checks the condition first.
 
 Need :
 
+This makes it different from the while loop, which checks the condition first.
+
+Need :
 
 
