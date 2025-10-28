@@ -7,16 +7,7 @@ must have a type declared before use.
 Java data types are divided into two categories:
 
 • *Primitive Data Types*
-String args[])
-  {
-       *Integer types*
-        byte b = 100;
-        short s = 30000;
-        int ("Int: " + i);
-     
-   
-   }
-}
+String a
 
 2.**Non-Primitive Data Types -**
 
