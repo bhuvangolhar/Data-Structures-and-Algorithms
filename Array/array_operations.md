@@ -2,15 +2,7 @@
 **Array Operations :**
 
 • Ar
-int pos = 2, element = 25;
-for (int i = arr.length - 1; i > pos; i--) 
-{
-    arr[i] = arr[i - 1];
-}
-arr[pos] = element;
-
-**Deleting an element :**
-
+int pos = 2, element =
 • Removing an element from a given position.
 • Requires shifting remaining elements to fill the gap.
 
