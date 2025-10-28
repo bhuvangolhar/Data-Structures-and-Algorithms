@@ -7,12 +7,7 @@ Arrays in Java are used to store **multiple elements of the same type** in a sin
 
     
 }
-
-A **multi-dimensional array** is an array of arrays.
-The most common form is the **2D array** (like a matrix or table).
-Arrays)
-
-A **jagged array** is a special type of 2D array where each row can have a different number of columns.
+cial type of 2D array where each row can have a different number of columns.
 This makes it **non-rectangular**.
 
  Example:
