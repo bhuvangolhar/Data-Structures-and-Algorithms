@@ -44,7 +44,14 @@ Used to assign values to variables.
 
 | Operator | Example  | Equivalent       |
 | -------- | -------- | ---------------- |
-| `=`      | `a = 5`  | Assigns 5 to `a` |
+| `=`      |------------------ | ------- |
+| `+`      | Addition            | `a + b` |
+| `-`      | Subtraction         | `a - b` |
+| `*`       1. **Arithmetic --------------- | ------- |
+| `+`      | Addition            | `a + b` |
+| `-`      | Subtraction         | `a - b` |
+| `*`      | Multiplication      | `a * b` |
+| `/`      | Division       `a = 5`  | Assigns 5 to `a` |
 | `+=`     | `a += 3` | `a = a + 3`      |
 
 
