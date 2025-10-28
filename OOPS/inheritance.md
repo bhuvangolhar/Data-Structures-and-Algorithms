@@ -8,32 +8,7 @@ class Parent {
     // fields and methods
 }
 
-class Child extends Parent {
-    // additional fields and methods
-}
-
-**Example 1: Basic Inheritance**
-
-
-
-
-
-**Types of Inheritance in Java**
-
-Unlike C++ (which supports multiple inheritance via classes), Java supports only **single inheritance with classes** to avoid ambiguity (diamond problem).
-However, multiple inheritance is possible with **interfaces**.
-
-1. **Single Inheritance**
-
-One child inherits from one parent.
-
-
-class Animal { void eat() { System.out.println("Eating..."); } }
-class Dog extends Animal { void bark() { System.out.println("Barking..."); } }
-
- 2. **Multilevel Inheritance**
-
-A class inherits from a class which itself inherits from another class.
+cla
 
 
 class Animal { void eat() { System.out.println("Eating..."); } }
