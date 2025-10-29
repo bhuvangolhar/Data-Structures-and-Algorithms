@@ -27,7 +27,7 @@ Type Casting :**
 
 ● Widening is safe and automatic.
 ● Narrowing requires explicit cast and may lose precision.
-Type Casting :**
+Type Cas :**
 
 
 
