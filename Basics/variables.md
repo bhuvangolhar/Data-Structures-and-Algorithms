@@ -2,11 +2,7 @@ hu
 **Definiton :**
 
 A variable is like a container in memory that stores data.
-Every variable has like,
-- a name (identifier)
-
-
-**Syntax :**
+Every variab
 
 dataType variableName = value;
 
