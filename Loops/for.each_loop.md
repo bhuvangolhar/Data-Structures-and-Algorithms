@@ -14,7 +14,7 @@ class ForEachStringDemo
     {
    
         {
-            System.out.println("Hello, " + name);
+            System.ouprintln("Hello, " + name);
         }
     }
 }
