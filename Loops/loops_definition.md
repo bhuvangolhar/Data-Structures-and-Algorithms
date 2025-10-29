@@ -7,8 +7,7 @@
 
 ● To perform automation in programs – loops make execution dynamic instead of static.
 
-Start → Check Condition → Execute Block → Update → Repeat until condition becomes false.
-orials, or executing algorithms step by step.
+Start → Check Conditirithms step by step.
 
 ● To perform automation in programs – loops make execution dynamic instead of static.
 
