@@ -49,12 +49,6 @@ class HDFC extends Bank {
     }
 }
 
-public class BankDemo {
-    public static void main(String[] args) {
-        Bank b1 = new SBI();
-        Bank b2 = new HDFC();
-
-    
 }
 
 **Output:**
