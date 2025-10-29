@@ -9,10 +9,7 @@ and modularity in a program.
 
 
 
-**Rules :**
-
-→ Must be declared inside a class.
-→ Method name should follow Java naming rules (start with lowercase, meaningful name).
+**Rules uld follow Java naming rules (start with lowercase, meaningful name).
 
 
 {
