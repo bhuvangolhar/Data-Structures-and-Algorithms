@@ -8,18 +8,7 @@
 * It is one of the **four pillars of Object-Oriented Programming (OOPs)** (along with Inheritance, Encapsulation, and Abstraction).
 
 
- **Types of Polymorphism in Java**
-
-1. **Compile-time Polymorphism (Static Binding / Method Overloading)**
-
-   * The method call is resolved **at compile time**.
-   * Achieved through **method overloading** (same method name with different parameter lists).
-
-2. **Runtime Polymorphism (Dynamic Binding / Method Overriding)**
-
-   * The method call is resolved **a
- **Advantages of Polymorphism**
-
+ **Types of Polymorphism i
 1. **Code Reusability** – Same interface, different implementations.
 2. **Flexibility** – Easy to extend and modify programs.
 3. **Maintainability** – Clean and modular code.
