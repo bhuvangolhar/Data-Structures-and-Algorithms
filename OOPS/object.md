@@ -7,11 +7,6 @@
 * While a
 ---
 
- **Syntax**
-
-To create an object, we use the `new` keyword:
-
-
 }
 
 public class ObjectsDemo {
