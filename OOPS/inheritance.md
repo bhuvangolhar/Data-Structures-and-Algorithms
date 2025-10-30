@@ -12,14 +12,6 @@ cla
 
 
 class Animal { void eat() { System.out.println("Eating..."); } }
-
-
-### 3. **Hierarchical Inheritance**
-
-Multiple child classes inherit from a single parent class.
-
-
-class Animal { void eat() { System.out.println("Eating..."); } }
 class Dog extends Animal { void bark() { System.out.println("Barking..."); } }
 class Cat extends Animal { void meow() { System.out.println("Meowing..."); } }
 
