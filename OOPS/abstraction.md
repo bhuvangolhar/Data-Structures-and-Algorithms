@@ -7,10 +7,6 @@
 * In Java, polymorphism allows the **same entity (method or object)** to behave differently in different contexts.
 * It is one of the **four pillars of Object-Oriented Programming (OOPs)** (along with Inheritance, Encapsulation, and Abstraction).
 
-**Types of Polymorphism in Java**
-
-1. **Compile-time Polymorphism (Static Binding / Method Overloading)**
-ed **at runtime**.
    * Achieved through **method overriding** (child class provides a new implementation of a parent class method).
 
  **Example**
