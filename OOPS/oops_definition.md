@@ -4,11 +4,7 @@
 
 
 **Core Concepts of OOPS -**
-(methods) that the objects will have.
-
-
-
-**Core Concepts of OOPS -**
+(methods) that the objects 
 (methods) that the objects will have.
 
 
