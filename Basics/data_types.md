@@ -6,9 +6,7 @@ must have a type declared before use.
 
 Java data types are divided into two categories:
 
-• *Primitive Data Types*
-String a
-
+• *Primitive Da
 2.**Non-Primitive Data Types -**
 
 Non-primitive types (also called reference types) are more complex and are redefined and faster.
