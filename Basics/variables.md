@@ -7,10 +7,6 @@ Every variab
 dataType variableName = value;
 
 
-1) Local Variable – declared inside a method, accessible only there.
-
-
-
 
 **Output :**
 
