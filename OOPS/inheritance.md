@@ -56,12 +56,7 @@ public class SuperDemo {
 **Output:**
 
 
-Parent show()
-Parent num: 100
-Child num: 200
-
-
-## **Method Overriding in Inheritanc **Advantages of Inheritance**
+Advantages of Inheritance**
 
 1. **Code reusability** – Common code written once in the parent class can be reused.
 2. **Method overriding** – Provides flexibility to modify behavior in child classes.
