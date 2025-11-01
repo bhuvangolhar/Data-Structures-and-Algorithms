@@ -60,15 +60,7 @@ public class ObjectsExample {
 **Output:**
 
 ```
-Brand: BMW, Speed: 220 km/h
-Brand: Maruti, Speed: 120 km/h
-```
-
----
-
-**Conclusion**
-
-* Objects are the **core building blocks** of Object-Oriented Programming in Java.
+building blocks** of Object-Oriented Programming in Java.
 * They represent **real-world entities** with **state and behavior**.
 * Understanding objects is crucial for mastering **OOP concepts** like inheritance, polymorphism, and encapsulation.
 
