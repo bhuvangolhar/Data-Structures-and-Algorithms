@@ -31,12 +31,6 @@ class SBI extends Bank {
     }
 }
 
-class HDFC extends Bank {
-    @Override
-    public double getRateOfInterest() {
-        return 6.8;
-    }
-}
 
 }
 
