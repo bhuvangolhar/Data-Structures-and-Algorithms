@@ -18,17 +18,7 @@
 ## **Example: Bank Account with Runtime Polymorphism**
 
 
-class Bank {
-    public double getRateOfInterest() {
-        return 0.0;
-    }
-}
 
-class SBI extends Bank {
-    @Override
-    public double getRateOfInterest() {
-        return 5.5;
-    }
 }
 
 
