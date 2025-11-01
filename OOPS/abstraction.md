@@ -46,8 +46,7 @@ class Cat extends Animal {
 }
 
 public class OverridingDemo {
-    public static void main(String[] args) {
-        Animal a1 = new Dog(); // Upcasting
+     new Dog(); // Upcasting
         Animal a2 = new Cat();
 
 **Output:**
