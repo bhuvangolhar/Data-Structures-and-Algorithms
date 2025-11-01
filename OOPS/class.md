@@ -12,8 +12,6 @@
     int age;
 
    
-public class ClassDemo {
-    public static void main(String[] args) {
 
 }
 
@@ -71,13 +69,7 @@ public class ClassExample {
 }
 
 
-**Output:**
-
-BMW is starting...
-BMW accelerated to 150 km/h
-
-
-
+*
 
  **Class vs Object**
 
