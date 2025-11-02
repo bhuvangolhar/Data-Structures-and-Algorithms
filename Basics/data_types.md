@@ -1,12 +1,7 @@
 
 **Data Types :**
 
-In Java, data types define the type of values a variable can store. Java is a strongly typed language, which means every variable
-must have a type declared before use.
-
-Java data types are divided into two categories:
-
-• *Primitive Da
+In Java, data type
 2.**Non-Primitive Data Types -**
 
 Non-primitive types (also called reference types) are more complex and are redefined and faster.
