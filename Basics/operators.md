@@ -12,10 +12,7 @@ Operators in Java are special symbols used to perform operations on variables an
 | -------- | ------------------- | ------- |
 | `+`      | Addition            | `a + b` |
 | `-`      | Subtraction         | `a - b` |
-| `*`       1. **Arithmetic --------------- | ------- |
-| `+`      | Addition            | `a + b` |
-| `-`      | Subtraction         | `a - b` |
-| `*`      | Multiplication      | `a * b` |
+|   | `a * b` |
 | `/`      | Division            | `a / b` |
 | `%`      | Modulus (remainder) | `a % b` |
 
@@ -48,11 +45,7 @@ Used to assign values to variables.
 | `+`      | Addition            | `a + b` |
 | `-`      | Subtraction         | `a - b` |
 | `*`       1. **Arithmetic --------------- | ------- |
-| `+`      | Addition            | `a + b` |
-| `-`      | Subtraction         | `a - b` |
-| `*`      | Multiplication      | `a * b` |
-| `/`      | Division       `a = 5`  | Assigns 5 to `a` |
-| `+=`     | `a += 3` | `a = a + 3`      |
+| `+ a + 3`      |
 
 
 
