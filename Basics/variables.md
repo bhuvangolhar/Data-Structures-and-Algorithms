@@ -2,12 +2,7 @@ hu
 **Definiton :**
 
 A variable is like a container in memory that stores data.
-Every variab
-
-dataType variableName = value;
-
-
-
+Every
 **Output :**
 
 Local Variable : 50
