@@ -7,12 +7,7 @@ Arrays in Java are used toy (1D Array)
 }
 cial type of 2D array where each row can have a different number of columns.
 This makes it **non-rectangular**.
-
- Example:
-
-public class JaggedArray {
-    public static void main(String[] args) {
-        // Declaration
+tion
         int[][] jagged = new int[3][];
 
     
