@@ -6,7 +6,6 @@ It is an exit-controlled loop, because the condition is checked after executing 
 
 This makes it different from the while loop, which checks the condition first.
 
-Need :
 
 This makes it different from the while loop, which checks the condition first.
 
