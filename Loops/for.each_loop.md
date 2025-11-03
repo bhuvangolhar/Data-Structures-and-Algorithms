@@ -1,15 +1,18 @@
 
-Enhanced For Loop (For-Each Loop)
+
+
+
+Output :
+
+Hello, Alice
+Hello, Bob
+Hello,Enhanced For Loop (For-Each Loop)
 
 Definition :
 
 The enhanced for loop (also called the for-each loop) in Java is a simplified version of the for loop.
 
-Best choice for read-only access of elements.
 
-Synt
-class ForEachStringDemo 
-{
     public static void main(String[] args) 
     {
    
@@ -17,13 +20,6 @@ class ForEachStringDemo
             System.ouprintln("Hello, " + name);
         }
     }
-}
-
-
-Output :
-
-Hello, Alice
-Hello, Bob
-Hello, Charlie
+} Charlie
 
 
