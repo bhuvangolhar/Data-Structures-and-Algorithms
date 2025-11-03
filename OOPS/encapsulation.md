@@ -14,13 +14,6 @@
 
 }
 
-     s1 = new Student();
-
-      
-        // Trying invalid value
-        s1.setAge(-5);  // Will print validation message
-    }
-}
 
 
 **Output:**
@@ -52,15 +45,6 @@ Similarly, in Java:
 class BankAccount {
     private double balance;
 
-    // Deposit money
-    public void deposit(double amount) {
-        if (amount > 0) {
-            balance += amount;
-            System.out.println("Deposited: " + amount);
-        } else {
-            System.out.println("Invalid deposit amount!");
-        }
-    }
 
     // Withdraw money
     public void withdraw(double amount) {
@@ -103,12 +87,4 @@ Invalid or insufficient balance!
 * Whenever you need **controlled access** to class fields.
 * When **sensitive data** should not be exposed directly (e.g., passwords, account balance).
 * For **maintainability** – easier to refactor without breaking dependent code.
-
-
- **Conclusion**
-
-* Encapsulation is about **binding data and methods** into a single unit (class).
-* Achieved by **making fields private** and using **public getters/setters**.
-* It provides **security, flexibility, and maintainability**.
-* Along with **inheritance and polymorphism**, encapsulation makes Java OOP **robust and reliable**.
 
