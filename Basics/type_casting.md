@@ -7,19 +7,6 @@
   }
 }
 
-Type Casting :**
-
-
-
-    System.out.println("Integer (after narrowing): " + num);
-  }
-}● Widening is safe and automatic.
-● Narrowing requires explicit cast and stem.out.println("Integer (after narrowing): " + num);
-  }
-}
-
-Type Casting :**
-
 
 
     System.out.println("Integer (after narrowing): " + num);
