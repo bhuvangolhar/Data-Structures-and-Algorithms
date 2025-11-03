@@ -8,9 +8,7 @@
 
 ➤ StringBuffer solves tnot be changed.
 
-➤ Every time we modify a String, a new object is created, which can waste memory and reduce performance.
-
-➤ StringBuffer solves this by allowing mutable strings, so we can modify the same object without creating a new one.
+➤ Ev
 
 ➤ It supports operations like append(), insert(), delete(), and reverse() to manipulate text.
 
