@@ -5,10 +5,7 @@ Arrays in Java are used toy (1D Array)
 
     
 }
-cial type of 2D array where each row can have a different number of columns.
-This makes it **non-rectangular**.
-tion
-        int[][] jagged = new int[3][];
+cial type of 2D arw int[3][];
 
     
 
