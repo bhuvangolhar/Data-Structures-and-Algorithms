@@ -9,10 +9,4 @@ and modularity in a program.
 
 and modularity in a program.
 
-**Syntax :**
 *
-
-ult);
-
-}
-
