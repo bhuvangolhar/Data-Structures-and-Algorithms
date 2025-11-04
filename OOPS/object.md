@@ -12,11 +12,7 @@
 public class ObjectsDemo {
     public static void main(String[] args) {
         // Creating objects
-        Student s1 = 
-Student Name: Bhuvan, Age: 22
-Student Name: Riya, Age: 21
-
-2. **Using `newInstance()` method** of `Class` class.
+        Stu method** of `Class` class.
 3. **Using clone() method** (copies an existing object).
 4. **Using deserialization** (re-creating object from a file/stream).
 
