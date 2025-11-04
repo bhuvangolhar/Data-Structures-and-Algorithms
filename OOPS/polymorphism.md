@@ -14,16 +14,6 @@
 3. **Maintainability** – Clean and modular code.
 4. **Dynamic Behavior** – Program behavior can be determined at runtime.
 
-
-## **Example: Bank Account with Runtime Polymorphism**
-
-
-
-}
-
-
-}
-
 **Output:**
 
 SBI Interest Rate: 5.5
