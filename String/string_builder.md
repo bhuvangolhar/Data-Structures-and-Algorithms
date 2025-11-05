@@ -3,12 +3,11 @@
 
 ➤ Lack of synchronization makes it faster and more efficient than StringBuffer in single-threaded programs.
 
-➤ Like StringBuffer,
-➤ Faster than both String (immutab➤ Lack of synchronization makes it faster and more efficient than StringBuffer in single-threaded programs.
+.
 
 ➤ Like StringBuffer, it also creates mutable strings that can be changed without making new objects.
 
-➤ L
+
 
 ➤ *Example use case -* Building dynamic text like sentences, messages, or logs quickly.
 
