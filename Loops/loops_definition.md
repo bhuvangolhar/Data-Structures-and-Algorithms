@@ -8,12 +8,7 @@ art → Check Conditirithms step by step.
 
 ● To perform automation in programs – loops make execution dynamic instead of static.
 
-Start → Check Condition → Execute Block → Update → Repeat until condition becomes false.
-
-
-● To perform automation in programs – loops make execution dynamic instead of static.
-
-Start → Check Conditirithms step by step.
+Sta
 
 ● To perform automation in programs – loops make execution dynamic instead of static.
 
