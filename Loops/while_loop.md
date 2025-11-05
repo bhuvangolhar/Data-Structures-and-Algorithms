@@ -6,14 +6,3 @@ It checks the condition before executing the loop body, making it an entry-contr
 
 ontrolled loop.
 
-
-
-Example :
-
-Example :
-
-
-Example :
-
-cla
-
