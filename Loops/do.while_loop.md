@@ -4,11 +4,5 @@ A do-while loop in Java executes a block of code at least once, and then keeps r
 
 It is an exit-controlled loop, because the condition is checked after executing the loop body.
 
-This makes it different from the while loop, which checks the condition first.
-
-
-This m which checks the condition first.
-
-Need :
 
 
