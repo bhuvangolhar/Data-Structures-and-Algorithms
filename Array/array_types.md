@@ -13,13 +13,7 @@ cial type of 2D arw int[3][];
     }
 }
 
- Key Points:
-
-* Each row has a different length.
-* Useful when data is naturally irregular (like storing marks of students where each student appeared for different number of subjects).
-
- Arrays vs Collections
-
+ Ke
 | Feature     | Arrays                    | Collections (ArrayList, etc.)            |
 | ----------- | ------------------------- | ---------------------------------------- |
 | Size        | Fixed                     | Dynamic                                  |
