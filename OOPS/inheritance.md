@@ -8,15 +8,7 @@ class Parent {
     // fields and methods
 }
 
-cla
-
-
-class Animal { void eat() { System.out.println("Eating..."); } }
-class Dog extends Animal { void bark() { System.out.println("Barking..."); } }
-class Cat extends Animal { void meow() { System.out.println("Meowing..."); } }
-
-
-### 4. **Multiple Inheritance (through interfaces only)**
+claterfaces only)**
 
 Java does not allow multiple inheritance with classes, but it allows it with **interfaces**.
 
@@ -52,22 +44,6 @@ public class SuperDemo {
     }
 }
 
-
-**Output:**
-
-
-Advantages of Inheritance**
-
-1. **Code reusability** – Common code written once in the parent class can be reused.
-2. **Method overriding** – Provides flexibility to modify behavior in child classes.
-3. **Polymorphism** – Enables runtime method resolution (dynamic binding).
-4. **Organized structure** – Better hierarchy of related classes.
-
-**Limitations of Inheritance**
-
-* **Tight coupling** between parent and child.
-* Changes in the parent class may affect all child classes.
-* Java supports only **single inheritance with classes** (but allows multiple with interfaces).
 
 
 **Class Diagram (Example)**
