@@ -46,22 +46,7 @@ class Cat extends Animal {
 }
 
 public class OverridingDemo {
-     new Dog(); // Upcasting
-        Animal a2 = new Cat();
-
-**Output:**
-
-
-Dog barks
-Cat meows
-The method call is decided **at runtime** based on the object type, not the reference type.
-
- **Real-Life Analogy**
-
-* **Compile-time polymorphism:** A **Swiss army knife** — one tool (method name), many uses depending on the situation (different parameters).
-* **Runtime polymorphism:** A **remote control** — the button (`sound()` method) is the same, but the device (object type: TV, AC, Music System) decides what actually happens.
-
- **Advantages of Polymorphism**
+ 
 
 1. **Code Reusability** – Same interface, different implementations.
 2. **Flexibility** – Easy to extend and modify programs.
