@@ -48,17 +48,7 @@ Name: Riya, Age: 21
 * The class is loaded once by the **ClassLoader** into JVM memory.
 
 
-
- **Example 2: Class with Methods**
-
-class Car {
-    String brand;
-    int speed;
-
-
-
-public class ClassExample {
-    public static void main(String[] args) {
+(String[] args) {
         Car c1 = new Car();
         c1.brand = "BMW";
         c1.speed = 100;
