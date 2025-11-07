@@ -3,11 +3,7 @@
 
 ➤ Lack of synchronization makes it faster and more efficient than StringBuffer in single-threaded programs.
 
-.
-
 ➤ Like StringBuffer, it also creates mutable strings that can be changed without making new objects.
-
-
 
 ➤ *Example use case -* Building dynamic text like sentences, messages, or logs quickly.
 
@@ -18,4 +14,3 @@
 ➤ Commonly used in loops, handling large text, and joining strings efficiently.
 
 ➤ *Example use case -* Building dynamic text like sentences, messages, or logs quickly.
-
