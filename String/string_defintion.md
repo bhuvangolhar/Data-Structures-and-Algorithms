@@ -2,6 +2,5 @@
 **Definition of a String :**
 
 A string in Java is a sequence of characters written inside double quotes. It is used to represent text, such as words, sentences, or symbols. For example, "Hello", 
-the most commonly used data types in any program because almost every application needs to handle text in some form, whether it is a name, a message, or a user input.
-
-o perform many operations on text, such as repeatedly appending, inserting, or deleting characters. But in most simple cases, using the String class itself is enough. Overall, strings are one of the most essential tools in Java programming, and understanding how they work is important for both basic coding and advanced problem solving.
+the most commonly used data types in any program because almost every application needs to handle text in some form a message, or a user input.
+perform many operations on text, such as repeatedly appending, inserting, or deleting characters. But in most simple cases, using the String class itself is enough. Overall, strings are one of the most essential tools in Java programming, and understanding how they work is important for both basic coding and advanced problem solving.
