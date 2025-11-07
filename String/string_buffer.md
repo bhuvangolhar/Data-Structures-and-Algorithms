@@ -8,8 +8,6 @@
 
 ➤ StringBuffer solves tnot be changed.
 
-➤ Ev
-
 ➤ It supports operations like append(), insert(), delete(), and reverse() to manipulate text.
 
 ➤ *Example -* StringBuffer sb = new StringBuffer("Hello"; sb.append("World"); → HelloWorld
