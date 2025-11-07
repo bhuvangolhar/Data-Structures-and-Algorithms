@@ -15,3 +15,10 @@ Static Variable : 200
 iable : 50
 Instance Variable : 100
 Static Variable : 200
+
+Local Variable : 50
+Instance Variable : 100
+Static Variable : 200
+iable : 50
+Instance Variable : 100
+Static Variable : 200
