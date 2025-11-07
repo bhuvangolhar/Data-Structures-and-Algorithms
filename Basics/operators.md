@@ -32,16 +32,7 @@ Used to assign values to variables.
 | `=`      |------------------ | ------- |
 | `+`      | Addition            | `a + b` |
 | `-`      | Subtraction         | `a - b` |
-| `*`       1. **Arithmetic --------------- | ------- |
-| `+ a + 3`      |
-
-
-
- 5. **Unary Operators**
-
-Work on a single operand.
-
-| Operator | Description            | Example        |
+|
 | -------- | ---------------------- | -------------- |
 | `++`     | Increment by 1         | `a++` or `++a` |
 |
