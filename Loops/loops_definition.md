@@ -4,11 +4,10 @@
 ● To improve code readability and efficiency – makes programs shorter and easier to maintain.
 
 ● To apply logic systematically – like calculating sums, factorials, or executing algorithms step by step.
-art → Check Conditirithms step by step.
+
 
 ● To perform automation in programs – loops make execution dynamic instead of static.
 
-Sta
 
 ● To perform automation in programs – loops make execution dynamic instead of static.
 
