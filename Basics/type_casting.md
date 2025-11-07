@@ -19,12 +19,6 @@
 
 
 
-● Widening is safe and automatic.
-● Narrowing requires explicit cast and may lose precision.
-Type Cas :**
-
-
-
     System.out.println("Integer (after narrowing): " + num);
   }
 }
