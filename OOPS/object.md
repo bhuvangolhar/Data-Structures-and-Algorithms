@@ -4,17 +4,7 @@
 **Definition**
 
 * An **object** in Java is an instance of a class.
-* While a
----
-
-}
-
-public class ObjectsDemo {
-    public static void main(String[] args) {
-        // Creating objects
-        Stu method** of `Class` class.
-3. **Using clone() method** (copies an existing object).
-4. **Using deserialization** (re-creating object from a file/stream).
+* Wion** (re-creating object from a file/stream).
 
 
 **Rules for Objects**
