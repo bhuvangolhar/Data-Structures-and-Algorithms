@@ -11,8 +11,7 @@
  **Types of Polymorphism i
 1. **Code Reusability** – Same interface, different implementations.
 2. **Flexibility** – Easy to extend and modify programs.
-3. **Maintainability** – Clean and modular code.
-4. **Dynamic Behavior** – Program behavior can be determined at runtime.
+
 
 **Output:**
 
