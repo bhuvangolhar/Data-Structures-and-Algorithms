@@ -26,15 +26,21 @@ a) **Loop Body:**
 b) **Condition:**
 
    ‣ A **boolean expression** evaluated **after** the execution of the loop body.
+   
    ‣ If the condition is **true**, the loop executes again.
+   
    ‣ If the condition is **false**, the loop stops, and control moves to the next statement after the loop.
 
 **Flow of Execution:**
 
 1. The program **enters the loop body** and executes it **once**, without checking the condition initially.
+   
 2. After executing the body, the **condition is evaluated**.
+   
 3. If the condition is **true**, the loop body executes again.
+   
 4. This process repeats until the condition becomes **false**.
+   
 5. When the condition is false, control moves to the statement following the loop.
 
 **Example:**
@@ -55,9 +61,13 @@ class Example
 **Output:**
 
 Count: 1
+
 Count: 2
+
 Count: 3
+
 Count: 4
+
 Count: 5
 
 **Key Points:**
