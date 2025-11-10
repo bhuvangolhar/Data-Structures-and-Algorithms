@@ -21,6 +21,7 @@ while (condition);
 a) **Loop Body:**
 
    ‣ Contains the statements that need to be executed repeatedly.
+   
    ‣ This block executes **at least once**, even if the condition is false initially.
 
 b) **Condition:**
