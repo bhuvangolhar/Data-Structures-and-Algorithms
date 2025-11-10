@@ -16,14 +16,19 @@ for (dataType variable : collectionOrArray)
 **Explanation of Components:**
 
 a) **dataType** – The type of elements stored in the array or collection (e.g., `int`, `String`, `double`).
+
 b) **variable** – A temporary variable that holds each element during iteration.
+
 c) **collectionOrArray** – The array or collection whose elements are to be accessed one by one.
 
 **Flow of Execution:**
 
 1] The loop starts by picking the **first element** from the array or collection and assigning it to the loop variable.
+
 2] The body of the loop executes using that element.
+
 3] Then it moves to the **next element**, repeating the process until all elements have been processed.
+
 4] The loop automatically stops after reaching the **last element** — no need for a condition or counter.
 
 **Example with Array:**
@@ -43,9 +48,13 @@ class Example
 **Output:**
 
 Number: 10
+
 Number: 20
+
 Number: 30
+
 Number: 40
+
 Number: 50
 
 **Example with Collection (ArrayList):**
@@ -70,7 +79,9 @@ class Example
 **Output:**
 
 Name: Alice
+
 Name: Bob
+
 Name: Charlie
 
 **Key Points:**
