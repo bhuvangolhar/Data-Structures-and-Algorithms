@@ -76,7 +76,11 @@ Name: Charlie
 **Key Points:**
 
 – The for-each loop is ideal for **read-only access** to elements of arrays or collections.
+
 – It **cannot modify** the underlying structure of a collection (e.g., cannot remove elements during iteration).
+
 – It **does not use an index**, so you cannot directly access the position of an element.
+
 – It helps prevent **off-by-one errors** common in traditional for loops.
+
 – Internally, the loop uses the **Iterator** interface for collections and **index-based iteration** for arrays.
