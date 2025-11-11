@@ -3,13 +3,7 @@
 
  **Definition**
 
-* **Polymorphism** means *many forms*.
-* In Java, polymorphism allows the **same entity (method or object)** to behave differently in different contexts.
-* It is one of the **four pillars of Object-Oriented Programming (OOPs)** (along with Inheritance, Encapsulation, and Abstraction
-
-**Output:**
-
-SBI Interest Rate: 5.5
+* **P
 HDFC Interest Rate: 6.8
 
 
