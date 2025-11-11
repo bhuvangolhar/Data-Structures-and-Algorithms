@@ -19,14 +19,6 @@ class Calculator {
 
    
 
- 
-
-Same method name `add` performs different actions depending on the parameters.
-
- **2. Runtime Polymorphism (Method Overriding)**
-
-**Example**
-
 class Animal {
     public void sound() {
         
