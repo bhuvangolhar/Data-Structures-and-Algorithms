@@ -5,9 +5,7 @@
 
 * **Polymorphism** means *many forms*.
 * In Java, polymorphism allows the **same entity (method or object)** to behave differently in different contexts.
-* It is one of the **four pillars of Object-Oriented Programming (OOPs)** (along with Inheritance, Encapsulation, and Abstraction).
-
-   * Achieved through **method overriding** (child class provides a new implementation of a parent class method).
+* I**method overriding** (child class provides a new implementation of a parent class method).
 
  **Example**
 
@@ -32,15 +30,7 @@ class Dog extends Animal {
 
 class Cat extends Animal {
     @Override
-    public void sound() {
-        System.out.println("Cat meows");
-    }
-}
-
-public class OverridingDemo {
- 
-
-1. **Code Reusability** – Same interface, different implementations.
+    p – Same interface, different implementations.
 2. **Flexibility** – Easy to extend and modify programs.
 3. **Maintainability** – Clean and modular code.
 4. **Dynamic Behavior** – Program behavior can be determined at runtime.
