@@ -1,141 +1,167 @@
 
 **Definition:**
 
-**Polymorphism** is one of the core concepts of Object-Oriented Programming System (OOPs) in Java. The word 
-*“Polymorphism”* comes from two Greek words — **“poly” (many)** and **“morph” (forms)** — meaning `“many forms.”` 
-In simple terms, polymorphism allows one object or method to behave in multiple ways depending on the context. 
-It enables the same method name or operator to perform different actions based on the type of object that it is 
-acting upon. Polymorphism in Java is the ability of an object to take many forms, allowing the same method or 
-interface to represent different behaviors at runtime or compile time.
+**Abstraction** is one of the four main pillars of Object-Oriented Programming System (OOPs)** in Java (along with 
+Encapsulation, Inheritance, and Polymorphism). It focuses on hiding the internal implementation details and showing 
+only the essential features of an object or system. In simple words, abstraction allows you to *focus on what an object 
+does* rather than *how it does it*. It helps simplify complex systems by breaking them down into more manageable and 
+understandable parts.Abstraction in Java is the process of **hiding complex implementation details** and exposing only  
+the necessary functionalities to the user. It enables a programmer to use objects, methods, or classes without needing 
+to understand their inner workings.
 
 **Key Ideas:**
 
-Polymorphism lets you **write flexible, reusable, and maintainable code**. It’s what allows a single method name to be 
-used for different types of objects — and Java automatically decides which version of the method to call.
+Abstraction is like using a **TV remote** — you press buttons (methods) to change the channel or volume, but you don’t 
+need to know the **complex circuitry** inside the remote.
 
-**Types of Polymorphism in Java:**
+Java achieves abstraction mainly through:
 
-1. **Compile-Time Polymorphism (Static Binding) -**
+a] **Abstract classes**, and
+b] **Interfaces**.
 
-   • Achieved through method overloading.
-   • The method to be executed is determined at compile time.
-   • Example: Same method name but different parameter lists within a class.
+**a] Abstract Classes -**
 
-2. **Run-Time Polymorphism (Dynamic Binding) -**
+An **abstract class** is a class declared with the `abstract` keyword.
 
-   • Achieved through method overriding.
-   • The method to be executed is determined at runtime, based on the object’s actual type.
-   • Example: A subclass provides a specific implementation of a method already defined in its superclass.
+▪ It cannot be instantiated directly (i.e., you can’t create objects of it).
+▪ It can contain both abstract methods (without implementation) and non-abstract methods (with implementation).
+▪ Used when you want to provide a base class that other classes can extend and customize.
 
-**Example (Compile-Time Polymorphism) [Method Overloading]:**
+**Syntax:**
 
-class MathOperation 
+abstract class ClassName 
 {
-    // Method with one parameter
-    int add(int a) 
-    {
-        return a + 10;
-    }
-    // Overloaded method with two parameters
-    int add(int a, int b) 
-    {
-        return a + b;
-    }
-}
-class Example 
-{
-    public static void main(String[] args) 
-    {
-        MathOperation obj = new MathOperation();
-        System.out.println(obj.add(5));          // Calls method with one argument
-        System.out.println(obj.add(5, 10));     // Calls method with two arguments
+    abstract void methodName();        // abstract method (no body)
+    void normalMethod()                 // concrete method (has body)
+    {       
+         // code here
     }
 }
 
-**Output:**
+**Example (Using Abstract Class):**
 
-15
-15
-
-**Explanation:**
-
-The compiler determines *which method to call* based on the number of arguments, so this is 
-**compile-time polymorphism**.
-
-**Example (Run-Time Polymorphism) [Method Overriding]:**
-
-class Animal 
+abstract class Animal 
 {
-    void sound() 
+    // Abstract method (no implementation)
+    abstract void sound();
+    // Non-abstract method
+    void sleep() 
     {
-        System.out.println("Animal makes a sound");
+        System.out.println("Animal is sleeping...");
     }
 }
 class Dog extends Animal 
 {
-    // Overriding the method of parent class
+    // Providing implementation for abstract method
     void sound() 
     {
         System.out.println("Dog barks");
     }
 }
-class Cat extends Animal 
-{
-    void sound() 
-    {
-        System.out.println("Cat meows");
-    }
-}
 class Example 
 {
     public static void main(String[] args) 
     {
-        Animal a;           // Reference variable of parent class
-        a = new Dog();      // Object of Dog class
-        a.sound();          // Calls Dog’s version
-        a = new Cat();      // Object of Cat class
-        a.sound();          // Calls Cat’s version
+        Animal a = new Dog();          // Upcasting
+        a.sound();                      // Calls Dog’s implementation
+        a.sleep();                       // Calls Animal’s non-abstract method
     }
 }
 
 **Output:**
 
 Dog barks
-Cat meows
+Animal is sleeping...
 
 **Explanation:**
 
-Although the variable `a` is of type `Animal`, the method that gets executed depends on the actual object type 
-(`Dog` or `Cat`) at runtime — hence it’s **runtime polymorphism**.
+▪ The **abstract class `Animal`** defines a general structure — all animals can “make a sound” and “sleep.”
+▪ The **`Dog`** class provides the specific implementation of the `sound()` method.
+▪ This helps in hiding details while allowing flexibility for subclasses.
+
+**b] Interfaces -**
+
+An **interface** in Java is a *completely abstract structure* that can contain only abstract methods (until Java 7) 
+and default/static methods (from Java 8 onward).
+
+▪ It defines **what a class must do**, not **how** it does it.
+▪ A class implements an interface and provides the actual behavior.
+
+**Syntax:**
+
+interface InterfaceName 
+{
+    void methodName();          // abstract method
+}
+
+**Example (Using Interface):**
+
+interface Vehicle 
+{
+    void start();               // abstract method
+}
+class Car implements Vehicle 
+{
+    public void start() 
+    {
+        System.out.println("Car starts with a key");
+    }
+}
+class Bike implements Vehicle 
+{
+    public void start() 
+    {
+        System.out.println("Bike starts with a button");
+    }
+}
+class Example 
+{
+    public static void main(String[] args) 
+    {
+        Vehicle v1 = new Car();
+        Vehicle v2 = new Bike();
+        v1.start();
+        v2.start();
+    }
+}
+
+**Output:**
+
+Car starts with a key
+Bike starts with a button
+
+**Explanation:**
+
+▪ The **interface `Vehicle`** defines a common behavior (`start()`), but doesn’t specify how it should be performed.
+▪ The **classes `Car` and `Bike`** provide their own implementations.
+▪ This ensures **flexibility and abstraction** — different vehicles can behave differently but still follow the 
+  same ontract.
 
 **Advantages:**
 
-1) **Code Reusability -** Common interfaces and methods can be used across multiple classes.
-2) **Flexibility and Extensibility -** Behavior can easily be extended or modified without changing existing code.
-3) **Maintainability -** Reduces redundancy and improves readability.
-4) **Dynamic Behavior -** Makes programs adaptable by deciding the appropriate behavior at runtime.
+i) **Simplifies Complex Systems -** Hides unnecessary details and presents only important features.
+ii) **Improves Code Readability -** The user interacts only with the essential parts of the system.
+iii) **Enhances Reusability -** Abstract classes and interfaces can be reused across multiple classes.
+iv) **Promotes Loose Coupling -** Changes in implementation don’t affect other parts of the code.
+v) **Encourages Design Flexibility -** Allows multiple implementations for the same interface or abstract class.
 
 **Real-Life Analogy:**
 
-Imagine the `"makeSound()"` action —
-
-• When applied to a **Dog**, it barks.
-• When applied to a **Cat**, it meows.
-• When applied to a **Cow**, it moos.
-
-The **action (method)** is the same, but the **behavior (output)** depends on the actual object — this is 
-`polymorphism in action`.
+When you `drive a car`, you use the steering wheel, brakes, and accelerator —
+but you don’t need to know how the *engine* or *brake mechanism* works internally.
+That’s **abstraction** — using functionality without worrying about implementation details.
 
 **Key Points:**
 
-• Polymorphism allows the same interface or method to represent different behaviors.
-• Overloading means Compile-time polymorphism.
-• Overriding means Runtime polymorphism.
-• Achieved mainly through inheritance and method overriding.
-• Enhances flexibility, scalability, and clarity in Java applications.
+▪ Achieved using abstract classes and interfaces.
+▪ Abstract methods provide a structure without defining behavior.
+▪ You cannot create objects of an abstract class or interface.
+▪ Abstract classes can have both abstract and concrete methods.
+▪ Interfaces are ideal for achieving full abstraction.
+▪ Abstraction improves security, scalability, and modularity.
 
 **In Summary:**
 
-**Polymorphism** in Java allows one interface or method name to be used for different underlying forms (data types). 
-It enables objects to behave differently based on their actual type — a core reason why Java is powerful, flexible, 
-and object-oriented.
+**Abstraction** in Java focuses on showing only what is necessary and hiding complex details.
+It allows programmers to design systems that are clean, organized, and easy to maintain, while ensuring 
+that implementation details remain hidden behind well-defined interfaces or abstract classes.
