@@ -22,7 +22,7 @@ StringBuilder sb = new StringBuilder();          // empty builder
 StringBuilder sb2 = new StringBuilder("Hello");  // initialized with value
 
 **Example:**
-
+``
 class Example {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("Java");
@@ -38,8 +38,7 @@ class Example {
         System.out.println(sb);     // Output: gnimmargorP avaJ
     }
 }
-
-
+``
 **Commonly Used Methods of StringBuilder:**
 
 | **Method**                              | **Description**                         | **Example / Output**                   |
