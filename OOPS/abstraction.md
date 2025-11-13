@@ -9,7 +9,7 @@ understandable parts.Abstraction in Java is the process of **hiding complex impl
 the necessary functionalities to the user. It enables a programmer to use objects, methods, or classes without needing 
 to understand their inner workings.
 
-**Key Ideas:**
+**Key Idea:**
 
 Abstraction is like using a **TV remote** — you press buttons (methods) to change the channel or volume, but you don’t 
 need to know the **complex circuitry** inside the remote.
