@@ -10,21 +10,21 @@ It is *immutable*, meaning once a string object is created, its value *cannot be
 
 **Declaration and Initialization of Strings:**
 
-Strings can be created in **two main ways:**
+Strings can be created in two main ways which are as follows,
 
 1. **Using String Literal -**
 
    String str1 = "Hello";
 
-   * Stored in the **String Constant Pool** (a special memory area inside the heap).
-   * If another string with the same value already exists in the pool, Java **does not create a new object**,
+   – Stored in the **String Constant Pool** (a special memory area inside the heap).
+   – If another string with the same value already exists in the pool, Java **does not create a new object**,
      it **reuses** the existing one (saves memory).
 
 2. **Using `new` Keyword -**
 
    String str2 = new String("Hello");
 
-   * Always creates a **new String object** in the heap memory, even if the same string exists in the pool.
+   – Always creates a **new String object** in the heap memory, even if the same string exists in the pool.
 
 **Example:**
 
@@ -47,8 +47,8 @@ false
 
 **Explanation:**
 
-* `s1` and `s2` share the same reference in the **String Constant Pool**.
-* `s3` is created separately in the **heap memory**, so it has a different reference.
+– `s1` and `s2` share the same reference in the **String Constant Pool**.
+– `s3` is created separately in the **heap memory**, so it has a different reference.
 
 **Immutability of Strings:**
 
@@ -67,8 +67,8 @@ class Example {
 
 **Explanation:**
 
-* The method `concat()` creates a **new string** `"Hello World"` but does not change the original `"Hello"`.
-* Since `s` is immutable, to update it, you must assign the result to `s` again:
+– The method `concat()` creates a **new string** `"Hello World"` but does not change the original `"Hello"`.
+– Since `s` is immutable, to update it, you must assign the result to `s` again:
 
   s = s.concat(" World");
 
@@ -107,10 +107,10 @@ Java Rocks
 
 **String Comparison:**
 
-There are **two ways** to compare strings:
+There are two ways to compare strings -
 
-1. **Using `==`** → compares **memory references** (not content).
-2. **Using `.equals()`** → compares **actual string content**.
+i)  **Using `==`** → compares **memory references** (not content).
+ii) **Using `.equals()`** → compares **actual string content**.
 
 **Example:**
 
@@ -128,10 +128,10 @@ System.out.println(s1.equals(s3)); // true (same content)
 3. **Thread Safety:** Immutable strings can be safely shared between threads.
 4. **Caching:** Since values don’t change, hash codes of strings can be cached for faster operations.
 
-**StringBuffer and StringBuilder (Briefly):**
+**StringBuffer & StringBuilder (Briefly):**
 
-* **StringBuffer:** Mutable version of String, **thread-safe** (synchronized).
-* **StringBuilder:** Mutable version of String, **not thread-safe** but faster.
+– **StringBuffer:** Mutable version of String, **thread-safe** (synchronized).
+– **StringBuilder:** Mutable version of String, **not thread-safe** but faster.
   (Both allow modification of string content without creating new objects — we’ll discuss them in detail later.)
 
 **Real-Life Analogy:**
@@ -140,10 +140,10 @@ Think of a **String** as a **sealed envelope** — once you write something insi
 
 **Key Points:**
 
-* String is a **class** in `java.lang` package.
-* Strings are **immutable** and stored in the **String Constant Pool**.
-* Common operations include **concatenation, comparison, searching, and case conversion**.
-* Use **StringBuffer** or **StringBuilder** for **mutable** string operations.
+– String is a **class** in `java.lang` package.
+– Strings are **immutable** and stored in the **String Constant Pool**.
+– Common operations include **concatenation, comparison, searching, and case conversion**.
+– Use **StringBuffer** or **StringBuilder** for **mutable** string operations.
 
 **In Summary:**
 
