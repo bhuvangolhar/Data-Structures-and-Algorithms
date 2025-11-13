@@ -10,11 +10,11 @@ objects each time a change is made.
 
 **Key Features:**
 
-1. **Mutable:** Contents can be changed after creation.
-2. **Faster than String and StringBuffer** (when not used in multithreading).
-3. **Not thread-safe:** It is not synchronized, meaning multiple threads can cause conflicts if they access the same object
+1) **Mutable -** Contents can be changed after creation.
+2) **Faster than String and StringBuffer** (when not used in multithreading).
+3) **Not thread-safe -** It is not synchronized, meaning multiple threads can cause conflicts if they access the same object
    simultaneously.
-5. **Stored in Heap Memory:** Unlike string literals stored in the String Constant Pool.
+4) **Stored in Heap Memory -** Unlike string literals stored in the String Constant Pool.
 
 **Syntax:**
 
@@ -54,8 +54,10 @@ class Example {
 
 **Immutability vs. Mutability Example:**
 
-class Example {
-    public static void main(String[] args) {
+class Example 
+{
+    public static void main(String[] args) 
+    {
         String s = "Hello";
         s.concat(" World"); 
         System.out.println(s); // Output: Hello (immutable)
@@ -67,8 +69,8 @@ class Example {
 
 **Explanation:**
 
-* `String` creates a **new object** when modified (original remains unchanged).
-* `StringBuilder` **modifies the existing object** in memory — faster and more efficient.
+• `String` creates a **new object** when modified (original remains unchanged).
+• `StringBuilder` **modifies the existing object** in memory — faster and more efficient.
 
 **Performance Comparison:**
 
@@ -82,9 +84,9 @@ class Example {
 
 **When to Use StringBuilder:**
 
-* When you need to concatenate or modify strings repeatedly (e.g., building SQL queries, file content, or loops).
-* When working in a single-threaded environment (since it’s not synchronized).
-* When performance and memory efficiency are important.
+• When you need to concatenate or modify strings repeatedly (e.g., building SQL queries, file content, or loops).
+• When working in a single-threaded environment (since it’s not synchronized).
+• When performance and memory efficiency are important.
 
 **Real-Life Analogy:**
 
@@ -94,11 +96,11 @@ creating a new board every time.
 
 **Key Points:**
 
-* `StringBuilder` is **mutable** and part of `java.lang` package.
-* It is **not synchronized** (hence not thread-safe).
-* It offers **better performance** in non-concurrent environments.
-* Provides methods for efficient string manipulation (`append`, `insert`, `delete`, `replace`, etc.).
-* Use `toString()` to convert a `StringBuilder` object into a `String`.
+• `StringBuilder` is **mutable** and part of `java.lang` package.
+• It is **not synchronized** (hence not thread-safe).
+• It offers **better performance** in non-concurrent environments.
+• Provides methods for efficient string manipulation (`append`, `insert`, `delete`, `replace`, etc.).
+• Use `toString()` to convert a `StringBuilder` object into a `String`.
 
 **In Summary:**
 
