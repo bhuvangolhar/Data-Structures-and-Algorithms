@@ -8,7 +8,7 @@ It enables the same method name or operator to perform different actions based o
 acting upon. Polymorphism in Java is the ability of an object to take many forms, allowing the same method or 
 interface to represent different behaviors at runtime or compile time.
 
-**Key Ideas:**
+**Key Idea:**
 
 Polymorphism lets you **write flexible, reusable, and maintainable code**. It’s what allows a single method name to be 
 used for different types of objects — and Java automatically decides which version of the method to call.
