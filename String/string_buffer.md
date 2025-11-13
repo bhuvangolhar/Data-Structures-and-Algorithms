@@ -103,7 +103,7 @@ Start A A A B B B
 * `StringBuffer` ensures **synchronized access**, preventing data corruption when multiple threads modify the same object.
 * Using `StringBuilder` here could lead to **inconsistent or jumbled output**.
 
-**Advantages of StringBuffer:**
+**Advantages:**
 
 1. **Thread Safety:** Safe in multithreaded environments.
 2. **Efficient Modifications:** No new object creation on change.
