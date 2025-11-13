@@ -82,9 +82,9 @@ class Example {
 
 **When to Use StringBuilder:**
 
-* When you need to **concatenate or modify strings repeatedly** (e.g., building SQL queries, file content, or loops).
-* When working in a **single-threaded environment** (since it’s not synchronized).
-* When **performance and memory efficiency** are important.
+* When you need to concatenate or modify strings repeatedly (e.g., building SQL queries, file content, or loops).
+* When working in a single-threaded environment (since it’s not synchronized).
+* When performance and memory efficiency are important.
 
 **Real-Life Analogy:**
 
