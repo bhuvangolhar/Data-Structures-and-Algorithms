@@ -20,7 +20,7 @@ Strings can be created in **two main ways:**
    * If another string with the same value already exists in the pool, Java **does not create a new object**,
      it **reuses** the existing one (saves memory).
 
-2. **Using `new` Keyword**
+2. **Using `new` Keyword -**
 
    String str2 = new String("Hello");
 
