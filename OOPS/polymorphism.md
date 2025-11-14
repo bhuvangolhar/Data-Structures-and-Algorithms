@@ -2,7 +2,7 @@
 **Definition:**
 
 **Polymorphism** is one of the core concepts of Object-Oriented Programming System (OOPs) in Java. The word 
-*“Polymorphism”* comes from two Greek words — **“poly” (many)** and **“morph” (forms)** — meaning `“many forms.”` 
+*“Polymorphism”* comes from two Greek words — “poly” (many) and “morph” (forms) — meaning `“many forms.”` 
 In simple terms, polymorphism allows one object or method to behave in multiple ways depending on the context. 
 It enables the same method name or operator to perform different actions based on the type of object that it is 
 acting upon. Polymorphism in Java is the ability of an object to take many forms, allowing the same method or 
@@ -10,7 +10,7 @@ interface to represent different behaviors at runtime or compile time.
 
 **Key Idea:**
 
-Polymorphism lets you **write flexible, reusable, and maintainable code**. It’s what allows a single method name to be 
+Polymorphism lets you write flexible, reusable, and maintainable code. It’s what allows a single method name to be 
 used for different types of objects — and Java automatically decides which version of the method to call.
 
 **Types of Polymorphism in Java:**
@@ -60,7 +60,7 @@ class Example
 **Explanation:**
 
 The compiler determines *which method to call* based on the number of arguments, so this is 
-**compile-time polymorphism**.
+compile-time polymorphism.
 
 **Example (Run-Time Polymorphism) [Method Overriding]:**
 
@@ -106,7 +106,7 @@ Cat meows
 **Explanation:**
 
 Although the variable `a` is of type `Animal`, the method that gets executed depends on the actual object type 
-(`Dog` or `Cat`) at runtime — hence it’s **runtime polymorphism**.
+(`Dog` or `Cat`) at runtime — hence it’s runtime polymorphism.
 
 **Advantages:**
 
@@ -123,7 +123,7 @@ Imagine the `"makeSound()"` action —
 • When applied to a **Cat**, it meows.
 • When applied to a **Cow**, it moos.
 
-The **action (method)** is the same, but the **behavior (output)** depends on the actual object — this is 
+The action (method) is the same, but the behavior (output) depends on the actual object — this is 
 `polymorphism in action`.
 
 **Key Points:**
