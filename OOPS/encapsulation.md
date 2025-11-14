@@ -2,12 +2,12 @@
 **Definition:**
 
 **Encapsulation** is one of the fundamental principles of Object-Oriented Programming System (OOPs) in Java. It refers to
-the *wrapping (or binding) of data and methods* that operate on that data into a **single unit**, typically a class.
+the *wrapping (or binding) of data and methods* that operate on that data into a single unit, typically a class.
 In simpler terms, encapsulation is like putting data (variables) and code (methods) that work on that data inside a capsule 
 (the class) — protecting it from direct access and misuse. It ensures that an object’s internal state is hidden from the 
-outside world, and can only be accessed through *controlled interfaces* (i.e. **getters** and **setters**). Encapsulation is 
+outside world, and can only be accessed through *controlled interfaces* (i.e. getters and setters). Encapsulation is 
 the process of hiding the internal details of an object from the outside and only allowing access to it through public 
-methods. This is also known as **data hiding**.
+methods. This is also known as data hiding.
 
 **Key Ideas:**
 
@@ -109,9 +109,9 @@ Think of a **capsule** or **ATM machine** -
 
 **Key Points:**
 
-‣ Achieved mainly using **private variables** and **public methods**.
-‣ Provides the foundation for **data security** and **modularity** in Java programs.
-‣ A **well-encapsulated class** hides unnecessary details and exposes only what is needed.
+‣ Achieved mainly using private variables and public methods.
+‣ Provides the foundation for data security and modularity in Java programs.
+‣ A well-encapsulated class hides unnecessary details and exposes only what is needed.
 
 In summary, **Encapsulation** in Java ensures that the data of an object is safe, secure, and accessed in a controlled 
-manner, making programs more **robust, maintainable, and less error-prone**.
+manner, making programs more robust, maintainable, and less error-prone.
