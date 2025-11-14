@@ -1,13 +1,13 @@
 
 **Definition:**
 
-**Inheritance** in Java is one of the core principles of Object-Oriented Programming System (OOPs). It allows one class 
-(called the **child class** or **subclass**) to acquire the properties and behaviors (fields and methods) of another class
-(called the **parent class** or **superclass**). The main purpose of inheritance is code reusability — it allows you to 
-use existing code without rewriting it, while also enabling you to extend or modify it as needed. It also helps establish 
-a hierarchical relationship between classes, similar to real-world relationships (for example, a “Car” is a type of 
-“Vehicle”). Inheritance is a mechanism in Java by which one class can **inherit** fields and methods of another class 
-using the **`extends`** keyword.
+**Inheritance** in Java is one of the core principles of Object-Oriented Programming System (OOPs). It allows one 
+class (called the child class or subclass) to acquire the properties and behaviors (fields and methods) of another 
+class (called the parent class or superclass). The main purpose of inheritance is code reusability — it allows you 
+to use existing code without rewriting it, while also enabling you to extend or modify it as needed. It also helps 
+establish a hierarchical relationship between classes, similar to real-world relationships (for example, a “Car” is 
+a type of “Vehicle”). Inheritance is a mechanism in Java by which one class can inherit fields and methods of another 
+class using the extends keyword.
 
 **Syntax:**
 
@@ -86,12 +86,12 @@ The dog barks.
 
 **Key Points about Inheritance:**
 
-• Achieved using the **`extends`** keyword (for classes) and **`implements`** (for interfaces).
-• Promotes **code reuse**, **maintainability**, and **scalability**.
-• A subclass can override methods of its superclass to provide specific behavior (known as **method overriding**).
+• Achieved using the **`extends`** keyword (for classes) and `implements` (for interfaces).
+• Promotes code reuse, maintainability, and scalability.
+• A subclass can override methods of its superclass to provide specific behavior (known as method overriding).
 • The **`super`** keyword is used to refer to the parent class — for calling parent constructors or methods.
-• Constructors are **not inherited**, but the subclass constructor can call the superclass constructor using `super()`.
-• In Java, all classes implicitly inherit from the **`Object`** class (the root of all classes).
+• Constructors are not inherited, but the subclass constructor can call the superclass constructor using `super()`.
+• In Java, all classes implicitly inherit from the `Object` class (the root of all classes).
 
 **Example of Multilevel Inheritance:**
 
@@ -140,5 +140,5 @@ Weeping...
 • **Maintainability -** Easier to manage and update code in large projects.
 • **Polymorphism Support -** Enables method overriding for runtime flexibility.
 
-In summary, **inheritance** in Java provides a way to **reuse and extend existing classes**, build logical hierarchies, 
+In summary, **inheritance** in Java provides a way to reuse and extend existing classes, build logical hierarchies, 
 and write cleaner, more organized, and efficient object-oriented programs.
