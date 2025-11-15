@@ -142,7 +142,7 @@ This method performs an action but does not give back any value.
 
 **Benefits of Using Methods -**
 
-Methods make code **modular**, **reusable**, and **easy to debug**. They allow programmers to divide a large program into 
+Methods make code modular, reusable, and easy to debug. They allow programmers to divide a large program into 
 smaller parts, improving readability and reducing redundancy. Updating or fixing one method doesn’t affect the rest of the 
 program, which makes maintenance easier.
 
