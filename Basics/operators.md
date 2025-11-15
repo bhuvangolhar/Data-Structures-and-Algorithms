@@ -6,7 +6,7 @@ variables) and produces a result. Operators are used to perform different kinds 
 calculations, comparisons, logical decisions, and more. They are a fundamental part of any Java program because they help
 manipulate data and control the flow of execution.
 
-**Types of Operators in Java:**
+**Types of Operators:**
 
 Java provides several types of operators that can be grouped based on the kind of operation they perform. 
 The main categories are:
@@ -193,5 +193,5 @@ System.out.println(arr[1]);  // 20
 
 **Importance of Operators:**
 
-Operators are the **building blocks** of Java expressions. They make it possible to perform calculations, make decisions,
+Operators are the building blocks of Java expressions. They make it possible to perform calculations, make decisions,
 compare values, and control logic in programs. Without operators, writing meaningful Java code would be almost impossible.
