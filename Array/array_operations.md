@@ -61,7 +61,8 @@ This program creates a new array with the element `25` inserted at index 2.
 Deleting an element from an array means removing a value at a specific index. Because array size is fixed, this is done by
 creating a new array that skips the element to be deleted.
 
-class DeleteExample {
+class DeleteExample 
+{
     public static void main(String[] args) 
     {
         int[] arr = {10, 20, 30, 40, 50};
