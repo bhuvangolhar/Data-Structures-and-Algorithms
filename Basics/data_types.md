@@ -3,7 +3,7 @@
 
 A **data type** in Java defines the kind of data a variable can store and how much memory it needs. It tells the compiler 
 what type of value (like number, character, or true/false) will be stored in a variable. Data types are important because 
-Java is a **strongly typed language**, meaning every variable must have a defined data type before it is used.
+Java is a *strongly typed language*, meaning every variable must have a defined data type before it is used.
 
 Java data types are broadly divided into two main categories:
 
