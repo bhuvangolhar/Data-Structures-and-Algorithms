@@ -3,7 +3,7 @@
 
 • An array in Java is a way to store many values of the same data type (like all integers or all strings) in one variable.
 
-• It helps you manage data easily instead of creating many separate variables for each value.
+• It helps us manage data easily instead of creating many separate variables for each value.
 
 • The elements of an array are stored in continuous memory locations, one after another.
 
