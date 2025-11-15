@@ -1,7 +1,7 @@
 
-In Java, arrays are mainly of three types — **one-dimensional**, **two-dimensional**, and **jagged arrays**. A **one-
-dimensional array** stores data in a single row, a **two-dimensional array** stores data in rows and columns like a table,
-and a **jagged array** is a special type of 2D array where each row can have a different number of elements.
+In Java, arrays are mainly of three types — **one-dimensional**, **two-dimensional**, and **jagged arrays**. A one-
+dimensional array stores data in a single row, a two-dimensional array stores data in rows and columns like a table,
+and a jagged array is a special type of 2D array where each row can have a different number of elements.
 
 **1. One-Dimensional Array (1D Array) -**
 
