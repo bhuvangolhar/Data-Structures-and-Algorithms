@@ -1,7 +1,7 @@
 
 **Definition:**
 
-A **variable** in Java is a **named memory location** used to store data during the execution of a program. It acts as a 
+A **variable** in Java is a named memory location used to store data during the execution of a program. It acts as a 
 container that holds values which can be changed, read, or updated while the program runs. Variables make it easy for 
 programmers to work with data dynamically instead of using fixed or hard-coded values. In Java, every variable must be 
 declared with a **data type**, which tells the compiler what kind of data the variable will hold (such as integer, float, 
@@ -135,6 +135,6 @@ Here, `PI` always remains the same and cannot be modified later.
 
 **Summary:**
 
-In short, **variables are the backbone of any Java program**. They help store, manipulate, and reuse data efficiently. 
+In short, variables are the backbone of any Java program. They help store, manipulate, and reuse data efficiently. 
 By understanding their types, scope, and lifetime, you can write programs that are cleaner, more efficient, and 
 easy to maintain.
