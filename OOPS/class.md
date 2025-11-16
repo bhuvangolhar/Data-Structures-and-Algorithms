@@ -6,8 +6,8 @@ structure that defines the data (variables) and the **behavior (methods) that th
 In simpler terms, a class defines *what an object is* and *how it behaves* — but it doesn’t occupy memory until an 
 object is created from it. A class represents a concept, while objects represent real instances of that concept. 
 A class is a user-defined data type that serves as a model for creating multiple objects with similar properties 
-and functions. It allows grouping related variables and methods into a single unit, promoting *encapsulation, 
-reusability, and clarity* in programming.
+and functions. It allows grouping related variables and methods into a single unit, promoting encapsulation, 
+reusability, and clarity in programming.
 
 **Syntax of a Class:**
 
