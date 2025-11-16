@@ -3,10 +3,10 @@
 
 In Java, the **`StringBuffer`** class is a **mutable sequence of characters**, just like `StringBuilder`. It allows you 
 to modify strings (append, insert, delete, reverse, etc.) without creating new objects each time a change is made.
-The key difference between `StringBuffer` and `StringBuilder` is that **`StringBuffer` is synchronized (thread-safe)**, 
-meaning it can be safely used in **multi-threaded environments**, where multiple threads access the same string object 
-simultaneously. StringBuffer in Java is a **thread-safe, mutable class** used to create and manipulate dynamic strings.
-It ensures that **only one thread can modify the string at a time**, maintaining data consistency in concurrent situations.
+The key difference between StringBuffer and StringBuilder is that StringBuffer is synchronized (thread-safe), 
+meaning it can be safely used in multi-threaded environments, where multiple threads access the same string object 
+simultaneously. StringBuffer in Java is a thread-safe, mutable class used to create and manipulate dynamic strings.
+It ensures that only one thread can modify the string at a time, maintaining data consistency in concurrent situations.
 
 **Key Features:**
 
