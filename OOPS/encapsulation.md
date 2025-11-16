@@ -88,7 +88,7 @@ Age: 20
   `Student` class.
 ‣ Instead, the program uses public setter methods (`setName()`, `setAge()`) to assign values and getter methods
   (`getName()`, `getAge()`) to retrieve them.
-‣ This ensures that only **valid data** enters the object, and the internal details remain **secure and controlled**.
+‣ This ensures that only **valid data** enters the object, and the internal details remain secure & controlled.
 
 **Advantages:**
 
