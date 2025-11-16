@@ -1,10 +1,10 @@
 
 **Definition:**
 
-In Java, the **`StringBuilder`** class is a **mutable** (changeable) sequence of characters. Unlike the `String` class, 
-which creates a **new object every time** its value changes, `StringBuilder` allows you to modify the same object without 
-creating new ones in memory. It is part of the **`java.lang`** package and was introduced in **Java 5** as a **faster, 
-non-synchronized** alternative to `StringBuffer`. StringBuilder in Java is a *mutable class* used to create and manipulate 
+In Java, the **`StringBuilder`** class is a mutable (changeable) sequence of characters. Unlike the `String` class, 
+which creates a new object every time its value changes, `StringBuilder` allows you to modify the same object without 
+creating new ones in memory. It is part of the `java.lang` package and was introduced in *Java 5* as a faster, 
+non-synchronized alternative to `StringBuffer`. StringBuilder in Java is a *mutable class* used to create and manipulate 
 dynamic strings efficiently. It allows modifications such as append, insert, delete, and reverse without creating new string
 objects each time a change is made.
 
