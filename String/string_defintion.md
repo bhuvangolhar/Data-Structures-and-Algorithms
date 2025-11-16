@@ -57,8 +57,10 @@ Any operation that seems to modify a string actually creates a new String object
 
 **Example:**
 
-class Example {
-    public static void main(String[] args) {
+class Example 
+{
+    public static void main(String[] args) 
+    {
         String s = "Hello";
         s.concat(" World");
         System.out.println(s);  // Output: Hello
