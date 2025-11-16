@@ -1,7 +1,7 @@
 
 **Definition:**
 
-An `object` in Java is a real-world entity or an instance of a class. It represents something that has both state
+An **`object`** in Java is a real-world entity or an instance of a class. It represents something that has both state
 (data/attributes) and behavior (actions/methods). When a class is defined, it acts only as a blueprint — no memory is 
 allocated until an object of that class is created. Once an object is created, it contains its own copy of the variables 
 defined in the class and can use the class’s methods to perform actions. In simpler terms, a class defines *what an object 
