@@ -61,7 +61,7 @@ The dog barks.
 
 **Explanation:**
 
-• The **`Animal`** class is the **superclass**, and **`Dog`** is the **subclass**.
+• The **`Animal`** class is the **superclass**, and `Dog` is the **subclass**.
 • The subclass `Dog` automatically **inherits** the method `eat()` from the superclass `Animal`.
 • The subclass can also define its own additional methods (like `bark()`).
 
