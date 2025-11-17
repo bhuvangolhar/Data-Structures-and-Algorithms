@@ -106,7 +106,7 @@ Example:
 • System.out.println(x--);   // 6 then decreases to 5 (post-decrement)
 • System.out.println(-x);   // -5 (negation)
 • boolean flag = false;
-• System.out.println(!flag);    // true
+• System.out.println(!flag); // true
 
 **Explanation:**
 
