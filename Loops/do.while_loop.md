@@ -77,6 +77,6 @@ Count: 5
 
 ‣ Commonly used in **menu-driven programs** or **user-interactive applications**, where at least one iteration is required.
 
-‣ Make sure the loop has a **condition that can eventually become false**; otherwise, it may lead to an **infinite loop**.
+‣ Make sure the loop has a *condition that can eventually become false*; otherwise, it may lead to an **infinite loop**.
 
 ‣ Syntax-wise, it’s the only loop in Java that ends with a **semicolon (`;`)** after the condition.
