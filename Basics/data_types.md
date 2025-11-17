@@ -143,5 +143,5 @@ to manipulate data (for example, `length()`, `toUpperCase()`, etc., for Strings)
 
 **In short:**
 
-Primitive data types hold **simple values directly**, while non-primitive types hold **references to objects**. Together, 
+Primitive data types hold *simple values directly*, while non-primitive types hold *references to objects*. Together, 
 they make Java a powerful and type-safe programming language.
