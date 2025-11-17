@@ -91,7 +91,8 @@ Searching means finding the position (index) of a specific element in an array. 
 where each element is checked one by one.
 
 
-class SearchExample {
+class SearchExample 
+{
     public static void main(String[] args) 
     {
         int[] arr = {10, 20, 30, 40, 50};
