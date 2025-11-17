@@ -115,7 +115,7 @@ void greetUser(String name)
     System.out.println("Hello, " + name + "!");
 }
 
-If you call `greetUser("Bhuwan");`, it will print **Hello, Bhuwan!**
+If you call `greetUser("Bhuwan");`, it will print **Hello, Bhuvan!**
 
 **3. Method with Return Type:**
 
