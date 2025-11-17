@@ -72,7 +72,7 @@ and one for the column (for example, `matrix[1][2]` gives `6`).
 **3. Jagged Array (Array of Arrays) -**
 
 A **jagged array** (also called a **ragged array**) is a special type of two-dimensional array where each row can have a 
-**different number of columns**. Unlike a regular 2D array, the rows in a jagged array are not required to be of equal 
+*different number of columns*. Unlike a regular 2D array, the rows in a jagged array are not required to be of equal 
 length.
 
 class JaggedArrayExample 
