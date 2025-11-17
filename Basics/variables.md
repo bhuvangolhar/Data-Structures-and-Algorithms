@@ -44,7 +44,7 @@ are declared** —
 
 Local variables are declared **inside a method, constructor, or block**.
 They are created when the method starts and destroyed when the method ends.
-They can be used **only within that block** and are not accessible outside it.
+They can be used *only within that block* and are not accessible outside it.
 
 **Example:**
 
