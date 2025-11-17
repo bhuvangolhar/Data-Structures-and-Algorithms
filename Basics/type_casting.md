@@ -33,7 +33,7 @@ Here, `int` is automatically converted to `double` because `double` can hold lar
 
 b) **Narrowing Type Casting (Explicit Casting) -**
 
-Narrowing happens **manually** when a larger data type is converted into a smaller data type. It is also called **downcasting** because data moves from a higher range to a lower range, and there might be **loss of data or precision**.
+Narrowing happens **manually** when a larger data type is converted into a smaller data type. It is also called **downcasting** because data moves from a higher range to a lower range, and there might be *loss of data or precision*.
 
 You must explicitly write the target type in parentheses to tell the compiler you’re aware of the conversion.
 
