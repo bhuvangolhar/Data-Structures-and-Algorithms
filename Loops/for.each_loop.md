@@ -95,3 +95,4 @@ Name: Charlie
 – It helps prevent **off-by-one errors** common in traditional for loops.
 
 – Internally, the loop uses the **Iterator** interface for collections and **index-based iteration** for arrays.
+.
