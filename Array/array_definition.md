@@ -20,3 +20,4 @@
 • Arrays make it easy to perform operations like looping, sorting, and searching on a collection of data.
 
 • They are useful for storing lists of items such as marks of students, names, or numbers in programs efficiently.
+.
