@@ -1,4 +1,4 @@
-
+.
 **Definition:**
 
 In Java, a **String** is one of the most commonly used and most powerful data types. It is a `sequence of characters` 
@@ -153,3 +153,4 @@ A **String** in Java is an immutable object used to represent a sequence of char
 It provides rich functionality for text manipulation while ensuring security, efficiency, 
 and consistency 
 in memory handling.
+.
