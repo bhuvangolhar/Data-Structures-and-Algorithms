@@ -107,3 +107,5 @@ creating a new board every time.
 `StringBuilder` in Java provides a **fast and memory-efficient** way to handle **dynamic string operations**.
 It’s ideal for situations where strings are **frequently modified** — making programs **faster, cleaner, and more 
 efficient** than those that rely solely on immutable `String` objects.
+
+.
