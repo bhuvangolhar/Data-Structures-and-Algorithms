@@ -1,4 +1,4 @@
-
+.
 In Java, arrays allow you to store multiple values of the same data type, and to work effectively with them, we perform 
 several important operations such as traversing, inserting, deleting, searching, sorting, and updating. Let’s understand
 each of these operations clearly with proper examples.
