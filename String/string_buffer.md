@@ -1,4 +1,4 @@
-ee
+reer
 **Definition:**
 
 In Java, the **`StringBuffer`** class is a **mutable sequence of characters**, just like `StringBuilder`. It allows you 
