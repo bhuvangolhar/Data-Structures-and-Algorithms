@@ -1,5 +1,4 @@
-!!
-
+!
 **Definition:**
 
 **Polymorphism** is one of the core concepts of Object-Oriented Programming System (OOPs) in Java. The word 
