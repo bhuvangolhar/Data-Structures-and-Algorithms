@@ -1,4 +1,4 @@
----
+----
 **Definition:**
 
 An **`object`** in Java is a real-world entity or an instance of a class. It represents something that has both state
