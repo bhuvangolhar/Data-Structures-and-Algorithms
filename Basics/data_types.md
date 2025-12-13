@@ -1,4 +1,4 @@
-.
+-.
 **Definition:**
 
 A **data type** in Java defines the kind of data a variable can store and how much memory it needs. It tells the compiler 
