@@ -1,4 +1,4 @@
-
+ty
 **Definition:**
 
 • An array in Java is a way to store many values of the same data type (like all integers or all strings) in one variable.
