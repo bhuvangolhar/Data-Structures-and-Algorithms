@@ -1,5 +1,5 @@
-e
-**Definition:**
+
+*Definition:*
 
 In Java, the **`StringBuffer`** class is a **mutable sequence of characters**, just like `StringBuilder`. It allows you 
 to modify strings (append, insert, delete, reverse, etc.) without creating new objects each time a change is made.
