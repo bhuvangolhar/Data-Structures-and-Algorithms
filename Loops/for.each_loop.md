@@ -1,4 +1,4 @@
-!
+
 **Definition:**
 
 The **for-each loop**, also known as the **enhanced for loop**, is a simplified version of the traditional `for` loop 
