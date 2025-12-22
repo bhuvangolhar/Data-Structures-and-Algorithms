@@ -141,4 +141,3 @@ write at a time**, ensuring the content stays safe and orderly.
 **`StringBuffer`** in Java is a **mutable, thread-safe** alternative to `String`.
 It allows efficient string manipulation in **multi-threaded environments**, ensuring data consistency and reliability — 
 though it’s slightly slower than `StringBuilder` due to synchronization.
-.
