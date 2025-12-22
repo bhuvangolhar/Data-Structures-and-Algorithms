@@ -4,7 +4,7 @@
 In Java, a **String** is one of the most commonly used and most powerful data types. It is a `sequence of characters` 
 enclosed within double quotes (" ") and is used to store and manipulate text data such as words, sentences, or symbols.
 Unlike many other programming languages where strings are just arrays of characters, in Java, a *String is an object* 
-of the `java.lang.String` class, which provides numerous built-in methods for performing operations like concatenation,
+of the `java.lang.String class, which provides numerous built-in methods for performing operations like concatenation,
 comparison, searching, and modification. A String in Java is an object that represents a sequence of characters. 
 It is *immutable*, meaning once a string object is created, its value *cannot be changed*.
 
