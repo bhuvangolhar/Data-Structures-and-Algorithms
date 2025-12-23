@@ -1,4 +1,4 @@
-11
+
 **Definition:**
 
 An **operator** in Java is a special symbol that performs a specific operation on one, two, or three operands (values or 
