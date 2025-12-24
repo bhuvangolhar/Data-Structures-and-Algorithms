@@ -1,5 +1,5 @@
 
-**Definition:**
+**Definition:*
 
 The **`for` loop** in Java is one of the most commonly used looping structures. It is primarily used when the **number of 
 iterations is known in advance**—for example, when you need to execute a block of code a specific number of times or iterate
