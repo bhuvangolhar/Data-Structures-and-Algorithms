@@ -1,5 +1,5 @@
 
-**Definition:**
+**Definition:*
 
 **Polymorphism** is one of the core concepts of Object-Oriented Programming System (OOPs) in Java. The word 
 *“Polymorphism”* comes from two Greek words — “poly” (many) and “morph” (forms) — meaning `“many forms.”` 
