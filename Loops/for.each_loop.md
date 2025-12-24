@@ -1,5 +1,5 @@
 
-**Definition:**
+**Definition:*
 
 The **for-each loop**, also known as the **enhanced for loop**, is a simplified version of the traditional `for` loop 
 introduced in *Java 5 (JDK 1.5)*. It is mainly used for iterating through arrays or collections (like ArrayList, HashSet, 
