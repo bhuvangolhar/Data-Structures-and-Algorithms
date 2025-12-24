@@ -1,4 +1,4 @@
-&
+
 **Definition:**
 
 The **`do-while` loop** in Java is a variation of the `while` loop that ensures the loop body executes at least once, 
