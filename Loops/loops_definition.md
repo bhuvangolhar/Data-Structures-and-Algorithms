@@ -1,5 +1,5 @@
 
-**Definition of a Loop:**
+**Definition of a Loop:*
 
 A **loop** in Java is a fundamental control flow statement that allows a programmer to execute a block of code **repeatedly** 
 as long as a particular condition remains true. Instead of writing the same set of statements multiple times, loops make it 
