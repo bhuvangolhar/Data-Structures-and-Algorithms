@@ -1,4 +1,4 @@
-qq
+
 **Definition:**
 
 • An array in Java is a way to store many values of the same data type (like all integers or all strings) in one variable.
@@ -17,6 +17,6 @@ qq
 
 • All the elements in an array must be of the same data type — for example, all integers or all characters.
 
-• Arrays make it easy to perform operations like looping, sorting, and searching on a collection of data.
+• Arrays make it easy to perform operations like looping, sorting and searching on a collection of data.
 
-• They are useful for storing lists of items such as marks of students, names, or numbers in programs efficiently.
+• They are useful for storing lists of items such as marks of students, names or numbers in programs efficiently.
