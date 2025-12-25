@@ -1,14 +1,13 @@
 
-
 **Definition:**
 
 A **method** in Java is a block of code that performs a specific task and is executed only when it is called. It helps make
-programs organized, reusable, and easy to maintain. Instead of writing the same set of instructions multiple times, you can 
+programs organized, reusable and easy to maintain. Instead of writing the same set of instructions multiple times, you can 
 define a method once and call it whenever needed. Every method in Java must be written inside a class.
 
 **Structure of a Method -**
 
-A method generally has five main parts — **access modifier**, **return type**, **method name**, **parameters**, 
+A method generally has five main parts — **access modifier**, **return type**, **method name**, **parameters** 
 and **method body**.
 
 Example:
@@ -20,21 +19,21 @@ public int add(int a, int b)
 
 Explanation:
 
-•  **public** → access modifier (decides visibility of the method)
-•  **int** → return type (specifies what the method will return)
-•  **add** → method name
-•  **(int a, int b)** → parameters (input values)
+•  **public** → access modifier (decides visibility of the method)  
+•  **int** → return type (specifies what the method will return)  
+•  **add** → method name  
+•  **(int a, int b)** → parameters (input values)  
 •  Code inside `{ }` → method body (statements to execute when the method is called)
 
 **Calling a Method -**
 
-To use a method, it must be called using its name followed by parentheses.
-If the method is `static`, it can be called directly using the class name; otherwise, you must create an object.
+To use a method, it must be called using its name followed by parentheses.  
+If the method is `static`, it can be called directly using the class name otherwise you must create an object.
 
 Example:
 
-• int result = add(10, 20);         // calling a static method
-• Calculator c = new Calculator();  // creating object
+• int result = add(10, 20);         // calling a static method  
+• Calculator c = new Calculator();  // creating object  
 • c.add(10, 20);                    // calling non-static method
 
 **Types of Methods in Java -**
@@ -47,7 +46,7 @@ These are methods already defined in Java’s standard library. They are also ca
 
 Example:
 
-• System.out.println("Hello Java");  // println() is predefined
+• System.out.println("Hello Java");  // println() is predefined  
 • int len = "Hello".length();       // length() is predefined
 
 They make programming easier because you don’t have to write common logic manually.
@@ -67,32 +66,32 @@ This method can be called whenever you want to display the message.
 
 **Static and Non-Static Methods -**
 
-a)  **Static Method:** 
+a) **Static Method:**  
 
 Belongs to the class and can be called without creating an object.
 
-   class Demo
-  {
-      static void display()
-      {
-          System.out.println("Static Method");
-      }
-  }
-  Demo.display();
+class Demo
+{
+    static void display()
+    {
+        System.out.println("Static Method");
+    }
+}
+Demo.display();
 
-b) **Non-Static Method:** 
+b) **Non-Static Method:**  
 
 Belongs to an object and needs an object to be called.
 
-  class Demo
-  {
-      void show()
-      {
-          System.out.println("Non-Static Method");
-      }
-  }
-  Demo d = new Demo();
-  d.show();
+class Demo
+{
+    void show()
+    {
+        System.out.println("Non-Static Method");
+    }
+}
+Demo d = new Demo();
+d.show();
 
 **Methods Based on Parameters and Return Type -**
 
@@ -143,7 +142,7 @@ This method performs an action but does not give back any value.
 
 **Benefits of Using Methods -**
 
-Methods make code modular, reusable, and easy to debug. They allow programmers to divide a large program into 
+Methods make code modular, reusable and easy to debug. They allow programmers to divide a large program into 
 smaller parts, improving readability and reducing redundancy. Updating or fixing one method doesn’t affect the rest of the 
 program, which makes maintenance easier.
 
