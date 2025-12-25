@@ -1,5 +1,5 @@
-j
-In Java, arrays are mainly of three types — **one-dimensional**, **two-dimensional**, and **jagged arrays**. A one-
+
+In Java, arrays are mainly of three types — **one-dimensional**, **two-dimensional** and **jagged arrays**. A one-
 dimensional array stores data in a single row, a two-dimensional array stores data in rows and columns like a table,
 and a jagged array is a special type of 2D array where each row can have a different number of elements.
 
@@ -54,7 +54,7 @@ class TwoDArrayExample
             {
                 System.out.print(matrix[i][j] + " ");
             }
-            System.out.println(); // move to next line after each row
+            System.out.println();
         }
     }
 }
@@ -72,14 +72,14 @@ and one for the column (for example, `matrix[1][2]` gives `6`).
 **3. Jagged Array (Array of Arrays) -**
 
 A **jagged array** (also called a **ragged array**) is a special type of two-dimensional array where each row can have a 
-*different number of columns*. Unlike a regular 2D array, the rows in a jagged array are not required to be of equal 
+different number of columns. Unlike a regular 2D array, the rows in a jagged array are not required to be of equal 
 length.
 
 class JaggedArrayExample 
 {
     public static void main(String[] args) 
     {
-        int[][] jagged = new int[3][];  // 3 rows, but columns not fixed
+        int[][] jagged = new int[3][];
         jagged[0] = new int[]{1, 2, 3};
         jagged[1] = new int[]{4, 5};
         jagged[2] = new int[]{6, 7, 8, 9};
@@ -110,4 +110,4 @@ flexible row sizes, unlike regular 2D arrays.
 * A **1D array** stores data in a single row (like a simple list).
 * A **2D array** stores data in rows and columns (like a table).
 * A **jagged array** stores data in multiple rows where each row can have a different number of columns (like uneven rows of
-*  data).
+  data).
