@@ -1,12 +1,12 @@
-op
-In Java, arrays allow you to store multiple values of the same data type, and to work effectively with them, we perform 
-several important operations such as traversing, inserting, deleting, searching, sorting, and updating. Let’s understand
+
+In Java, arrays allow you to store multiple values of the same data type and to work effectively with them we perform 
+several important operations such as traversing, inserting, deleting, searching, sorting and updating. Let’s understand
 each of these operations clearly with proper examples.
 
 **1. Traversing an Array:**
 
-Traversing means visiting every element of an array one by one, usually to display or process them. This can be done using a
-simple `for` loop or an enhanced `for-each` loop. For example-
+Traversing means visiting every element of an array one by one usually to display or process them. This can be done using a
+simple for loop or an enhanced for-each loop. For example-
 
 class TraverseExample {
     public static void main(String[] args) 
@@ -24,8 +24,8 @@ Here, each element of the array is accessed using its index and printed.
 
 **2. Insertion in an Array:**
 
-Since arrays in Java have a fixed size, you cannot directly add a new element once the array is created. To insert a new 
-element, you usually create a new array with one extra space and copy elements, adding the new one at the desired position.
+Since arrays in Java have a fixed size you cannot directly add a new element once the array is created. To insert a new 
+element you usually create a new array with one extra space and copy elements adding the new one at the desired position.
 
 class InsertExample 
 {
@@ -40,7 +40,8 @@ class InsertExample
             if (i == position) 
             {
                 newArr[i] = newElement;
-            } else 
+            } 
+            else 
             {
                 newArr[i] = arr[j];
                 j++;
@@ -54,11 +55,11 @@ class InsertExample
     }
 }
 
-This program creates a new array with the element `25` inserted at index 2.
+This program creates a new array with the element 25 inserted at index 2.
 
 **3. Deletion in an Array:**
 
-Deleting an element from an array means removing a value at a specific index. Because array size is fixed, this is done by
+Deleting an element from an array means removing a value at a specific index. Because array size is fixed this is done by
 creating a new array that skips the element to be deleted.
 
 class DeleteExample 
@@ -83,13 +84,12 @@ class DeleteExample
     }
 }
 
-Here, the element at index 2 (which is `30`) is removed and a new array without that element is created.
+Here, the element at index 2 (which is 30) is removed and a new array without that element is created.
 
 **4. Searching in an Array:**
 
-Searching means finding the position (index) of a specific element in an array. The simplest method is **linear search**, 
+Searching means finding the position (index) of a specific element in an array. The simplest method is linear search 
 where each element is checked one by one.
-
 
 class SearchExample 
 {
@@ -114,12 +114,12 @@ class SearchExample
     }
 }
 
-In this example, the program searches for `30` and prints its index if found.
+In this example the program searches for 30 and prints its index if found.
 
 **5. Sorting an Array:**
 
-Sorting means arranging the elements of an array in a particular order, usually ascending or descending. Java provides a 
-built-in method `Arrays.sort()` to make sorting simple.
+Sorting means arranging the elements of an array in a particular order usually ascending or descending. Java provides a 
+built-in method Arrays.sort() to make sorting simple.
 
 import java.util.Arrays;
 
@@ -137,7 +137,7 @@ class SortExample
     }
 }
 
-This code arranges the numbers in ascending order using Java’s `Arrays.sort()` method from the `java.util` package.
+This code arranges the numbers in ascending order using Java’s Arrays.sort() method from the java.util package.
 
 **6. Updating an Array Element:**
 
@@ -158,8 +158,8 @@ class UpdateExample
     }
 }
 
-Here, the element at index 2 is updated from `30` to `99`.
+Here, the element at index 2 is updated from 30 to 99.
 
-These operations — traversing, inserting, deleting, searching, sorting, and updating — cover the most essential ways of 
-working with arrays in Java. They help in efficiently managing data collections, performing computations, and preparing data 
-for further processing in programs.
+These operations traversing inserting deleting searching sorting and updating cover the most essential ways of 
+working with arrays in Java. They help in efficiently managing data collections performing computations and preparing data 
+for further processing in programmes.
