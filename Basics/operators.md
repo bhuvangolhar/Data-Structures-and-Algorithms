@@ -11,14 +11,14 @@ manipulate data and control the flow of execution.
 Java provides several types of operators that can be grouped based on the kind of operation they perform. 
 The main categories are:
 
-1. Arithmetic Operators
-2. Relational Operators
-3. Logical Operators
-4. Assignment Operators
-5. Unary Operators
-6. Bitwise Operators
-7. Ternary (Conditional) Operator
-8. Miscellaneous Operators
+1. Arithmetic Operators  
+2. Relational Operators  
+3. Logical Operators  
+4. Assignment Operators  
+5. Unary Operators  
+6. Bitwise Operators  
+7. Ternary (Conditional) Operator  
+8. Miscellaneous Operators  
 
 Let’s look at each in detail,
 
@@ -28,20 +28,20 @@ Arithmetic operators are used to perform basic mathematical operations like addi
 
 Example:
 
-• int a = 10, b = 3;
-• System.out.println(a + b);      // 13
-• System.out.println(a - b);     // 7
-• System.out.println(a * b);    // 30
-• System.out.println(a / b);   // 3
-• System.out.println(a % b);  // 1
+• int a = 10, b = 3;  
+• System.out.println(a + b);      // 13  
+• System.out.println(a - b);     // 7  
+• System.out.println(a * b);    // 30  
+• System.out.println(a / b);   // 3  
+• System.out.println(a % b);  // 1  
 
 **Explanation:**
 
-• `+` → Addition
-• `-` → Subtraction
-• `*` → Multiplication
-• `/` → Division (quotient)
-• `%` → Modulus (remainder)
+• `+` → Addition  
+• `-` → Subtraction  
+• `*` → Multiplication  
+• `/` → Division (quotient)  
+• `%` → Modulus (remainder)  
 
 **2. Relational Operators -**
 
@@ -49,13 +49,13 @@ Relational operators are used to compare two values and return a boolean result 
 
 Example:
 
-• int x = 5, y = 10;
-• System.out.println(x == y);       // false
-• System.out.println(x != y);      // true
-• System.out.println(x > y);      // false
-• System.out.println(x < y);     // true
-• System.out.println(x >= y);   // false
-• System.out.println(x <= y);  // true
+• int x = 5, y = 10;  
+• System.out.println(x == y);       // false  
+• System.out.println(x != y);      // true  
+• System.out.println(x > y);      // false  
+• System.out.println(x < y);     // true  
+• System.out.println(x >= y);   // false  
+• System.out.println(x <= y);  // true  
 
 **Explanation:**
 
@@ -67,16 +67,16 @@ Logical operators are used to combine two or more conditions and return a boolea
 
 Example:
 
-• int a = 5, b = 10, c = 15;
-• System.out.println(a < b && b < c);   // true (both true)
-• System.out.println(a < b || b > c);  // true (one true)
-• System.out.println(!(a < b));       // false (reverses true)
+• int a = 5, b = 10, c = 15;  
+• System.out.println(a < b && b < c);   // true (both true)  
+• System.out.println(a < b || b > c);  // true (one true)  
+• System.out.println(!(a < b));       // false (reverses true)  
 
 **Explanation:**
 
-• `&&` → Logical AND (true if both are true)
-• `||` → Logical OR (true if any one is true)
-• `!` → Logical NOT (reverses the result)
+• `&&` → Logical AND (true if both are true)  
+• `||` → Logical OR (true if any one is true)  
+• `!` → Logical NOT (reverses the result)  
 
 **4. Assignment Operators -**
 
@@ -84,12 +84,12 @@ Assignment operators are used to assign values to variables. The basic one is `=
 
 Example:
 
-• int a = 10;
-• a += 5;  // a = a + 5 → 15
-• a -= 3;  // a = a - 3 → 12
-• a *= 2;  // a = a * 2 → 24
-• a /= 4;  // a = a / 4 → 6
-• a %= 2;  // a = a % 2 → 0
+• int a = 10;  
+• a += 5;  // a = a + 5 → 15  
+• a -= 3;  // a = a - 3 → 12  
+• a *= 2;  // a = a * 2 → 24  
+• a /= 4;  // a = a / 4 → 6  
+• a %= 2;  // a = a % 2 → 0  
 
 **Explanation:**
 
@@ -101,19 +101,19 @@ Unary operators work on a single operand. They are used for incrementing, decrem
 
 Example:
 
-• int x = 5;
-• System.out.println(++x);    // 6 (pre-increment)
-• System.out.println(x--);   // 6 then decreases to 5 (post-decrement)
-• System.out.println(-x);   // -5 (negation)
-• boolean flag = false;
-• System.out.println(!flag); // true
+• int x = 5;  
+• System.out.println(++x);    // 6 (pre-increment)  
+• System.out.println(x--);   // 6 then decreases to 5 (post-decrement)  
+• System.out.println(-x);   // -5 (negation)  
+• boolean flag = false;  
+• System.out.println(!flag); // true  
 
 **Explanation:**
 
-• `++` → Increment by 1
-•  `--` → Decrement by 1
-•  `-` → Negation
-• `!` → Logical NOT
+• `++` → Increment by 1  
+• `--` → Decrement by 1  
+• `-` → Negation  
+• `!` → Logical NOT  
 
 **6. Bitwise Operators -**
 
@@ -121,23 +121,23 @@ Bitwise operators work at the **bit level** (binary representation of numbers). 
 
 Example:
 
-• int a = 5;    // 0101
-• int b = 3;   // 0011
-• System.out.println(a & b);       // 1  (AND)
-• System.out.println(a | b);      // 7  (OR)
-• System.out.println(a ^ b);     // 6  (XOR)
-• System.out.println(~a);       // -6 (NOT)
-• System.out.println(a << 1);  // 10 (Left Shift)
-• System.out.println(a >> 1); // 2  (Right Shift)
+• int a = 5;    // 0101  
+• int b = 3;   // 0011  
+• System.out.println(a & b);       // 1  (AND)  
+• System.out.println(a | b);      // 7  (OR)  
+• System.out.println(a ^ b);     // 6  (XOR)  
+• System.out.println(~a);       // -6 (NOT)  
+• System.out.println(a << 1);  // 10 (Left Shift)  
+• System.out.println(a >> 1); // 2  (Right Shift)  
 
 **Explanation:**
 
-• `&` → Bitwise AND
-• `|` → Bitwise OR
-• `^` → Bitwise XOR
-• `~` → Bitwise NOT
-• `<<` → Left shift (multiplies by 2)
-• `>>` → Right shift (divides by 2)
+• `&` → Bitwise AND  
+• `|` → Bitwise OR  
+• `^` → Bitwise XOR  
+• `~` → Bitwise NOT  
+• `<<` → Left shift (multiplies by 2)  
+• `>>` → Right shift (divides by 2)  
 
 **7. Ternary Operator OR Conditional Operator -**
 
@@ -149,9 +149,9 @@ condition ? value_if_true : value_if_false;
 
 Example:
 
-• int age = 20;
-• String result = (age >= 18) ? "Adult" : "Minor";
-• System.out.println(result);  // Adult
+• int age = 20;  
+• String result = (age >= 18) ? "Adult" : "Minor";  
+• System.out.println(result);  // Adult  
 
 **Explanation:**
 
@@ -161,22 +161,22 @@ If the condition is true, it returns the first value; otherwise, it returns the 
 
 Java also includes a few special-purpose operators:
 
-**a) `instanceof` Operator** → 
+**a) `instanceof` Operator** →  
 
-Checks whether an object is an instance of a particular class or subclass.
-String s = "Java";
-System.out.println(s instanceof String);  // true
+Checks whether an object is an instance of a particular class or subclass.  
+String s = "Java";  
+System.out.println(s instanceof String);  // true  
 
-**b) `new` Operator** → 
+**b) `new` Operator** →  
 
-Used to create new objects in memory.
+Used to create new objects in memory.  
 Car c = new Car();
 
-**c) `[]` Operator** → 
+**c) `[]` Operator** →  
 
-Used to access elements in an array.
-int[] arr = {10, 20, 30};
-System.out.println(arr[1]);  // 20
+Used to access elements in an array.  
+int[] arr = {10, 20, 30};  
+System.out.println(arr[1]);  // 20  
 
 **Summary Table of Operators:**
 
