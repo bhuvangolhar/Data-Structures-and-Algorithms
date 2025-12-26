@@ -3,7 +3,7 @@
 
 The **`do-while` loop** in Java is a variation of the `while` loop that ensures the loop body executes at least once, 
 regardless of the condition. This is because, unlike other loops, the condition is evaluated after the execution of the 
-loop body. It is particularly useful when you want to **perform an action first** and then decide whether to repeat it 
+loop body. It is particularly useful when you want to *perform an action first* and then decide whether to repeat it 
 based on a certain condition — for example, taking user input repeatedly until they choose to exit.
 
 **Syntax:**
@@ -34,13 +34,13 @@ b) **Condition:**
 
 **Flow of Execution:**
 
-1. The program **enters the loop body** and executes it **once**, without checking the condition initially.
+1. The program *enters the loop body* and executes it *once*, without checking the condition initially.
    
-2. After executing the body, the **condition is evaluated**.
+2. After executing the body, the *condition is evaluated*.
    
-3. If the condition is **true**, the loop body executes again.
+3. If the condition is *true*, the loop body executes again.
    
-4. This process repeats until the condition becomes **false**.
+4. This process repeats until the condition becomes *false*.
    
 5. When the condition is false, control moves to the statement following the loop.
 
@@ -73,10 +73,10 @@ Count: 5
 
 **Key Points:**
 
-‣ The **`do-while` loop guarantees one execution** of the loop body, even if the condition is false initially.
+‣ The *`do-while` loop guarantees one execution* of the loop body, even if the condition is false initially.
 
-‣ Commonly used in **menu-driven programs** or **user-interactive applications**, where at least one iteration is required.
+‣ Commonly used in *menu-driven programs* or *user-interactive applications*, where at least one iteration is required.
 
-‣ Make sure the loop has a *condition that can eventually become false*; otherwise, it may lead to an **infinite loop**.
+‣ Make sure the loop has a *condition that can eventually become false*; otherwise, it may lead to an *infinite loop*.
 
-‣ Syntax-wise, it’s the only loop in Java that ends with a **semicolon (`;`)** after the condition.
+‣ Syntax-wise, it’s the only loop in Java that ends with a *semicolon (`;`)* after the condition.
