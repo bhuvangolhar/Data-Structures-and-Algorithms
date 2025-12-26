@@ -1,10 +1,10 @@
 
-**Definition:*
+**Definition:**
 
 The **for-each loop**, also known as the **enhanced for loop**, is a simplified version of the traditional `for` loop 
-introduced in *Java 5 (JDK 1.5)*. It is mainly used for iterating through arrays or collections (like ArrayList, HashSet, 
-etc.) without the need for an explicit counter or index variable. The for-each loop makes code **cleaner, safer & more 
-readable**, especially when you just want to access each element in a collection rather than modify its structure.
+introduced in `Java 5 (JDK 1.5)`. It is mainly used for iterating through arrays or collections (like ArrayList, HashSet 
+etc.) without the need for an explicit counter or index variable. The for-each loop makes code *cleaner, safer & more 
+readable*, especially when you just want to access each element in a collection rather than modify its structure.
 
 **Syntax:**
 
@@ -23,13 +23,13 @@ c) **collectionOrArray** – The array or collection whose elements are to be ac
 
 **Flow of Execution:**
 
-1] The loop starts by picking the **first element** from the array or collection and assigning it to the loop variable.
+1] The loop starts by picking the *first element* from the array or collection and assigning it to the loop variable.
 
 2] The body of the loop executes using that element.
 
-3] Then it moves to the **next element**, repeating the process until all elements have been processed.
+3] Then it moves to the *next element*, repeating the process until all elements have been processed.
 
-4] The loop automatically stops after reaching the **last element** — no need for a condition or counter.
+4] The loop automatically stops after reaching the *last element* — no need for a condition or counter.
 
 **Example with Array:**
 
@@ -86,13 +86,12 @@ Name: Charlie
 
 **Key Points:**
 
-– The for-each loop is ideal for **read-only access** to elements of arrays or collections.
+– The for-each loop is ideal for *read-only access* to elements of arrays or collections.
 
-– It **cannot modify** the underlying structure of a collection (e.g., cannot remove elements during iteration).
+– It *cannot modify* the underlying structure of a collection (e.g., cannot remove elements during iteration).
 
-– It **does not use an index**, so you cannot directly access the position of an element.
+– It *does not use an index*, so you cannot directly access the position of an element.
 
-– It helps prevent **off-by-one errors** common in traditional for loops.
+– It helps prevent *off-by-one errors* common in traditional for loops.
 
-– Internally, the loop uses the **Iterator** interface for collections and **index-based iteration** for arrays.
-.
+– Internally, the loop uses the *Iterator* interface for collections and *index-based iteration* for arrays.
