@@ -1,7 +1,7 @@
 
 **Definition:**
 
-**Abstraction** is one of the four main pillars of Object-Oriented Programming System (OOPs) in Java (along with 
+**Abstraction** is one of the four main pillars of Object-Oriented Programming System (`OOPs`) in Java (along with 
 Encapsulation, Inheritance, and Polymorphism). It focuses on hiding the internal implementation details and showing 
 only the essential features of an object or system. In simple words, abstraction allows you to *focus on what an object 
 does* rather than *how it does it*. It helps simplify complex systems by breaking them down into more manageable and 
@@ -16,15 +16,15 @@ need to know the complex circuitry inside the remote.
 
 Java achieves abstraction mainly through:
 
-a] **Abstract classes**
+a] **Abstract classes**  
 b] **Interfaces**
 
 **a] Abstract Classes -**
 
 An abstract class is a class declared with the `abstract` keyword.
 
-▪ It cannot be instantiated directly (i.e., you can’t create objects of it).
-▪ It can contain both abstract methods (without implementation) and non-abstract methods (with implementation).
+▪ It cannot be instantiated directly (i.e., you can’t create objects of it).  
+▪ It can contain both abstract methods (without implementation) and non-abstract methods (with implementation).  
 ▪ Used when you want to provide a base class that other classes can extend and customize.
 
 **Syntax:**
@@ -70,13 +70,13 @@ class Example
 
 **Output:**
 
-Dog barks
+Dog barks  
 Animal is sleeping...
 
 **Explanation:**
 
-▪ The abstract class `Animal` defines a general structure — all animals can “make a sound” and “sleep.”
-▪ The `Dog` class provides the specific implementation of the `sound()` method.
+▪ The abstract class `Animal` defines a general structure — all animals can “make a sound” and “sleep.”  
+▪ The `Dog` class provides the specific implementation of the `sound()` method.  
 ▪ This helps in hiding details while allowing flexibility for subclasses.
 
 **b] Interfaces -**
@@ -84,7 +84,7 @@ Animal is sleeping...
 An **interface** in Java is a *completely abstract structure* that can contain only abstract methods (until Java 7) 
 and default/static methods (from Java 8 onward).
 
-▪ It defines *what* a class must do, not *how* it does it.
+▪ It defines *what* a class must do, not *how* it does it.  
 ▪ A class implements an interface and provides the actual behavior.
 
 **Syntax:**
@@ -127,22 +127,22 @@ class Example
 
 **Output:**
 
-Car starts with a key
+Car starts with a key  
 Bike starts with a button
 
 **Explanation:**
 
-▪ The interface `Vehicle`** defines a common behavior (`start()`), but doesn’t specify how it should be performed.
-▪ The classes `Car` and `Bike`** provide their own implementations.
+▪ The interface `Vehicle`** defines a common behavior (`start()`), but doesn’t specify how it should be performed.  
+▪ The classes `Car` and `Bike` provide their own implementations.  
 ▪ This ensures flexibility and abstraction — different vehicles can behave differently but still follow the 
   same ontract.
 
 **Advantages:**
 
-i) **Simplifies Complex Systems -** Hides unnecessary details and presents only important features.
-ii) **Improves Code Readability -** The user interacts only with the essential parts of the system.
-iii) **Enhances Reusability -** Abstract classes and interfaces can be reused across multiple classes.
-iv) **Promotes Loose Coupling -** Changes in implementation don’t affect other parts of the code.
+i) **Simplifies Complex Systems -** Hides unnecessary details and presents only important features.  
+ii) **Improves Code Readability -** The user interacts only with the essential parts of the system.  
+iii) **Enhances Reusability -** Abstract classes and interfaces can be reused across multiple classes.  
+iv) **Promotes Loose Coupling -** Changes in implementation don’t affect other parts of the code.  
 v) **Encourages Design Flexibility -** Allows multiple implementations for the same interface or abstract class.
 
 **Real-Life Analogy:**
@@ -153,11 +153,11 @@ That’s abstraction — using functionality without worrying about implementati
 
 **Key Points:**
 
-▪ Achieved using abstract classes and interfaces.
-▪ Abstract methods provide a structure without defining behavior.
-▪ You cannot create objects of an abstract class or interface.
-▪ Abstract classes can have both abstract and concrete methods.
-▪ Interfaces are ideal for achieving full abstraction.
+▪ Achieved using abstract classes and interfaces.  
+▪ Abstract methods provide a structure without defining behavior.  
+▪ You cannot create objects of an abstract class or interface.  
+▪ Abstract classes can have both abstract and concrete methods.  
+▪ Interfaces are ideal for achieving full abstraction.  
 ▪ Abstraction improves security, scalability, and modularity.
 
 **In Summary:**
