@@ -1,14 +1,14 @@
 
 **Definition:**
 
-In Java, a **String** is one of the most commonly used and most powerful data types. It is a `sequence of characters` 
+In Java, a **String** is one of the most commonly used and most powerful data types. It is a 'sequence of characters' 
 enclosed within double quotes (" ") and is used to store and manipulate text data such as words, sentences, or symbols.
-Unlike many other programming languages where strings are just arrays of characters, in Java, a *String is an object* 
-of the `java.lang.String class, which provides numerous built-in methods for performing operations like concatenation,
+Unlike many other programming languages where strings are just arrays of characters, in Java, a String is an object 
+of the `java.lang.string` class, which provides numerous built-in methods for performing operations like concatenation,
 comparison, searching, and modification. A String in Java is an object that represents a sequence of characters. 
-It is *immutable*, meaning once a string object is created, its value *cannot be changed*.
+It is *immutable*, meaning once a string object is created, its value cannot be changed.
 
-**Declaration and Initialization of Strings:**
+**Declaration & Initialization of Strings:**
 
 Strings can be created in two main ways which are as follows,
 
@@ -74,7 +74,7 @@ class Example
 
   s = s.concat(" World");
 
-**Commonly Used String Methods:**
+**Commonly used String Methods:**
 
 | **Method**                      | **Description**                  | **Example / Output**                       |
 | ------------------------------- | -------------------------------- | ------------------------------------------ |
@@ -138,18 +138,18 @@ System.out.println(s1.equals(s3)); // true (same content)
 
 **Real-Life Analogy:**
 
-Think of a **String** as a sealed envelope — once you write something inside and seal it, you can’t change what’s written; you can only create a new envelope with the updated message.
+Think of a "String" as a sealed envelope — once you write something inside and seal it, you can’t change what’s written; 
+you can only create a new envelope with the updated message.
 
 **Key Points:**
 
 – String is a class in `java.lang` package.
 – Strings are immutable and stored in the String Constant Pool.
 – Common operations include concatenation, comparison, searching, and case conversion.
-– Use `StringBuffer` or `StringBuilder` for mutable string operations.
+– Use **"StringBuffer"** or **"StringBuilder"** for mutable string operations.
 
 **In Summary:**
 
 A **String** in Java is an immutable object used to represent a sequence of characters.
 It provides rich functionality for text manipulation while ensuring security, efficiency, 
-and consistency 
-in memory handling.
+and consistency in memory handling.
