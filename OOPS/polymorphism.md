@@ -1,8 +1,8 @@
 
-**Definition:*
+**Definition:**
 
 **Polymorphism** is one of the core concepts of Object-Oriented Programming System (OOPs) in Java. The word 
-*“Polymorphism”* comes from two Greek words — “poly” (many) and “morph” (forms) — meaning `“many forms.”` 
+“Polymorphism” comes from two Greek words — “poly” (many) and “morph” (forms) — meaning “many forms.” 
 In simple terms, polymorphism allows one object or method to behave in multiple ways depending on the context. 
 It enables the same method name or operator to perform different actions based on the type of object that it is 
 acting upon. Polymorphism in Java is the ability of an object to take many forms, allowing the same method or 
@@ -59,7 +59,7 @@ class Example
 
 **Explanation:**
 
-The compiler determines *which method to call* based on the number of arguments, so this is 
+The compiler determines which method to call based on the number of arguments, so this is 
 compile-time polymorphism.
 
 **Example (Run-Time Polymorphism) [Method Overriding]:**
@@ -105,8 +105,8 @@ Cat meows
 
 **Explanation:**
 
-Although the variable `a` is of type `Animal`, the method that gets executed depends on the actual object type 
-(`Dog` or `Cat`) at runtime — hence it’s runtime polymorphism.
+Although the variable `a` is of type Animal, the method that gets executed depends on the actual object type 
+(Dog or Cat) at runtime — hence it’s runtime polymorphism.
 
 **Advantages:**
 
@@ -119,12 +119,12 @@ Although the variable `a` is of type `Animal`, the method that gets executed dep
 
 Imagine the `"makeSound()"` action —
 
-• When applied to a **Dog**, it barks.
-• When applied to a **Cat**, it meows.
-• When applied to a **Cow**, it moos.
+• When applied to a Dog, it barks.
+• When applied to a Cat, it meows.
+• When applied to a Cow, it moos.
 
 The action (method) is the same, but the behavior (output) depends on the actual object — this is 
-`polymorphism in action`.
+'polymorphism in action'.
 
 **Key Points:**
 
@@ -132,10 +132,10 @@ The action (method) is the same, but the behavior (output) depends on the actual
 • Overloading means Compile-time polymorphism.
 • Overriding means Runtime polymorphism.
 • Achieved mainly through inheritance and method overriding.
-• Enhances flexibility, scalability, and clarity in Java applications.
+• Enhances flexibility, scalability and clarity in Java applications.
 
 **In Summary:**
 
 **Polymorphism** in Java allows one interface or method name to be used for different underlying forms (data types). 
-It enables objects to behave differently based on their actual type — a core reason why Java is powerful, flexible, 
+It enables objects to behave differently based on their actual type — a core reason why Java is powerful, flexible 
 and object-oriented.
