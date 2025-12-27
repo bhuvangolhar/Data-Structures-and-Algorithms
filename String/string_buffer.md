@@ -1,8 +1,8 @@
 
-*Definition:
+**Definition:**
 
-In Java, the **`StringBuffer`** class is a **mutable sequence of characters**, just like `StringBuilder`. It allows you 
-to modify strings (append, insert, delete, reverse, etc.) without creating new objects each time a change is made.
+In Java, the **`StringBuffer`** class is a mutable sequence of characters, just like "StringBuilder". It allows you 
+to modify strings (append, insert, delete, reverse etc.) without creating new objects each time a change is made.
 The key difference between StringBuffer and StringBuilder is that StringBuffer is synchronized (thread-safe), 
 meaning it can be safely used in multi-threaded environments, where multiple threads access the same string object 
 simultaneously. StringBuffer in Java is a thread-safe, mutable class used to create and manipulate dynamic strings.
@@ -53,7 +53,7 @@ class Example
 | `length()`                              | Returns current string length   | `"Hello".length() → 5`                   |
 | `toString()`                            | Converts StringBuffer to String | `sb.toString()`                          |
 
-**Immutability vs. Mutability Example:**
+**Immutability vs Mutability Example:**
 
 class Example 
 {
@@ -108,14 +108,14 @@ Start A A A B B B
 
 **Explanation:**
 
-▪ `StringBuffer` ensures **synchronized access**, preventing data corruption when multiple threads modify the same object.
-▪ Using `StringBuilder` here could lead to **inconsistent or jumbled output**.
+▪ `StringBuffer` ensures *synchronized access*, preventing data corruption when multiple threads modify the same object.
+▪ Using `StringBuilder` here could lead to *inconsistent or jumbled output*.
 
 **Advantages:**
 
 a) **Thread Safety -** Safe in multithreaded environments.
 b) **Efficient Modifications -** No new object creation on change.
-c) **Flexible Operations -** Supports append, delete, insert, reverse, and replace.
+c) **Flexible Operations -** Supports append, delete, insert, reverse and replace.
 d) **Better Performance than String** for repeated modifications.
 
 **Disadvantages:**
@@ -125,19 +125,19 @@ b) **More memory usage** if thread safety is not required (unnecessary locking).
 
 **Real-Life Analogy:**
 
-Think of `StringBuffer` as a **shared notepad** — multiple people (threads) can write on it, but only **one person can 
-write at a time**, ensuring the content stays safe and orderly.
+Think of `StringBuffer` as a shared notepad — multiple people (threads) can write on it, but only one person can 
+write at a time, ensuring the content stays safe and orderly.
 
 **Key Points:**
 
-▪ `StringBuffer` is **mutable** and **thread-safe**.
-▪ Belongs to **`java.lang`** package.
-▪ Offers synchronized methods for **safe concurrent use**.
-▪ Use **`toString()`** to convert to a `String` when needed.
-* Best for **multi-threaded programs** that modify strings frequently.
+▪ `StringBuffer` is mutable and thread-safe.
+▪ Belongs to `java.lang` package.
+▪ Offers synchronized methods for safe concurrent use.
+▪ Use `toString()` to convert to a 'String' when needed.
+* Best for "multi-threaded programs" that modify strings frequently.
 
 **In Summary:**
 
-**`StringBuffer`** in Java is a **mutable, thread-safe** alternative to `String`.
-It allows efficient string manipulation in **multi-threaded environments**, ensuring data consistency and reliability — 
-though it’s slightly slower than `StringBuilder` due to synchronization.
+**`StringBuffer`** in Java is a mutable, thread-safe alternative to 'String'.
+It allows efficient string manipulation in multi-threaded environments, ensuring data consistency and reliability — 
+though it’s slightly slower than "StringBuilder" due to synchronization.
