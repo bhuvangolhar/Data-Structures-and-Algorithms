@@ -1,10 +1,10 @@
 
 **Definition of OOPs:**
 
-**`OOPs`** (i.e. *Object-Oriented Programming System*) in Java is a programming methodology based on the concept of 
+**OOPs** (i.e. Object-Oriented Programming System) in Java is a programming methodology based on the concept of 
 objects and classes. It models real-world entities into software objects that have attributes (data) and behaviors 
 (methods). Instead of writing code around actions and logic (as in procedural programming), OOPs organizes code 
-around objects, making programs more structured, reusable, and easier to maintain. Java is designed as a fully object-
+around objects, making programs more structured, reusable and easier to maintain. Java is designed as a fully object-
 oriented language (except for primitive types) where almost everything revolves around objects and classes. This makes 
 it an ideal language for building modular, scalable & maintainable software applications.
 
@@ -51,5 +51,5 @@ class Example
 
 Tesla is starting...
 
-In summary, OOPs in Java allows developers to think in terms of objects that interact with one another, 
+In summary, **OOPs** in Java allows developers to think in terms of objects that interact with one another, 
 just like in the real world — making programming more logical, organized, and powerful.
