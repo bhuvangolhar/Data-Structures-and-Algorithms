@@ -8,7 +8,7 @@ meaning it can be safely used in multi-threaded environments, where multiple thr
 simultaneously. StringBuffer in Java is a thread-safe, mutable class used to create and manipulate dynamic strings.
 It ensures that only one thread can modify the string at a time, maintaining data consistency in concurrent situations.
 
-*Key Features:*
+**Key Features:**
 
 1] **Mutable -** You can modify its content without creating new objects.
 2] **Thread-safe -** All methods are synchronized, meaning safe for use by multiple threads.
