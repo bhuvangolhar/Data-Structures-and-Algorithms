@@ -1,4 +1,3 @@
--=
 
 **Definition:**
 
@@ -74,7 +73,7 @@ The dog barks.
 
 2] **Multilevel Inheritance -**
    A class is derived from another derived class.
-   Example: `Class C extends Class B; Class B extends Class A;`
+   Example: Class C extends Class B; Class B extends Class A;
    *(Supported in Java)*
 
 3] **Hierarchical Inheritance -**
@@ -83,14 +82,14 @@ The dog barks.
 
 4] **Multiple Inheritance (through classes) -**
    One class inherits from multiple classes.
-   *(Not supported directly in Java)* — Java avoids this to prevent ambiguity, but it can be achieved using **interfaces**.
+   *(Not supported directly in Java)* — Java avoids this to prevent ambiguity, but it can be achieved using `interfaces`.
 
 **Key Points about Inheritance:**
 
-• Achieved using the **`extends`** keyword (for classes) and `implements` (for interfaces).
+• Achieved using the `extends` keyword (for classes) and `implements` (for interfaces).
 • Promotes code reuse, maintainability, and scalability.
 • A subclass can override methods of its superclass to provide specific behavior (known as method overriding).
-• The **`super`** keyword is used to refer to the parent class — for calling parent constructors or methods.
+• The `super` keyword is used to refer to the parent class — for calling parent constructors or methods.
 • Constructors are not inherited, but the subclass constructor can call the superclass constructor using `super()`.
 • In Java, all classes implicitly inherit from the `Object` class (the root of all classes).
 
@@ -141,5 +140,5 @@ Weeping...
 • **Maintainability -** Easier to manage and update code in large projects.
 • **Polymorphism Support -** Enables method overriding for runtime flexibility.
 
-In summary, **inheritance** in Java provides a way to reuse and extend existing classes, build logical hierarchies, 
+In summary, **Inheritance** in Java provides a way to reuse and extend existing classes, build logical hierarchies, 
 and write cleaner, more organized, and efficient object-oriented programs.
