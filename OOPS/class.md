@@ -1,9 +1,9 @@
---o
+
 **Definition:**
 
 A **class** in Java is the blueprint, template, or prototype from which objects are created. It is a logical 
 structure that defines the data (variables) and the **behavior (methods) that the objects of that class will have.
-In simpler terms, a class defines *what an object is* and *how it behaves* — but it doesn’t occupy memory until an 
+In simpler terms, a class defines what an object is and how it behaves — but it doesn’t occupy memory until an 
 object is created from it. A class represents a concept, while objects represent real instances of that concept. 
 A class is a user-defined data type that serves as a model for creating multiple objects with similar properties 
 and functions. It allows grouping related variables and methods into a single unit, promoting encapsulation, 
@@ -48,10 +48,10 @@ Tesla (2024) is starting...
 
 **Explanation:**
 
-▪ **`class Car`** – defines a blueprint named `Car`.
-▪ **`String model; int year;`** – these are data members (attributes) representing the state of a car.
-▪ **`void start()`** – defines a behavior (method) that performs an action.
-▪ **`new Car()`** – creates an object of the class, which now has its own data and can perform the defined actions.
+▪ `class Car` – defines a blueprint named `Car`.
+▪ `String model; int year;` – these are data members (attributes) representing the state of a car.
+▪ `void start()` – defines a behavior (method) that performs an action.
+▪ `new Car()` – creates an object of the class, which now has its own data and can perform the defined actions.
 
 **Components of a Class:**
 
@@ -70,5 +70,5 @@ e) **Nested Classes/Interfaces -** classes defined within another class.
 ▪ The file name and class name should match if the class is public 
   (e.g., `public class Example` must be in `Example.java`).
 
-In summary, a **class** in Java defines the **structure & behavior** of objects and acts as the building block of all 
+In summary, a **class** in Java defines the structure & behavior of objects and acts as the building block of all 
 object-oriented programming concepts in Java. It provides a clean and organized way to model real-world entities in code.
