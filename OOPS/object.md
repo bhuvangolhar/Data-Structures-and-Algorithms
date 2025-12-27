@@ -1,4 +1,4 @@
--
+
 **Definition:**
 
 An **`object`** in Java is a real-world entity or an instance of a class. It represents something that has both state
@@ -68,5 +68,5 @@ Tesla (2024) is starting...
 ▫ Objects interact with each other by calling methods.
 ▫ Without objects, classes cannot be used in a running Java program.
 
-In summary, an object is the heart of object-oriented programming in Java — it brings classes to life 
+In summary, an **object** is the heart of object-oriented programming in Java — it brings classes to life 
 by turning blueprints into working, interactive components of a program.
