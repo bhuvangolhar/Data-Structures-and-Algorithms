@@ -1,4 +1,4 @@
-2j
+j
 **Definition:**
 
 In Java, the **`StringBuilder`** class is a mutable (changeable) sequence of characters. Unlike the "String" class, 
