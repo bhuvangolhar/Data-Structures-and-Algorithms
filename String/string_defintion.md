@@ -1,4 +1,4 @@
-r
+3r
 **Definition:**
 
 In Java, a **String** is one of the most commonly used and most powerful data types. It is a 'sequence of characters' 
