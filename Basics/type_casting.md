@@ -1,4 +1,4 @@
-2,3
+2,3,4
 **Definition:**
 
 **Type casting** in Java means converting one data type into another. It allows you to assign a value of one type to a 
