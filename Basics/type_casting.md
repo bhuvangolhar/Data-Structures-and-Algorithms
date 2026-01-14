@@ -1,4 +1,4 @@
-0
+
 **Definition:**
 
 **Type casting** in Java means converting one data type into another. It allows you to assign a value of one type to a 
@@ -84,12 +84,12 @@ public class Test
     }
 }
 
-Here, `Dog` is upcast to `Animal`. Even though the reference is of type `Animal`, the actual method of `Dog` is executed because of **runtime polymorphism**.
+Here, 'Dog' is upcast to "Animal". Even though the reference is of type "Animal", the actual method of 'Dog' is executed because of runtime polymorphism.
 
 b) **Downcasting -**
 
-Downcasting is the reverse of upcasting — it means **converting a superclass reference back into a subclass type**.
-It must be done **manually** using explicit casting, and it should be done carefully because if the object is not truly of the subclass type, it can cause a runtime error (`ClassCastException`).
+Downcasting is the reverse of upcasting — it means converting a superclass reference back into a subclass type.
+It must be done manually using explicit casting, and it should be done carefully because if the object is not truly of the subclass type, it can cause a runtime error (`ClassCastException`).
 
 **Example:**
 
